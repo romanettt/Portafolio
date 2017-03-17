@@ -1,5 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="E5D455A1-B2A8-F106-7CB7-BFE61F8B534B" name="AGENDA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="0169CEA2-2FA9-B07A-24A5-64AD9772C39B" name="ESPECIALIDAD" seqName="seg_0"/>
+   <object objectType="Entity" objectID="486C28F7-4597-BB6B-DA58-B6A5DC47B022" name="HORARIO" seqName="seg_0"/>
    <object objectType="Entity" objectID="91D251CA-90F5-1E71-ECD4-34926235F566" name="MEDICO" seqName="seg_0"/>
    <object objectType="Entity" objectID="791722D8-F7D6-6BF3-34DB-1FF4C7CBDE4B" name="PACIENTE" seqName="seg_0"/>
+   <object objectType="Relation" objectID="82F24656-B8C0-E36A-9FD1-D070C9824F2A" name="HORARIO_AGENDA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B8EF04C1-52C4-994A-39B9-C424C1D9E977" name="MEDICO_ESPECIALIDAD" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D02F71E9-59A3-7604-6E05-025968051E70" name="MEDICO_HORARIO" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

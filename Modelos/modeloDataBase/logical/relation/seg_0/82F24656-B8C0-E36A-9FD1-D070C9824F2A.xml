@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HORARIO_AGENDA" directorySegmentName="seg_0" id="82F24656-B8C0-E36A-9FD1-D070C9824F2A">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:48:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<engineerTo>
+<item key="128DC496-845B-D876-AE79-2601C4F52263" value="true"/>
+</engineerTo>
+<sourcePk>4E473FFD-3941-6773-B7B7-C04B02A3DF98</sourcePk>
+<targetPk>AE43F745-5653-DAAD-BC5F-C4AFBA9CF69F</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>486C28F7-4597-BB6B-DA58-B6A5DC47B022</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E5D455A1-B2A8-F106-7CB7-BFE61F8B534B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

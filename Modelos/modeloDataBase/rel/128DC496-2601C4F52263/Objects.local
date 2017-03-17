@@ -1,2 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.relational.RelationalDesign/>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="5A3BFB3E-E21D-298D-C98C-295799FD0460" name="AGENDA" seqName="seg_0"/>
+   <object objectType="Table" objectID="EFF5700A-6BE2-8C66-9D6C-BC027D90E56C" name="ESPECIALIDAD" seqName="seg_0"/>
+   <object objectType="Table" objectID="B9EB04A7-C496-ED7A-CA50-A5075476F42D" name="HORARIO" seqName="seg_0"/>
+   <object objectType="Table" objectID="73BA0974-3E29-C889-32A9-A71C0BB11F61" name="MEDICO" seqName="seg_0"/>
+   <object objectType="Table" objectID="222EC235-9859-09C3-C07B-6FC59CE04DB0" name="MEDICO_ESPECIALIDAD" seqName="seg_0"/>
+   <object objectType="Table" objectID="FC20CFE8-EC34-5ACA-11CB-2007E2298169" name="PACIENTE" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A771E0FC-7781-5A1C-C850-56C0763A7774" name="AGENDA_HORARIO_FK" seqName="seg_0" containerID="5A3BFB3E-E21D-298D-C98C-295799FD0460" refContainerID="B9EB04A7-C496-ED7A-CA50-A5075476F42D"/>
+   <object objectType="FKIndexAssociation" objectID="BFF05026-40CC-84C5-8FC3-0D5334E62C0C" name="FK_ASS_2" seqName="seg_0" containerID="222EC235-9859-09C3-C07B-6FC59CE04DB0" refContainerID="73BA0974-3E29-C889-32A9-A71C0BB11F61"/>
+   <object objectType="FKIndexAssociation" objectID="F2FA9906-C810-5026-F3D3-5E22EA0FAF6C" name="FK_ASS_3" seqName="seg_0" containerID="222EC235-9859-09C3-C07B-6FC59CE04DB0" refContainerID="EFF5700A-6BE2-8C66-9D6C-BC027D90E56C"/>
+   <object objectType="FKIndexAssociation" objectID="891AF72E-3E3C-B284-0E63-BC4F85DCACB4" name="HORARIO_MEDICO_FK" seqName="seg_0" containerID="B9EB04A7-C496-ED7A-CA50-A5075476F42D" refContainerID="73BA0974-3E29-C889-32A9-A71C0BB11F61"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

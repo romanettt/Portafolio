@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC20CFE8-EC34-5ACA-11CB-2007E2298169" name="PACIENTE">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:43:43 UTC</createdTime>
+<generatorID>791722D8-F7D6-6BF3-34DB-1FF4C7CBDE4B</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAC_RUT" id="03350178-C41C-0F3A-0294-205726F933A1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:43:43 UTC</createdTime>
+<generatorID>4E4897B2-FF8A-13C6-4226-875C5D7C9102</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_DV" id="937EEBB5-4A04-D06C-9453-FE57E2244347">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:43:43 UTC</createdTime>
+<generatorID>168A7A28-E4D5-664B-B52D-0EEACA8A0220</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_APP" id="9770105C-7E4C-A95D-5D36-B16F69CBE771">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:43:43 UTC</createdTime>
+<generatorID>12931AEC-EACE-9221-880D-35B685633A98</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_APM" id="B0E6AA19-6EBF-B570-C995-4C243B571A05">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:43:43 UTC</createdTime>
+<generatorID>4409CE47-8942-F43D-C57B-3366CD7AC6FD</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_NOMBRES" id="EF2853FA-A1DA-E8BB-0E5D-AE4911920ABB">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:43:43 UTC</createdTime>
+<generatorID>007D561D-EA54-ADF9-BD65-4D5316744FD8</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_SEXO" id="26521720-1029-1AF2-20AF-0CA24A8C94A0">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:43:43 UTC</createdTime>
+<generatorID>8D38A646-1BDC-5540-0EA3-B9C65DA8F643</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_FNAC" id="96250972-7F92-DB68-D417-BD61E346E2D3">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:43:43 UTC</createdTime>
+<generatorID>B995F7A1-7EA1-5FDC-06D6-263BFD6AEFDF</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_DIRECCION" id="F5BE952C-30C7-459A-85DA-DA45452B9E7E">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:43:43 UTC</createdTime>
+<generatorID>87CF9C99-1AE6-3F3D-239A-8E7E71416E48</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_TELEFONO" id="AFB60061-1046-2010-926F-F49AFF162AAF">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:43:43 UTC</createdTime>
+<generatorID>44AEC97F-9D2A-6215-E9DF-13B3C5FCCA8D</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_CELULAR" id="A84EE099-506D-1682-0435-A6CBAABA7AA1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:43:43 UTC</createdTime>
+<generatorID>696D7297-B41E-7A37-B288-F759C3DD6EB7</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_TIPO" id="2A461243-9F9F-F118-C835-CFA360E6D551">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:43:43 UTC</createdTime>
+<generatorID>3F1B7BC6-480B-610A-5DBA-679E24ADD4B8</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE8232C9-76B9-0A0C-93E9-E402A9D63A81" name="PACIENTE_PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:43:43 UTC</createdTime>
+<generatorID>D43768DB-1209-521D-A3AC-F8248C78FA00</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03350178-C41C-0F3A-0294-205726F933A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A3BFB3E-E21D-298D-C98C-295799FD0460" name="AGENDA">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:49:51 UTC</createdTime>
+<generatorID>E5D455A1-B2A8-F106-7CB7-BFE61F8B534B</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AGE_ID" id="C8EF63DC-E560-E30C-D57D-5199CABF1E68">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:49:51 UTC</createdTime>
+<generatorID>35A680F0-5EEA-BB0E-0A2E-D0AD96A07DCC</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGE_MES" id="ADD130A6-A138-4DB1-3806-DE418807B221">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:49:51 UTC</createdTime>
+<generatorID>94F3876A-4300-55BA-3CE8-6B64DC390F05</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORARIO_HOR_ID" id="C03F6ED6-2B30-B147-0DC0-F7440986C7EB">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:50:29 UTC</createdTime>
+<generatorID>D3311E17-FF4C-E41C-DF00-18F93E6005A1</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A771E0FC-7781-5A1C-C850-56C0763A7774" referredColumn="1A503CB9-FF1D-C45D-5980-2FE03D0DE80F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76F90B53-2868-5629-7676-A7404C866314" name="AGENDA_PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:49:51 UTC</createdTime>
+<generatorID>AE43F745-5653-DAAD-BC5F-C4AFBA9CF69F</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8EF63DC-E560-E30C-D57D-5199CABF1E68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0F62274-BC56-6FCD-D820-31FF40FF6BA2" name="AGENDA_HORARIO_FK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:50:29 UTC</createdTime>
+<generatorID>82F24656-B8C0-E36A-9FD1-D070C9824F2A</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C03F6ED6-2B30-B147-0DC0-F7440986C7EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

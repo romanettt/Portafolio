@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MEDICO_HORARIO" directorySegmentName="seg_0" id="D02F71E9-59A3-7604-6E05-025968051E70">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 02:41:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<engineerTo>
+<item key="128DC496-845B-D876-AE79-2601C4F52263" value="true"/>
+</engineerTo>
+<sourcePk>D7158099-A5AB-598B-032D-99C6DD25C553</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>91D251CA-90F5-1E71-ECD4-34926235F566</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>486C28F7-4597-BB6B-DA58-B6A5DC47B022</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
