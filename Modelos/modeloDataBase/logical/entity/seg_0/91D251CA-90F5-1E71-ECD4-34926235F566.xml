@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="91D251CA-90F5-1E71-ECD4-34926235F566" name="MEDICO">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 01:35:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<engineerTo>
+<item key="128DC496-845B-D876-AE79-2601C4F52263" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MED_RUT" id="385F517A-CBA2-B148-13A5-3DF6135BA6DA">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 01:36:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<engineerTo>
+<item key="128DC496-845B-D876-AE79-2601C4F52263" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MED_DV" id="FC4788CB-64C1-6798-FF87-49388CC6C5D6">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 01:38:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<engineerTo>
+<item key="128DC496-845B-D876-AE79-2601C4F52263" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MED_APP" id="E8D4802C-436E-4D89-C0B8-80D37CDF9284">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 01:38:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<engineerTo>
+<item key="128DC496-845B-D876-AE79-2601C4F52263" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MED_APM" id="34D2C586-A503-A6B1-E337-2EDA68029DBF">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 01:39:23 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<engineerTo>
+<item key="128DC496-845B-D876-AE79-2601C4F52263" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MED_NOMBRES" id="CE886472-0B2F-AD7F-0490-A04E8ED16A44">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 01:39:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<engineerTo>
+<item key="128DC496-845B-D876-AE79-2601C4F52263" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MED_SEXO" id="28B78455-CF06-FCD4-4731-F480F37A3CB5">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 01:41:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<engineerTo>
+<item key="128DC496-845B-D876-AE79-2601C4F52263" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MED_FNAC" id="22EBFBD8-3703-17B5-2CC1-C647B18F8EA5">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 01:42:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<engineerTo>
+<item key="128DC496-845B-D876-AE79-2601C4F52263" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MED_TELEFONO" id="C7EA5FF3-FB73-2A79-0D7C-8AEFE4D1EEDE">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 01:43:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<engineerTo>
+<item key="128DC496-845B-D876-AE79-2601C4F52263" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MED_CELULAR" id="3772572C-7315-75E0-D21E-1B6EBA88E5AE">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 01:43:22 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<engineerTo>
+<item key="128DC496-845B-D876-AE79-2601C4F52263" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MED_HORA_ENTRADA" id="9B049613-E8AF-7929-9FB5-DD8499274980">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 01:43:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<engineerTo>
+<item key="128DC496-845B-D876-AE79-2601C4F52263" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MED_HORA_SALIDA" id="99533443-0DC3-8A88-6257-74B8CEE8A829">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 01:44:48 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<engineerTo>
+<item key="128DC496-845B-D876-AE79-2601C4F52263" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7158099-A5AB-598B-032D-99C6DD25C553" name="Medico PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-17 01:37:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloDataBase</ownerDesignName>
+<engineerTo>
+<item key="128DC496-845B-D876-AE79-2601C4F52263" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>385F517A-CBA2-B148-13A5-3DF6135BA6DA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
