@@ -1,0 +1,49 @@
+ENTIDADES :
+-Secretaria
+-Medico
+-Paciente
+-Cajero
+-Sistema
+
+
+CAJERO
+- Rut
+- Pass
+- Nombre Completo
+- Tipo de pago
+- Pago
+- Fecha de Pago
+- Hora de Pago
+
+PACIENTE
+- Rut
+- Pass
+- Nombre Completo
+- Fecha de nacimiento
+- Direccion
+- Telefono
+- Sexo
+- Email
+- Celular
+- Tipo de Salud
+
+MEDICO
+- Rut
+- Pass
+- Nombre Completo
+- Direccion
+- Especialidad
+- Hora de atención
+- Día de atención
+
+SECRETARIA 
+- Rut
+- Pass
+- Nombre completo
+- Horario de Atencion
+
+SISTEMA
+- Email
+- Motivo
+- Contenido
+- Fecha y Hora de envio

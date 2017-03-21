@@ -1,0 +1,71 @@
+USUARIOS
+- Rut
+- Dv
+- Pass
+- Email
+
+TIPOS DE USUARIO
+- Nombre
+
+PACIENTE
+- Nombre Completo
+- Fecha de Nacimiento
+- Sexo
+- Direccion
+- Email
+- Celular
+
+CAJERO
+- Nombre Completo
+- Caja
+
+SECRETARIA
+- Nombre Completo
+
+MEDICO
+- Nombre Completo
+
+ESPECIALIDAD
+- Nombre
+- Descripcion
+
+PAGO
+- Monto(valor)
+- Fecha de Pago
+- Hora de Pago
+
+TIPO DE PAGO
+- Nombre 
+- Descripcion
+
+PREVISION
+- Nombre
+
+FONASA
+- Tipo Fonasa
+- % DESC
+
+CAJA_COMPENSACION
+- Tipo
+- Nombre
+- % DESC
+
+ISAPRE
+- Tipo
+- Nombre
+- % DESC
+
+HORARIO
+- Hora Inicio
+- Hora Termino
+
+DIAS_ATENCION
+- Lunes / Domingo
+
+AGENDA
+- Mes
+
+CITA
+- Hora inicio 
+- Hora Termino
+

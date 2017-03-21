@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="69A2DDC7-4AEF-AF9A-F5E2-F9E2A16B1ED2" name="CAJERO">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-21 21:57:04 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloBaseDatos</ownerDesignName>
+<engineerTo>
+<item key="5359DDD5-4829-7111-216D-435356AA40D0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>7312D877-8A27-705F-23E3-FBC6059823FE</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CA_NOMBRES" id="575C2581-F83E-9B00-25C6-BD6DE6261AAE">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-21 21:57:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloBaseDatos</ownerDesignName>
+<engineerTo>
+<item key="5359DDD5-4829-7111-216D-435356AA40D0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CA_APATERNO" id="46E1BA35-52F3-18D8-B0BF-9090CD3282F4">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-21 21:59:49 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloBaseDatos</ownerDesignName>
+<engineerTo>
+<item key="5359DDD5-4829-7111-216D-435356AA40D0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CA_AMATERNO" id="79FAB3DB-A12C-F08F-3E1F-72298ABF078B">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-21 22:00:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloBaseDatos</ownerDesignName>
+<engineerTo>
+<item key="5359DDD5-4829-7111-216D-435356AA40D0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

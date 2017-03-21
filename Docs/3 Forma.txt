@@ -1,0 +1,12 @@
+USUARIOS
+- rut # PK
+- dv *
+- pass *
+- email * U
+- id_tipo_usuario * FK
+
+TIPOS_USUARIOS
+- id # PK
+- nombre *
+
+PACIENTE
