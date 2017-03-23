@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="Table" objectID="2F1D128D-3534-921D-8973-6D5AFCCF4ADE" name="Paciente" seqName="seg_0"/>
    <object objectType="Table" objectID="1B812F09-80FA-8EA1-E12F-7E440DD65581" name="Tipo_Usuario" seqName="seg_0"/>
+   <object objectType="Table" objectID="2F1D128D-3534-921D-8973-6D5AFCCF4ADE" name="Paciente" seqName="seg_0"/>
    <object objectType="Table" objectID="98E713BB-90C7-7DA9-E49B-F8109282699A" name="Usuarios" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

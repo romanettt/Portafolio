@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9602FFB2-4ECC-89C9-FDC9-989B8571E77B" name="FICHA_MEDICA">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:21:22 UTC</createdTime>
+<generatorID>92C8FA0F-D03B-71CD-621E-BC295E1F4AB0</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="CC0F11AE-7592-2DF0-38BB-9619D77D3DBF">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:21:22 UTC</createdTime>
+<generatorID>1E7D5CF8-83FF-3412-5CEE-A5558F0CD254</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="D8B28D96-17FB-E2A0-C6F2-522507B11F9D">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:21:22 UTC</createdTime>
+<generatorID>00F4EDFA-BBDB-2F17-501B-13ACD752E14A</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PACIENTE_RUT" id="EA050357-2154-A61A-5E3F-C544C1D7C25A">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:21:22 UTC</createdTime>
+<generatorID>AE3B2709-308F-8965-8BB1-15250BB06396</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5FBFCA9-ACA2-33AD-A9F6-E739E6C0180E" referredColumn="47704370-FF55-241A-3BC1-4ED848A490E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35C0D8FA-A11C-A4A1-569E-5DF6FD7013C4" name="FICHA_MEDICA_PKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:21:22 UTC</createdTime>
+<generatorID>F55248DE-0ED4-1742-A816-A169AA67364C</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC0F11AE-7592-2DF0-38BB-9619D77D3DBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09D11004-FF88-D80A-3781-9FE61AAF91AA" name="FICHA_MEDICA_PACIENTE_FK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:21:22 UTC</createdTime>
+<generatorID>CDE329B6-E809-1EB6-88CD-DA6A589EF273</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA050357-2154-A61A-5E3F-C544C1D7C25A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

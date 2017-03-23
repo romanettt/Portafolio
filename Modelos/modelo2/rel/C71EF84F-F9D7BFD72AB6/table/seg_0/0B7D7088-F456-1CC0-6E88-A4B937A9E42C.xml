@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B7D7088-F456-1CC0-6E88-A4B937A9E42C" name="MEDICO_ESPECIALIDAD">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ESPECIALIDAD_ID" id="E22E027E-85C8-6774-4F12-D5963A7A9EFD">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAC87751-9CA6-8A13-62D3-D7A5252978A9" referredColumn="EA835893-58E0-90D7-86D2-4761BED056A9"/>
+</associations>
+</Column>
+<Column name="MEDICO_RUT" id="2FBD9BCC-3C1C-E60A-567B-BD3E2115227C">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3126A5FB-84C3-E07C-CE25-BA3A19430AB2" referredColumn="2949A3C1-F97C-B36A-8D0C-CA84A20BCF54"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FACEB1C8-5BD9-DD75-5A46-467B91CDB46A" name="MEDICO_ESPECIALIDAD_PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E22E027E-85C8-6774-4F12-D5963A7A9EFD"/>
+<colUsage columnID="2FBD9BCC-3C1C-E60A-567B-BD3E2115227C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D3645A2-8047-3E0C-3DC5-69E343D6AF9C" name="FK_ASS_22">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>152BE1AE-96EA-519A-8F6E-A32700ACD495</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E22E027E-85C8-6774-4F12-D5963A7A9EFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72F569B3-744A-49C3-CEE6-EE0B570C7831" name="FK_ASS_23">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>152BE1AE-96EA-519A-8F6E-A32700ACD495</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FBD9BCC-3C1C-E60A-567B-BD3E2115227C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

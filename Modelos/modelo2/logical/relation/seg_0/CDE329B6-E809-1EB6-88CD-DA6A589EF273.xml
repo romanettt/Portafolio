@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PACIENTE_FICHAMEDICA" directorySegmentName="seg_0" id="CDE329B6-E809-1EB6-88CD-DA6A589EF273">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:17:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<engineerTo>
+<item key="C71EF84F-AAC9-8ADB-F624-F9D7BFD72AB6" value="true"/>
+</engineerTo>
+<sourcePk>A3C6A380-2646-BB13-23C4-9629BC2806A4</sourcePk>
+<targetPk>F55248DE-0ED4-1742-A816-A169AA67364C</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F86857F8-84F8-CB47-3AE6-8CC502D86A68</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>92C8FA0F-D03B-71CD-621E-BC295E1F4AB0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

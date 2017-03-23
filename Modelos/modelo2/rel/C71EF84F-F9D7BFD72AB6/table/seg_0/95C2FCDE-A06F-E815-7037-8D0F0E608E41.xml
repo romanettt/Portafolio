@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95C2FCDE-A06F-E815-7037-8D0F0E608E41" name="SEMANA">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>951D1742-92D2-D9F9-1464-B4FECA730C03</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E98A73B2-4176-6380-64EE-29108FFEB771">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>0E9279D3-DAA5-B3D7-8F65-0AD0BD8DC835</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LUN" id="99B940F8-AD9C-A46C-0888-951851399F2E">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>B1A79E25-A345-35AB-0FD8-DB8C34E5AA89</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAR" id="F267F375-0053-E6B3-C284-3BC0B5847E76">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>B3A035EC-DF5D-5F1E-EFDF-D487127FB102</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIE" id="2B7D5EBA-4697-D398-829A-CD227FB7A093">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>E7589EDA-F866-ACE1-3226-EB753D470DCA</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JUE" id="89518F74-4799-673D-08CD-734207E3F836">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>0B5A91DB-D967-E093-84C6-841F9B0E7F38</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIE" id="9E8D0BFC-3273-C247-1B13-B52C9E3D61B3">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>654588BF-9372-30CA-736A-00C598B93AD6</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SAB" id="ABA0CEF8-BC2E-093B-2D65-05430C3078D1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>9FCA3F93-6BCC-B7F6-D145-76B3489C1AC9</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOM" id="982F1AFD-7FF7-9E76-727F-C73FBE0409D3">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>827C372D-9B64-6ED5-457D-81627EBC949C</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F646F4D7-9B30-3544-8BC3-8D72CBE3885E" name="SEMANA_PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>99CCA637-E383-825F-6950-87FB2CB2BA70</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E98A73B2-4176-6380-64EE-29108FFEB771"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="BB83C13D-9CEB-D0B2-AA02-11A983A3B2FA" name="AGENDA" seqName="seg_0"/>
+   <object objectType="Table" objectID="7269CC78-DD59-7C41-CB37-5404EFC92E50" name="ATENCION" seqName="seg_0"/>
+   <object objectType="Table" objectID="003D9DEF-0896-F2EF-D4D7-B2142C7D49BF" name="CAJERO" seqName="seg_0"/>
+   <object objectType="Table" objectID="928F0B6E-47EC-6D19-6048-DB96E55663EB" name="CIUDAD" seqName="seg_0"/>
+   <object objectType="Table" objectID="87A3F22B-332F-DB7A-B795-7844612E1A18" name="COMUNA" seqName="seg_0"/>
+   <object objectType="Table" objectID="9BF07E75-2168-C0D1-875B-3F2E1934D876" name="ESPECIALIDAD" seqName="seg_0"/>
+   <object objectType="Table" objectID="9602FFB2-4ECC-89C9-FDC9-989B8571E77B" name="FICHA_MEDICA" seqName="seg_0"/>
+   <object objectType="Table" objectID="60EC022B-4A84-B295-C328-1927C2270A10" name="HORARIO" seqName="seg_0"/>
+   <object objectType="Table" objectID="801F857D-D70F-3AD7-92CA-DD3345747BB6" name="LOGIN" seqName="seg_0"/>
+   <object objectType="Table" objectID="FD1401C0-C903-8778-8722-8CEC8987E1E5" name="MEDICO" seqName="seg_0"/>
+   <object objectType="Table" objectID="0B7D7088-F456-1CC0-6E88-A4B937A9E42C" name="MEDICO_ESPECIALIDAD" seqName="seg_0"/>
+   <object objectType="Table" objectID="0F14CC9E-7FA5-8D31-408D-512232F9A132" name="PACIENTE" seqName="seg_0"/>
+   <object objectType="Table" objectID="5BD20704-D666-3AB7-ACB9-4488D0E4CBB4" name="PERSONA" seqName="seg_0"/>
+   <object objectType="Table" objectID="FD90DF9D-83BB-19EC-83A7-1647B1143535" name="REGION" seqName="seg_0"/>
+   <object objectType="Table" objectID="87A39A16-353E-1CF8-BD2F-8DE934242D16" name="SECRETARIA" seqName="seg_0"/>
+   <object objectType="Table" objectID="95C2FCDE-A06F-E815-7037-8D0F0E608E41" name="SEMANA" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="28723FFF-0654-7486-C080-5764921542E1" name="AGENDA_HORARIO_FK" seqName="seg_0" containerID="BB83C13D-9CEB-D0B2-AA02-11A983A3B2FA" refContainerID="60EC022B-4A84-B295-C328-1927C2270A10"/>
+   <object objectType="FKIndexAssociation" objectID="6EC7263C-C70D-8DB4-F75A-0B3C8D6BEE43" name="ATENCION_FICHA_MEDICA_FK" seqName="seg_0" containerID="7269CC78-DD59-7C41-CB37-5404EFC92E50" refContainerID="9602FFB2-4ECC-89C9-FDC9-989B8571E77B"/>
+   <object objectType="FKIndexAssociation" objectID="A7A0A1D1-2C0A-25DC-C23E-19203732E78A" name="CAJERO_PERSONA_FK" seqName="seg_0" containerID="003D9DEF-0896-F2EF-D4D7-B2142C7D49BF" refContainerID="5BD20704-D666-3AB7-ACB9-4488D0E4CBB4"/>
+   <object objectType="FKIndexAssociation" objectID="D29D0E7D-2B02-3D29-927C-66D87B6B2EE8" name="CIUDAD_REGION_FK" seqName="seg_0" containerID="928F0B6E-47EC-6D19-6048-DB96E55663EB" refContainerID="FD90DF9D-83BB-19EC-83A7-1647B1143535"/>
+   <object objectType="FKIndexAssociation" objectID="AB55898F-B1AF-DEB7-0F53-4F2BBB8D9D81" name="COMUNA_CIUDAD_FK" seqName="seg_0" containerID="87A3F22B-332F-DB7A-B795-7844612E1A18" refContainerID="928F0B6E-47EC-6D19-6048-DB96E55663EB"/>
+   <object objectType="FKIndexAssociation" objectID="E5FBFCA9-ACA2-33AD-A9F6-E739E6C0180E" name="FICHA_MEDICA_PACIENTE_FK" seqName="seg_0" containerID="9602FFB2-4ECC-89C9-FDC9-989B8571E77B" refContainerID="0F14CC9E-7FA5-8D31-408D-512232F9A132"/>
+   <object objectType="FKIndexAssociation" objectID="EAC87751-9CA6-8A13-62D3-D7A5252978A9" name="FK_ASS_22" seqName="seg_0" containerID="0B7D7088-F456-1CC0-6E88-A4B937A9E42C" refContainerID="9BF07E75-2168-C0D1-875B-3F2E1934D876"/>
+   <object objectType="FKIndexAssociation" objectID="3126A5FB-84C3-E07C-CE25-BA3A19430AB2" name="FK_ASS_23" seqName="seg_0" containerID="0B7D7088-F456-1CC0-6E88-A4B937A9E42C" refContainerID="FD1401C0-C903-8778-8722-8CEC8987E1E5"/>
+   <object objectType="FKIndexAssociation" objectID="91F5EC33-9C18-7F08-9F3F-20658EBFC06D" name="HORARIO_SEMANA_FK" seqName="seg_0" containerID="60EC022B-4A84-B295-C328-1927C2270A10" refContainerID="95C2FCDE-A06F-E815-7037-8D0F0E608E41"/>
+   <object objectType="FKIndexAssociation" objectID="84E8FAFF-3A84-3A15-201E-7681CEF760E4" name="LOGIN_PERSONA_FK" seqName="seg_0" containerID="801F857D-D70F-3AD7-92CA-DD3345747BB6" refContainerID="5BD20704-D666-3AB7-ACB9-4488D0E4CBB4"/>
+   <object objectType="FKIndexAssociation" objectID="6AC95A15-3A62-D6A3-CC3C-30D7101ECF8D" name="MEDICO_PERSONA_FK" seqName="seg_0" containerID="FD1401C0-C903-8778-8722-8CEC8987E1E5" refContainerID="5BD20704-D666-3AB7-ACB9-4488D0E4CBB4"/>
+   <object objectType="FKIndexAssociation" objectID="32572A9D-83A4-1847-3BBA-8A35E3FA75C1" name="PACIENTE_PERSONA_FK" seqName="seg_0" containerID="0F14CC9E-7FA5-8D31-408D-512232F9A132" refContainerID="5BD20704-D666-3AB7-ACB9-4488D0E4CBB4"/>
+   <object objectType="FKIndexAssociation" objectID="C23E92BF-090F-1186-7234-55E3466BAA82" name="PERSONA_COMUNA_FK" seqName="seg_0" containerID="5BD20704-D666-3AB7-ACB9-4488D0E4CBB4" refContainerID="87A3F22B-332F-DB7A-B795-7844612E1A18"/>
+   <object objectType="FKIndexAssociation" objectID="9423CB7B-7DFE-CD7E-BD3C-BC2A56D5DDD1" name="SECRETARIA_PERSONA_FK" seqName="seg_0" containerID="87A39A16-353E-1CF8-BD2F-8DE934242D16" refContainerID="5BD20704-D666-3AB7-ACB9-4488D0E4CBB4"/>
+   <object objectType="FKArc" objectID="BB353260-41F6-05CA-EAD5-0B1994AAEBBF" name="FKArc_2" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

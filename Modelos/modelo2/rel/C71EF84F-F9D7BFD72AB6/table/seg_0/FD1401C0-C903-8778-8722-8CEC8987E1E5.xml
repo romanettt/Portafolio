@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD1401C0-C903-8778-8722-8CEC8987E1E5" name="MEDICO">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:21:22 UTC</createdTime>
+<generatorID>5D016989-C688-25E8-BC5C-F8DC7BD0D5D0</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUT" id="2949A3C1-F97C-B36A-8D0C-CA84A20BCF54">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:21:22 UTC</createdTime>
+<generatorID>5E7CE145-757A-4112-5C9C-B11499824C03</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6AC95A15-3A62-D6A3-CC3C-30D7101ECF8D" referredColumn="0DF67377-3035-115B-3FCF-976826BA1628"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C51831C-2609-70D5-8891-1CCF9560C8E8" name="MEDICO_PKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:21:22 UTC</createdTime>
+<generatorID>A3C6A380-2646-BB13-23C4-9629BC2806A4</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2949A3C1-F97C-B36A-8D0C-CA84A20BCF54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7326CD7-93C9-4E2C-9236-151369FAEFD5" name="MEDICO_PERSONA_FK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:21:22 UTC</createdTime>
+<generatorID>90C75700-18C3-4F1D-A2E3-A39625DAA3AF</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2949A3C1-F97C-B36A-8D0C-CA84A20BCF54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

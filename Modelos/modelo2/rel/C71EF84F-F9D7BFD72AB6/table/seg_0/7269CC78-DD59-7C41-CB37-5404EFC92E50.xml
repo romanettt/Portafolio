@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7269CC78-DD59-7C41-CB37-5404EFC92E50" name="ATENCION">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>967C1A02-D297-40B8-4855-27DBF54C9409</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="303C40C3-7BDD-E2DB-E22F-01D880F1D054">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>C5C3B0D4-7AFC-D649-78E5-630801CDB95A</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="99A0CB88-09BF-37AF-F9E6-DF2A5804B030">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>FDBE9B6F-8705-1512-BD94-0699BF094EF8</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA" id="B0698388-DF46-9EE0-D4E7-60C831853405">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>F31D399A-E4C4-A122-9ED9-A7309666F6A2</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DETALLE" id="F42CAD94-FD87-8A64-5F98-FA0994587245">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>A863EF47-29A4-8932-2BE8-F19BB0870D78</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FICHA_MEDICA_ID" id="105C11C5-75A0-736B-FEF4-B3C748F45F8C">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>16C5604A-3FAA-F0F2-CC51-ACDAE43CDA4D</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EC7263C-C70D-8DB4-F75A-0B3C8D6BEE43" referredColumn="CC0F11AE-7592-2DF0-38BB-9619D77D3DBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5838DD5-BF45-9340-F30A-A9B4FA34D3DB" name="ATENCION_PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>F167D2C5-0FAE-074E-E233-686F99105AC2</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="303C40C3-7BDD-E2DB-E22F-01D880F1D054"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1979260-0C2B-8378-0D84-5E98298B30AA" name="ATENCION_FICHA_MEDICA_FK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-23 03:42:41 UTC</createdTime>
+<generatorID>2B262C89-80DC-27AA-F1C7-B5DD294A6B5D</generatorID>
+<ownerDesignName>modelo2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="105C11C5-75A0-736B-FEF4-B3C748F45F8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

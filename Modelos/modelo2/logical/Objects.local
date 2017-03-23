@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="D253FAE2-9634-AF8A-50A9-3392EEC525F9" name="AGENDA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="967C1A02-D297-40B8-4855-27DBF54C9409" name="ATENCION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="99579AAC-1B55-6810-705C-DE32C4DE68C3" name="CAJERO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="35AE3BCF-C567-6F85-2E4F-825AF7978456" name="CIUDAD" seqName="seg_0"/>
+   <object objectType="Entity" objectID="51106C11-BE96-053A-9DEC-F4D8F793431F" name="COMUNA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3F3C6B46-2781-DD6C-2FD9-147F182CA4A9" name="ESPECIALIDAD" seqName="seg_0"/>
+   <object objectType="Entity" objectID="92C8FA0F-D03B-71CD-621E-BC295E1F4AB0" name="FICHA_MEDICA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="9F0C1337-B325-DCEB-E4DC-DC407EF18553" name="HORARIO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A29E8D8B-DF10-52DF-BA33-5328F33C9490" name="LOGIN" seqName="seg_0"/>
+   <object objectType="Entity" objectID="5D016989-C688-25E8-BC5C-F8DC7BD0D5D0" name="MEDICO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F86857F8-84F8-CB47-3AE6-8CC502D86A68" name="PACIENTE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="5F104F52-12D9-7B8F-6442-024158B9D302" name="PERSONA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="23EAE4A0-8A7C-7625-ABC5-8842CD1CFCF2" name="REGION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C59F0EFA-BEEF-3675-0EC7-54D87FCAF3B0" name="SECRETARIA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="951D1742-92D2-D9F9-1464-B4FECA730C03" name="SEMANA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="AD0E9B5A-CFE8-DAE4-1A21-49CDA47F4045" name="CIUDAD_REGION" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7D4A66E5-8E01-6AC6-65A4-FD04CF19E4CC" name="COMUNA_CIUDAD" seqName="seg_0"/>
+   <object objectType="Relation" objectID="152BE1AE-96EA-519A-8F6E-A32700ACD495" name="MEDICO_ESPECIALIDAD" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CDE329B6-E809-1EB6-88CD-DA6A589EF273" name="PACIENTE_FICHAMEDICA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B138C6B5-F152-1814-E6BC-9080F8EB0A24" name="Relation_1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="67BAF50B-1111-2531-B795-36E16D67C709" name="Relation_10" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A2C06502-6481-F0AC-765A-08C2EBAF1D2F" name="Relation_4" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2B262C89-80DC-27AA-F1C7-B5DD294A6B5D" name="Relation_8" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F701B3E3-1714-A767-4857-90E06A23E318" name="Relation_9" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="90C75700-18C3-4F1D-A2E3-A39625DAA3AF" name="Hierarchy_1" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="DD24530A-1967-3AA3-40F0-EDD194928C6E" name="Hierarchy_2" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="EC803ABF-6845-6B09-225F-A7C43CF451F6" name="Hierarchy_3" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="FB8CECE7-4F87-29CF-4C9E-739ADCE06352" name="Hierarchy_4" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
