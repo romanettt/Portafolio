@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0DEE65BF-7E5E-7771-EAEB-8989084E2F82" name="RESERVA">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 21:58:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="3851FE9D-AC99-09BC-951B-7BF0104D6302">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 21:58:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA" id="96713F6B-44BB-B2DF-B667-0B594642A861">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 21:59:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA_I" id="BB42AEF8-E277-B630-2376-784522651B02">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 21:58:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA_T" id="4FA64430-6D72-0F10-E7F8-7FE8B926918B">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 21:59:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="593F955C-E465-68B4-7A43-19939323FCAF">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 22:00:12 UTC</createdTime>
+<generatorID>B992DCD3-C4CB-A37B-9808-5AF0F5991A72</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<referedAttribute>892F5282-3D87-4649-287A-D74B392A3C28</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="25F9D1C5-1EBB-1345-A1E0-29E9E1DD0232">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 22:00:39 UTC</createdTime>
+<generatorID>B25BF029-12BD-A524-B962-A2F31DBE0F02</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<referedAttribute>DFD3655E-D7AE-8E81-0997-940A794DDEF0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="46D031D2-A227-AA0F-EAE3-751EE0466FBE">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 22:09:00 UTC</createdTime>
+<generatorID>C347BBAD-CE59-9C1E-DAED-001130771611</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<referedAttribute>3DA49594-F224-3006-C9D4-3E6CDF313D3F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="21DB456C-07E2-5A47-46C5-8707FA36E376">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 22:14:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID4" id="680B429F-70F4-7D88-C0C8-4A82070B4523">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 23:31:42 UTC</createdTime>
+<generatorID>2DFFC030-E9C4-FC2B-AECA-A8C8E9E23933</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<referedAttribute>61D8D4B8-A50C-6C8B-3D0B-D08AE11B0EC2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9560497B-BFBC-7451-1808-82C0C8D5853E" name="RESERVA PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 21:58:46 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3851FE9D-AC99-09BC-951B-7BF0104D6302</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

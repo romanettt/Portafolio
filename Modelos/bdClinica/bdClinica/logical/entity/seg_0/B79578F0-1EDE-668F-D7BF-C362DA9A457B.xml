@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B79578F0-1EDE-668F-D7BF-C362DA9A457B" name="D_FICHA">
+<createdBy>Miguel</createdBy>
+<createdTime>2017-03-25 02:45:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<engineerTo>
+<item key="EECBC65E-BA3F-65D3-988E-EE8C8BA4516A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_2" id="775931B2-E775-A6CE-E90B-6B8F6C4A9EFE">
+<createdBy>Miguel</createdBy>
+<createdTime>2017-03-25 02:46:44 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<engineerTo>
+<item key="EECBC65E-BA3F-65D3-988E-EE8C8BA4516A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SINTOMA" id="6FC44441-0B1C-7775-9C33-C226B8A50260">
+<createdBy>Miguel</createdBy>
+<createdTime>2017-03-25 03:39:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<engineerTo>
+<item key="EECBC65E-BA3F-65D3-988E-EE8C8BA4516A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIAGNOSTICO" id="FE026775-F9D3-9161-E324-AB99C046FBBD">
+<createdBy>Miguel</createdBy>
+<createdTime>2017-03-25 02:46:45 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<engineerTo>
+<item key="EECBC65E-BA3F-65D3-988E-EE8C8BA4516A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TRATAMIENTO" id="27C827B5-2E75-09EE-D30A-4FF34FDA206D">
+<createdBy>Miguel</createdBy>
+<createdTime>2017-03-25 02:46:45 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<engineerTo>
+<item key="EECBC65E-BA3F-65D3-988E-EE8C8BA4516A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EXAMENES" id="EA4BC919-38B8-D67B-52CC-F7015CDBB18B">
+<createdBy>Miguel</createdBy>
+<createdTime>2017-03-25 02:46:46 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<engineerTo>
+<item key="EECBC65E-BA3F-65D3-988E-EE8C8BA4516A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="B0A1D1CF-EC31-7841-6010-797480B2AF12">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 05:34:07 UTC</createdTime>
+<generatorID>7032BCF7-7363-8C2F-DD92-3B909B363B90</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<engineerTo>
+<item key="EECBC65E-BA3F-65D3-988E-EE8C8BA4516A" value="true"/>
+</engineerTo>
+<referedAttribute>B2A30636-AF52-56B4-D04A-8DA3632C1151</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="D_FICHA" id="44B08749-3830-7AA6-1555-99B7848BD397">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 05:34:07 UTC</createdTime>
+<generatorID>7032BCF7-7363-8C2F-DD92-3B909B363B90</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<engineerTo>
+<item key="EECBC65E-BA3F-65D3-988E-EE8C8BA4516A" value="true"/>
+</engineerTo>
+<referedAttribute>2857EE7F-A3D3-9714-CDD0-AC42F9DCD43D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CI_ID" id="E8F74FE3-D73E-E518-B685-D5C634B9785C">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:11:07 UTC</createdTime>
+<generatorID>BC309EE4-D74B-9754-4B79-F07FBF816420</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<engineerTo>
+<item key="EECBC65E-BA3F-65D3-988E-EE8C8BA4516A" value="true"/>
+</engineerTo>
+<referedAttribute>2D13FB88-06FC-CAD5-F794-03BE0E1BEF3E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="617A3E7A-B7CC-24DB-3D39-75A346B8F790" name="P_FICHA PK">
+<createdBy>Miguel</createdBy>
+<createdTime>2017-03-25 02:46:53 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<engineerTo>
+<item key="EECBC65E-BA3F-65D3-988E-EE8C8BA4516A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>775931B2-E775-A6CE-E90B-6B8F6C4A9EFE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

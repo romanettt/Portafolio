@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D9036C1-C20E-C221-2F82-FCE45746A21C" name="RESERVA">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 22:01:14 UTC</createdTime>
+<generatorID>0DEE65BF-7E5E-7771-EAEB-8989084E2F82</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="AB6D6C8E-264C-3D38-71FC-050883D83307">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 22:01:14 UTC</createdTime>
+<generatorID>3851FE9D-AC99-09BC-951B-7BF0104D6302</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_I" id="AA98587F-5A61-A88D-326A-30AA27F832AA">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 22:01:14 UTC</createdTime>
+<generatorID>BB42AEF8-E277-B630-2376-784522651B02</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_T" id="E0E20018-F9B7-B479-9DB6-384D73DEBCF7">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 22:01:14 UTC</createdTime>
+<generatorID>4FA64430-6D72-0F10-E7F8-7FE8B926918B</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="E96245B1-8466-2481-5AAF-FC88E321CC84">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 22:01:14 UTC</createdTime>
+<generatorID>96713F6B-44BB-B2DF-B667-0B594642A861</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEDICO_ID" id="6BA4B836-871C-5D05-852B-76B35E0770B8">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 22:01:14 UTC</createdTime>
+<generatorID>593F955C-E465-68B4-7A43-19939323FCAF</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAC7ABCA-AEBF-192B-FF9E-D93A0B7ED5BE" referredColumn="D506A426-F035-270A-726E-49B96C447477"/>
+</associations>
+</Column>
+<Column name="PACIENTE_ID" id="682588A5-01C6-4C54-FF33-9A4598E8CC96">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 22:01:14 UTC</createdTime>
+<generatorID>25F9D1C5-1EBB-1345-A1E0-29E9E1DD0232</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AC44DE7-FA38-2C51-B4EB-055EED7C78F4" referredColumn="53EE4552-0D07-F221-FAA9-185EA125F300"/>
+</associations>
+</Column>
+<Column name="TIPO_RESERVA_ID" id="C71A478E-0DB7-9381-156B-3014052E83A2">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 00:03:57 UTC</createdTime>
+<generatorID>46D031D2-A227-AA0F-EAE3-751EE0466FBE</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DE153B4-7261-8A47-8BC5-F78B99FCEC78" referredColumn="4DFAFEFC-D52C-A136-779B-812571A191E8"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="88285AE6-EB18-5D8A-99E0-278C53AD26F5">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 00:03:57 UTC</createdTime>
+<generatorID>21DB456C-07E2-5A47-46C5-8707FA36E376</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATENCION_ID" id="F24DC099-90AD-1F1C-1B63-24BE8C7F3ABD">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 00:03:57 UTC</createdTime>
+<generatorID>680B429F-70F4-7D88-C0C8-4A82070B4523</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4AD91BF-C9CD-37BA-6C1C-7C6C923B3A24" referredColumn="F66F989F-98A9-519F-7015-528A58A85F10"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CEFF8EBD-399A-C25C-370C-136B12842F42" name="RESERVA_PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 22:01:14 UTC</createdTime>
+<generatorID>9560497B-BFBC-7451-1808-82C0C8D5853E</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB6D6C8E-264C-3D38-71FC-050883D83307"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF64A83D-9011-5BE5-236F-0D76DFE93941" name="RESERVA_MEDICO_FK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 22:01:14 UTC</createdTime>
+<generatorID>B992DCD3-C4CB-A37B-9808-5AF0F5991A72</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BA4B836-871C-5D05-852B-76B35E0770B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FB04F3F-5C00-6BE1-E4D1-02B55C2292A4" name="RESERVA_PACIENTE_FK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 22:01:14 UTC</createdTime>
+<generatorID>B25BF029-12BD-A524-B962-A2F31DBE0F02</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="682588A5-01C6-4C54-FF33-9A4598E8CC96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB1844B7-1C0E-2998-CB3E-71055B6C3E45" name="RESERVA_TIPO_RESERVA_FK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 00:03:57 UTC</createdTime>
+<generatorID>C347BBAD-CE59-9C1E-DAED-001130771611</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C71A478E-0DB7-9381-156B-3014052E83A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D03CD4F-E7C6-7115-2BA7-4A7602351ABF" name="RESERVA_ATENCION_FK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 00:03:57 UTC</createdTime>
+<generatorID>2DFFC030-E9C4-FC2B-AECA-A8C8E9E23933</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F24DC099-90AD-1F1C-1B63-24BE8C7F3ABD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA4F00F5-AF75-F79E-C7D2-DD81D41347CE" name="ISAPRE">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>21260B44-2133-EFBD-9517-A6715B977CF8</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ISA_ID" id="8E65C46D-BCD1-FC4D-6E83-B00174298031">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>4CC9EAC3-A4F2-9F45-E4B7-EF8445F25C53</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="C70D8975-33E0-E0AE-56CF-9920169E5046">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>7429AF3B-8708-0D02-DB30-B54150336F40</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCUENTO" id="2E8E1FBB-AF96-8050-452B-84F0514978A8">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>8E76318B-CB2D-B0BD-5F59-FCEC4F25BD72</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREVISION_PRE_ID" id="54F3C050-3940-8214-4E93-5E449F24B91B">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>8345D7DF-52D5-F684-B8B4-A4EDA85CA25D</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A38B453-1EB7-E8DB-E42C-0B8FBA47355C" referredColumn="7FAA15D5-C026-D1B5-3F67-BB6FAF9E22A0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82DE3BA1-E44D-B98C-083D-092AE35ACA3B" name="ISAPRE_PK">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>59575CBB-00F6-7BB3-5BDE-7E383FE0818C</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E65C46D-BCD1-FC4D-6E83-B00174298031"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5888E1D-1FA3-2A03-0A50-4794AFC39A08" name="ISAPRE__IDX">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>65564121-1042-F00B-B810-F70D9DB4FCC2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="54F3C050-3940-8214-4E93-5E449F24B91B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBEC3AA8-6453-ADD5-3EED-717AAFB734E6" name="ISAPRE_PREVISION_FK">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>65564121-1042-F00B-B810-F70D9DB4FCC2</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54F3C050-3940-8214-4E93-5E449F24B91B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3130EA2C-B8B2-B93C-CDA8-73A9EE9E0A33" name="TIPO_USUARIO">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 23:07:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="AEAE1CDC-5627-BF4F-3B52-320E6972C497">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 23:07:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="87A109EF-0874-4C9D-4A86-1D304EBFB550">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 23:07:34 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC749855-F045-1A08-9F73-EA6A7E12831D" name="TIPO_USUARIO PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 23:08:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AEAE1CDC-5627-BF4F-3B52-320E6972C497</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

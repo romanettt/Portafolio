@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8973C782-296E-96BE-F9F8-75C1E991EE19" name="RECAUDACION">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 00:03:57 UTC</createdTime>
+<generatorID>C49BCF56-9F55-879A-0827-9D597562D15C</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="277F02DE-1781-2A93-377E-9CA9ED4F7D10">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 00:03:57 UTC</createdTime>
+<generatorID>A7E3151F-C6AD-1FFE-BDF8-F3AB1832CC16</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATENCION_ID" id="1F6A1AC0-59A2-2309-179F-B252F7DE35E6">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 00:03:57 UTC</createdTime>
+<generatorID>6EFFA595-A05D-2D00-4FA5-8C7D1CFEC923</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4876135-AEE7-17CA-59B5-6F260884376B" referredColumn="F66F989F-98A9-519F-7015-528A58A85F10"/>
+</associations>
+</Column>
+<Column name="PORCENTAJE" id="B94CEAFD-2964-11E8-8DBB-83CF8CEA4E11">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 00:03:57 UTC</createdTime>
+<generatorID>12CDF644-7854-A086-073E-A215AA3C7BDC</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL" id="677A9D5F-9738-3624-436A-DAAB5A4157A1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 00:03:57 UTC</createdTime>
+<generatorID>DE8D0867-88ED-C135-A24D-393F4910B109</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44A5419D-A34C-2539-FCD4-C6683033C39A" name="RECAUDACION_PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 00:03:57 UTC</createdTime>
+<generatorID>BE6840A5-7888-6E75-13BF-EB3B3E45A689</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="277F02DE-1781-2A93-377E-9CA9ED4F7D10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAB072C1-FD53-37EB-5A94-FF428471F149" name="RECAUDACION_ATENCION_FK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 00:03:57 UTC</createdTime>
+<generatorID>ACCE121D-21A3-1F52-C6BE-9667668A9270</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F6A1AC0-59A2-2309-179F-B252F7DE35E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

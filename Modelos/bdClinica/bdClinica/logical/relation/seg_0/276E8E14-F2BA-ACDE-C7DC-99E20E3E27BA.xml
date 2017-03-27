@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PREVISION_FONASA" directorySegmentName="seg_0" id="276E8E14-F2BA-ACDE-C7DC-99E20E3E27BA">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 05:30:50 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<engineerTo>
+<item key="EECBC65E-BA3F-65D3-988E-EE8C8BA4516A" value="true"/>
+</engineerTo>
+<sourcePk>1AC18B0C-C1FD-7621-2516-F73A3FFD510C</sourcePk>
+<targetPk>88A09FC6-48A4-61F4-310B-0ED3FAE8BF7B</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D5824412-A51F-4570-23DA-965374AB644F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>ECF71AC2-D369-F951-E696-6F67B9A691DF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

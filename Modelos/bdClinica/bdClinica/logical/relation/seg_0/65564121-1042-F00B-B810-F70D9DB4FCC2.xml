@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PREVISION_ISAPRE" directorySegmentName="seg_0" id="65564121-1042-F00B-B810-F70D9DB4FCC2">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 05:30:44 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<engineerTo>
+<item key="EECBC65E-BA3F-65D3-988E-EE8C8BA4516A" value="true"/>
+</engineerTo>
+<sourcePk>1AC18B0C-C1FD-7621-2516-F73A3FFD510C</sourcePk>
+<targetPk>59575CBB-00F6-7BB3-5BDE-7E383FE0818C</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D5824412-A51F-4570-23DA-965374AB644F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>21260B44-2133-EFBD-9517-A6715B977CF8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

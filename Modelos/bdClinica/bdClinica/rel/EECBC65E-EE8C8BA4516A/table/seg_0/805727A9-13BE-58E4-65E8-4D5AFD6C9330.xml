@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="805727A9-13BE-58E4-65E8-4D5AFD6C9330" name="D_FICHA">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>B79578F0-1EDE-668F-D7BF-C362DA9A457B</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="F_ID" id="C978994C-6970-4047-1BFB-23F86136EA9F">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>775931B2-E775-A6CE-E90B-6B8F6C4A9EFE</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SINTOMA" id="DDC9EB56-BFF0-DA74-5B91-8FBD649C0229">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>6FC44441-0B1C-7775-9C33-C226B8A50260</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIAGNOSTICO" id="5D529D1B-9CBE-331C-7353-7F80D6B5168A">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>FE026775-F9D3-9161-E324-AB99C046FBBD</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRATAMIENTO" id="922A069A-1FF8-9F53-63D3-8816535BBF35">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>27C827B5-2E75-09EE-D30A-4FF34FDA206D</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXAMENES" id="B65713DE-654D-F630-58A1-C11685539050">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>EA4BC919-38B8-D67B-52CC-F7015CDBB18B</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="M_FICHA_FM_ID" id="7B0C859C-5BD3-5F45-4BEC-4B13A923EB2C">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>B0A1D1CF-EC31-7841-6010-797480B2AF12</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="731EB640-262E-60F6-B0CC-D2BE6374B57F" referredColumn="535B36CD-AACF-7C8A-8209-97B0AA9D2706"/>
+</associations>
+</Column>
+<Column name="D_FICHA" id="86703829-E505-69E8-CADE-405AF32E4811">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>44B08749-3830-7AA6-1555-99B7848BD397</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITA_CI_ID" id="08CE9FDB-22A6-D6D0-D1EB-9717867B2173">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>E8F74FE3-D73E-E518-B685-D5C634B9785C</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA3E6EEB-A528-EA2E-4003-144F15CFDA14" referredColumn="806B8DD0-42EE-FB6C-B4A7-FC3E84D64BB5"/>
+</associations>
+</Column>
+<Column name="ATENCION_ATENCION_ID" id="F11CD193-FB3B-DEE2-CB91-776413661D7D">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B9DEA83-CC34-B52D-E938-62F79C5AC866" referredColumn="17E78FD4-B31F-A0A7-AF73-331E4EA612CF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="339908DF-FDF7-5675-324A-CEB2E3D4BE07" name="D_FICHA_PK">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>617A3E7A-B7CC-24DB-3D39-75A346B8F790</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C978994C-6970-4047-1BFB-23F86136EA9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FB85F29-1E0A-E67B-3C5D-6C8F0FF1D6B9" name="D_FICHA__IDX">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BC309EE4-D74B-9754-4B79-F07FBF816420</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="08CE9FDB-22A6-D6D0-D1EB-9717867B2173"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C741F10-5D7D-19DC-14CA-EFD2F1A36C79" name="D_FICHA__IDXv1">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>04FC6F0A-5D6A-08AD-43B9-38E73A004EE5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F11CD193-FB3B-DEE2-CB91-776413661D7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDCDD049-A72D-E7F4-2D71-AAE6395E0425" name="D_FICHA_CITA_FK">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>BC309EE4-D74B-9754-4B79-F07FBF816420</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08CE9FDB-22A6-D6D0-D1EB-9717867B2173"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D56FB16F-B904-2EFD-B2F7-7FD86B7C6DFD" name="D_FICHA_ATENCION_FK">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>04FC6F0A-5D6A-08AD-43B9-38E73A004EE5</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F11CD193-FB3B-DEE2-CB91-776413661D7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C115792-5DB3-CB2C-E856-CF82F97E99AD" name="D_FICHA_M_FICHA_FK">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>7032BCF7-7363-8C2F-DD92-3B909B363B90</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B0C859C-5BD3-5F45-4BEC-4B13A923EB2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

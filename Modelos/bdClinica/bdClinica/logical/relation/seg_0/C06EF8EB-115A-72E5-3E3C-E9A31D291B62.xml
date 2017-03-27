@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MEDICO_AGENDA" directorySegmentName="seg_0" id="C06EF8EB-115A-72E5-3E3C-E9A31D291B62">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:13:02 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<engineerTo>
+<item key="EECBC65E-BA3F-65D3-988E-EE8C8BA4516A" value="true"/>
+</engineerTo>
+<sourcePk>52221FAE-4D30-E39B-5635-82E98DC1C365</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CB78CA90-AD7D-A67B-5296-484D5A186912</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>237E2EF3-FD25-9672-625B-B6BBC895ABCA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

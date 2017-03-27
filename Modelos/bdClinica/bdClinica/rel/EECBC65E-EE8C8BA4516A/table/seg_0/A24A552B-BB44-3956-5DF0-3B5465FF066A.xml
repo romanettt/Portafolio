@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A24A552B-BB44-3956-5DF0-3B5465FF066A" name="CAJERO">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>5A7BB761-70A5-EA74-6328-B8A18221041B</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CA_ID" id="57597B51-C9F4-4116-BA3E-4448B93B4A34">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>B865D1E6-E01F-ED94-9C1C-9A85D02BF2EF</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FONDO" id="D9CA27D5-23E4-5368-6558-742F7D66573A">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>6540EC6B-8AF6-501E-4980-CBC4AF6BBDF1</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAJERO_ID" id="D44ADCD5-2BD7-FCE1-3749-C7CECCBA7334">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2ACA2D6-83F3-A7FD-29F4-C8DD094214FB" name="CAJERO_PK">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="D44ADCD5-2BD7-FCE1-3749-C7CECCBA7334"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

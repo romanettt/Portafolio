@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A7EFE70-BB37-935D-8C90-E41FD0D2A933" name="ATENCION">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 23:30:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="61D8D4B8-A50C-6C8B-3D0B-D08AE11B0EC2">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 23:30:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="C8130FBD-A347-7E71-E45E-16AF1D51D728">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 23:36:52 UTC</createdTime>
+<generatorID>FE8A9055-0F3D-F0CA-DFD8-BC70C83AA19C</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<referedAttribute>C5A334B4-1CEA-441D-A28A-06D78F6FB57A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="F66945B9-3D5F-CDC0-6454-4D630FE2974D">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 23:36:57 UTC</createdTime>
+<generatorID>838DDF63-6D80-70CC-6000-F0613CFF3910</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<referedAttribute>0AD4ED20-C7B5-BC75-8B38-C11C36455FD7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="F29661A4-DA6F-ADCB-2F8D-D0DBF9ECA1C8">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 23:38:24 UTC</createdTime>
+<generatorID>D2B6FE0B-6C2E-44B7-EFBA-32D10DEE2910</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<referedAttribute>0BAB3B0E-A58B-0C62-7ECF-44C10B02A57C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D46A3014-255A-0401-A410-83928F56AE53" name="RESERVA PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-26 23:30:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<engineerTo>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61D8D4B8-A50C-6C8B-3D0B-D08AE11B0EC2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

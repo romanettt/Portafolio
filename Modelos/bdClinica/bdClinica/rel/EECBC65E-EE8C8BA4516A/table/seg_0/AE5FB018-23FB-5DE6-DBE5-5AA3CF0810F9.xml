@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE5FB018-23FB-5DE6-DBE5-5AA3CF0810F9" name="M_FICHA">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>29A68B50-FF85-7F67-F05A-B7D7B877D539</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FM_ID" id="535B36CD-AACF-7C8A-8209-97B0AA9D2706">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>B2A30636-AF52-56B4-D04A-8DA3632C1151</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENFERMEDADES" id="39C63B0E-9BD2-48AA-FA8F-F8900AC73E61">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>EC34C717-E77A-D26E-1F20-93843F80BC09</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIAGNOSTICO" id="312981FD-0E2A-B3AE-FBF4-269E8134CBA2">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>A28144D3-58B7-FAA8-96D8-4C8890346BBE</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXAMENES" id="02B1A961-27C4-C8EF-8B29-72B24EC897FD">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>15366048-48BD-96B8-3897-44A09756430F</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F050957-2A48-ADD6-C8DF-E1B12D37FB93" name="M_FICHA_PK">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>418A2229-B638-9CD0-8207-B807903FAE7C</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="535B36CD-AACF-7C8A-8209-97B0AA9D2706"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

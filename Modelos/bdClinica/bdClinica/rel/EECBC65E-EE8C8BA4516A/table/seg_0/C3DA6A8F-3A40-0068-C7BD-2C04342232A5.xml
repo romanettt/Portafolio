@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3DA6A8F-3A40-0068-C7BD-2C04342232A5" name="SEMANA">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>F99BCF1C-B890-90E6-10A8-486609AE5496</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEM_ID" id="70127FC1-BD64-CC17-63DB-A652F3FBE891">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>E223D6E3-B04C-9EDD-818A-DDC15D0EDE9B</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LUNES" id="AD56F1A3-780C-854C-B69F-2AF4B40D17F4">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>9600D769-C309-5023-F440-E0D51E455DEA</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MARTES" id="E59CEB4C-3A78-13E7-1218-C69D378EC384">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>422B0F2C-C001-ED5F-7A7E-1E0C96D8078A</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIERCOLES" id="677E8598-6557-649C-D84F-9C0261A3DDC2">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>DB4D203F-954D-81AB-0982-E645EA998812</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JUEVES" id="4195A42A-F3CD-3019-D047-04230222456A">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>786BEC49-4F63-D900-96BE-F491CE32473C</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIERNES" id="561CCD6D-3370-4094-CCBA-CDB56556164D">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>F163D8DF-363F-760F-D4A5-2390DB41AF74</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SABADO" id="A7123F7F-5534-512C-A616-F68BCC19204C">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>BFAB8ED7-531F-483D-43B2-758B76787564</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOMINGO" id="757E831D-8B64-B7A2-795D-2AAF277A2705">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>62A19792-10F0-9BE0-B57D-FD8BE3924ED7</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGENDA_A_ID" id="F4C95956-4124-5765-3428-9A0B22D0ACC3">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>07C6D9B7-E7FF-98D5-F15F-1BF4A35EF8BD</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF298BF1-C7B9-836D-0B06-121BA61D506D" referredColumn="9A1A7BA8-F705-77F6-0672-9D8C8D78CC68"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="826C104F-BEE9-D4DB-A49F-AB418DA24D31" name="SEMANA_PK">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>1169C28D-A43A-4AB8-84FF-0AC9E1F9975A</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70127FC1-BD64-CC17-63DB-A652F3FBE891"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA3369E1-D101-82CD-AB19-E1F4E96AA8D2" name="SEMANA_AGENDA_FK">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>2A3AD90D-79CE-44E4-EF8B-7344EF382F3C</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4C95956-4124-5765-3428-9A0B22D0ACC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

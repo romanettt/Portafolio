@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AGENDA_SECRETARIA" directorySegmentName="seg_0" id="0754F629-C5EE-426F-F5EF-CDDD4C712171">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:18:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<engineerTo>
+<item key="EECBC65E-BA3F-65D3-988E-EE8C8BA4516A" value="true"/>
+</engineerTo>
+<sourcePk>52221FAE-4D30-E39B-5635-82E98DC1C365</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CB78CA90-AD7D-A67B-5296-484D5A186912</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>07DF1575-8024-54DA-E61E-E0FD5F8304E3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

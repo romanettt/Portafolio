@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED6D6DE7-CD60-2D3B-70F2-44DA8B01DD26" name="SEMANA_HORA">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HORA_H_ID" id="371CF209-829F-CAD0-74C0-EAAA89CFD4DF">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B70ABC83-4297-573A-24E8-A3B08B8FF41A" referredColumn="277B8849-35AB-1B56-DAA5-7E1C838D5534"/>
+</associations>
+</Column>
+<Column name="SEMANA_SEM_ID" id="AA1E1E77-44AA-8483-C483-CC8D1C33A01A">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59DF26C5-4170-D2C4-D4DD-B70F5E2FBBBB" referredColumn="70127FC1-BD64-CC17-63DB-A652F3FBE891"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60C090B7-C2C8-7387-F22A-5BB077D38CF4" name="SEMANA_HORA_PK">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="371CF209-829F-CAD0-74C0-EAAA89CFD4DF"/>
+<colUsage columnID="AA1E1E77-44AA-8483-C483-CC8D1C33A01A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45333162-AD9B-93BD-41C6-4EB5751FDBBF" name="FK_ASS_24">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>02E3EE19-4967-44F0-1DFF-E04A5778C391</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="371CF209-829F-CAD0-74C0-EAAA89CFD4DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAD80476-489F-3384-0862-CBC9F71F0B99" name="FK_ASS_25">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>02E3EE19-4967-44F0-1DFF-E04A5778C391</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA1E1E77-44AA-8483-C483-CC8D1C33A01A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

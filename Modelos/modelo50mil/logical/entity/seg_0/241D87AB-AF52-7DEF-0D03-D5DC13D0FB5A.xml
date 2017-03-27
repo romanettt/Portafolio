@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="241D87AB-AF52-7DEF-0D03-D5DC13D0FB5A" name="MEDICO">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-25 07:46:22 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo50mil</ownerDesignName>
+<engineerTo>
+<item key="703500F5-D26A-8353-06E8-61B9A7AD6083" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="98FACACD-66DE-DD99-A181-2B992B8CD105">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-25 07:46:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo50mil</ownerDesignName>
+<engineerTo>
+<item key="703500F5-D26A-8353-06E8-61B9A7AD6083" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT" id="B55564A5-0E29-308C-7B93-7608AC8D48AC">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-25 07:46:53 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo50mil</ownerDesignName>
+<engineerTo>
+<item key="703500F5-D26A-8353-06E8-61B9A7AD6083" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DV" id="849F199A-B9C3-D86B-AA20-A34B12C2416C">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-25 07:47:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo50mil</ownerDesignName>
+<engineerTo>
+<item key="703500F5-D26A-8353-06E8-61B9A7AD6083" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRES" id="9AE75468-F016-6277-A95F-3D7A2CB801EF">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-25 07:47:23 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo50mil</ownerDesignName>
+<engineerTo>
+<item key="703500F5-D26A-8353-06E8-61B9A7AD6083" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PATERNO" id="AE62DDEC-6D79-2F1E-F13C-580FD6B4E3BB">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-25 07:47:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo50mil</ownerDesignName>
+<engineerTo>
+<item key="703500F5-D26A-8353-06E8-61B9A7AD6083" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MATERNO" id="3EA5C5E6-5BAD-A939-28DD-F7E88BB21224">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-25 07:47:59 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo50mil</ownerDesignName>
+<engineerTo>
+<item key="703500F5-D26A-8353-06E8-61B9A7AD6083" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5EFAA8C2-F691-656D-C9E1-6CD5BD86F7C9" name="MEDICO PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-25 07:46:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo50mil</ownerDesignName>
+<engineerTo>
+<item key="703500F5-D26A-8353-06E8-61B9A7AD6083" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>98FACACD-66DE-DD99-A181-2B992B8CD105</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

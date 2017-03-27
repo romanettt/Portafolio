@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29ECC374-A60C-71E3-E6C9-DEBE6CB09067" name="DFICHA_TRATAMIENTO">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="D_FICHA_F_ID" id="314EE68B-BD83-20C2-8D2A-AD3EC6698148">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20B786FE-1840-1BFD-B046-19D7D431555A" referredColumn="C978994C-6970-4047-1BFB-23F86136EA9F"/>
+</associations>
+</Column>
+<Column name="TRATAMIENTO_TR_ID" id="216BD731-348B-314F-5749-2E9B11D797FD">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02D9809A-D7A0-FD49-97DD-77A6F7861924" referredColumn="BBBB08B7-BAF7-85A3-8DD5-66E88003DF91"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBE63778-A0EB-B068-2FFD-979DBF6E667F" name="DFICHA_TRATAMIENTO_PK">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="314EE68B-BD83-20C2-8D2A-AD3EC6698148"/>
+<colUsage columnID="216BD731-348B-314F-5749-2E9B11D797FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B254947-0FB1-9C39-CFEA-94E6701CACA7" name="FK_ASS_13">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>81B6142E-B4DA-D202-3586-A4852D3F96BD</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="314EE68B-BD83-20C2-8D2A-AD3EC6698148"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F10066E2-781C-279E-F53D-33F33B98313D" name="FK_ASS_14">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>81B6142E-B4DA-D202-3586-A4852D3F96BD</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="216BD731-348B-314F-5749-2E9B11D797FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

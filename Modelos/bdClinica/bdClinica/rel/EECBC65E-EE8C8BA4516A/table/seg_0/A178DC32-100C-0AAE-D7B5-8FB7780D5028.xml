@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A178DC32-100C-0AAE-D7B5-8FB7780D5028" name="CAJERO_PAGO">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAGO_PA_ID" id="D8F99382-59DB-1AA3-DF2F-748AF6E89186">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38BE7DD2-2D12-52FB-E70C-3E693D344168" referredColumn="98488DA5-6C64-57F7-96A2-F15CFDAB45B0"/>
+</associations>
+</Column>
+<Column name="CAJERO_CAJERO_ID" id="54B34366-8373-24D4-FE92-995B022E39A9">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E2D35E8-FAB0-34F9-8A1D-76C4F216F8AA" referredColumn="D44ADCD5-2BD7-FCE1-3749-C7CECCBA7334"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1321708-5B39-8AEB-1A51-346D9999CA18" name="CAJERO_PAGO_PK">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8F99382-59DB-1AA3-DF2F-748AF6E89186"/>
+<colUsage columnID="54B34366-8373-24D4-FE92-995B022E39A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAD35513-37DD-B952-BD5A-FB8A190AC272" name="FK_ASS_6">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>43FE27E6-976F-7D69-4A08-657DB905137A</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8F99382-59DB-1AA3-DF2F-748AF6E89186"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A04F75D-59A6-43B3-B271-1DB0198852FD" name="FK_ASS_7">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 07:32:28 UTC</createdTime>
+<generatorID>43FE27E6-976F-7D69-4A08-657DB905137A</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54B34366-8373-24D4-FE92-995B022E39A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PACIENTE_CITA" directorySegmentName="seg_0" id="94F17EEB-18FA-5820-AF1E-39C562DC578B">
+<createdBy>Romanet</createdBy>
+<createdTime>2017-03-25 05:26:56 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdClinica</ownerDesignName>
+<engineerTo>
+<item key="EECBC65E-BA3F-65D3-988E-EE8C8BA4516A" value="true"/>
+</engineerTo>
+<sourcePk>7B83B63A-E9EA-8DC4-7E42-ADD2314389DF</sourcePk>
+<targetPk>9DACC808-463D-B131-80A8-8ECB3A78299B</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FA0E1A54-9E81-8E26-09BD-EBEF034E8EDD</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>95452B0D-9CEA-1C55-BC52-055D30441B3B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
