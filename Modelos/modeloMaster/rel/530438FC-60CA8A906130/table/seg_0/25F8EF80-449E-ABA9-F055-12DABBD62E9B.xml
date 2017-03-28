@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25F8EF80-449E-ABA9-F055-12DABBD62E9B" name="CAJA">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>E5C14E9A-378F-6C32-89B0-1AB830E38AA5</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CAJ_ID" id="66400B2C-CA9E-C2D5-961F-EDDF11F01CB3">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>0BAB3B0E-A58B-0C62-7ECF-44C10B02A57C</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAJ_NOMBRE" id="301C98C9-3897-4DDA-34C3-A9A6F5407724">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>2009047C-CED4-A1FA-FE66-48236929E486</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="288609FB-4BB9-DF0D-1E23-9422EC540A7E" name="CAJA_PKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>CB74CDCA-A6A7-E762-1438-75743C43E72B</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66400B2C-CA9E-C2D5-961F-EDDF11F01CB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

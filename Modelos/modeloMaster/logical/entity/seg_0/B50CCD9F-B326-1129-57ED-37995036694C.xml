@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="747A367E-4480-C774-A81A-08385D803252">
+<Attribute name="PER_ID" id="747A367E-4480-C774-A81A-08385D803252">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 23:25:27 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -179,7 +179,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="BA8585CE-3BE4-1433-6263-48CC06561F20">
+<Attribute name="USU_ID" id="BA8585CE-3BE4-1433-6263-48CC06561F20">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 23:57:30 UTC</createdTime>
 <generatorID>5BAEAB4A-9440-C5BD-C18F-B04E85D76142</generatorID>
@@ -200,8 +200,9 @@
 <createdTime>2017-03-26 23:25:27 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>modeloMaster</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
+<item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

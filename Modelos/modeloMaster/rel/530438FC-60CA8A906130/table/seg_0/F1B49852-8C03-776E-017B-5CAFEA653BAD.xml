@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1B49852-8C03-776E-017B-5CAFEA653BAD" name="RESERVA">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>0DEE65BF-7E5E-7771-EAEB-8989084E2F82</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RES_ID" id="64E67FE8-07F9-8317-5BAF-4C8DD75AF42A">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>3851FE9D-AC99-09BC-951B-7BF0104D6302</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RES_FECHA" id="870CE76D-2F07-4417-D70B-7EFD45A6014B">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>96713F6B-44BB-B2DF-B667-0B594642A861</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RES_HORA_INICIO" id="28F8C190-5543-593D-A6E2-DAED4BC50CC3">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>BB42AEF8-E277-B630-2376-784522651B02</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RES_HORA_TERM" id="44FA98D3-C6C9-A7FD-147F-6C9E4124CEDF">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>4FA64430-6D72-0F10-E7F8-7FE8B926918B</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEDICO_MED_ID" id="8AEC5348-6340-9355-DC87-EF3554C43A05">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>593F955C-E465-68B4-7A43-19939323FCAF</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7512E661-3FA9-3881-2B24-3E2DC8D9BDAB" referredColumn="E39F6183-D929-A110-6510-5481C9078DE9"/>
+</associations>
+</Column>
+<Column name="PACIENTE_PAC_ID" id="96256CCB-C14F-859F-E812-7B4428D95F1E">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>25F9D1C5-1EBB-1345-A1E0-29E9E1DD0232</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7637F8CD-980D-B13B-BB33-D6C154AA2DE6" referredColumn="021D8745-DEE1-F32B-502F-84ED5701083D"/>
+</associations>
+</Column>
+<Column name="TIPO_RESERVA_TRE_ID" id="3E3681EA-17BC-48DD-8F77-F69E38D8396D">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>46D031D2-A227-AA0F-EAE3-751EE0466FBE</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D7E8E9C-2ECB-B168-EBAA-3C1C9225068E" referredColumn="9A7E8C4F-D23A-F515-1057-94828BDED6BE"/>
+</associations>
+</Column>
+<Column name="RES_ESTADO" id="D25CEB68-7B86-8FFD-8C7D-3E82DDA1252E">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>21DB456C-07E2-5A47-46C5-8707FA36E376</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATENCION_ATE_ID" id="72F0D09A-4C46-F4CC-85FA-784F07EEEFAC">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>680B429F-70F4-7D88-C0C8-4A82070B4523</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8A783DD-DF7F-F1B7-8FD5-DE807DF5158B" referredColumn="C3A652E1-0D3C-16DB-B409-EBEE698ECA2F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54774F26-E7F1-BA62-73E2-22F783C56DD2" name="RESERVA_PKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>9560497B-BFBC-7451-1808-82C0C8D5853E</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64E67FE8-07F9-8317-5BAF-4C8DD75AF42A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22A8B143-51B4-FA54-E8CA-27FB4C035467" name="RESERVA_ATENCION_FKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>2DFFC030-E9C4-FC2B-AECA-A8C8E9E23933</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72F0D09A-4C46-F4CC-85FA-784F07EEEFAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4C536C9-81EA-8177-2BAD-9CD9CA913EB0" name="RESERVA_MEDICO_FKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>B992DCD3-C4CB-A37B-9808-5AF0F5991A72</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AEC5348-6340-9355-DC87-EF3554C43A05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7BA333D-136A-E7CF-043C-02FBD7B9D037" name="RESERVA_PACIENTE_FKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>B25BF029-12BD-A524-B962-A2F31DBE0F02</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96256CCB-C14F-859F-E812-7B4428D95F1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53EF82C7-49C6-B4A7-EA9F-2D8CB60D6DF5" name="RESERVA_TIPO_RESERVA_FKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>C347BBAD-CE59-9C1E-DAED-001130771611</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E3681EA-17BC-48DD-8F77-F69E38D8396D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

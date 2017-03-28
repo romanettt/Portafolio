@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="A7E3151F-C6AD-1FFE-BDF8-F3AB1832CC16">
+<Attribute name="REC_ID" id="A7E3151F-C6AD-1FFE-BDF8-F3AB1832CC16">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 23:52:27 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="6EFFA595-A05D-2D00-4FA5-8C7D1CFEC923">
+<Attribute name="ATE_ID" id="6EFFA595-A05D-2D00-4FA5-8C7D1CFEC923">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 23:53:11 UTC</createdTime>
 <generatorID>ACCE121D-21A3-1F52-C6BE-9667668A9270</generatorID>
@@ -43,7 +43,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PORCENTAJE" id="12CDF644-7854-A086-073E-A215AA3C7BDC">
+<Attribute name="REC_PORCENTAJE" id="12CDF644-7854-A086-073E-A215AA3C7BDC">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 23:53:41 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -51,10 +51,12 @@
 <engineerTo>
 <item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TOTAL" id="DE8D0867-88ED-C135-A24D-393F4910B109">
+<Attribute name="REC_TOTAL" id="DE8D0867-88ED-C135-A24D-393F4910B109">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 23:53:47 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -62,7 +64,9 @@
 <engineerTo>
 <item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

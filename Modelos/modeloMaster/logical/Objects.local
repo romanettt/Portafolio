@@ -1,44 +1,44 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="Entity" objectID="5A7EFE70-BB37-935D-8C90-E41FD0D2A933" name="ATENCION" seqName="seg_0"/>
-   <object objectType="Entity" objectID="E5C14E9A-378F-6C32-89B0-1AB830E38AA5" name="CAJA" seqName="seg_0"/>
-   <object objectType="Entity" objectID="FC06A875-70D3-D1A2-6B04-A2EAF78F8B2A" name="CAJERO" seqName="seg_0"/>
    <object objectType="Entity" objectID="06A8896F-9EA1-E9C7-2734-60569E1B2CC9" name="CALENDARIO" seqName="seg_0"/>
-   <object objectType="Entity" objectID="B7F3EF8C-0545-104B-0780-53863C55F1D3" name="CENTRO MEDICO" seqName="seg_0"/>
-   <object objectType="Entity" objectID="E54E8589-75BE-CF78-C4A0-05745E9F8B91" name="ERRORES" seqName="seg_0"/>
-   <object objectType="Entity" objectID="1604E1A7-0B13-CD88-C916-6F62A6386189" name="ESPECIALIDAD" seqName="seg_0"/>
-   <object objectType="Entity" objectID="6AE2F42A-C467-8D2C-6F81-2AAE23008ED9" name="FORMA_PAGO" seqName="seg_0"/>
-   <object objectType="Entity" objectID="7098CDF0-4264-A475-0EFA-9FE9A15DB5D6" name="HORARIO" seqName="seg_0"/>
-   <object objectType="Entity" objectID="2B1A1EB5-5556-3463-C9B0-38F9EFEBCE6E" name="LOG_RESERVA" seqName="seg_0"/>
-   <object objectType="Entity" objectID="841CC54E-FB86-F6F6-9816-272B4DBE83DF" name="MEDICO" seqName="seg_0"/>
-   <object objectType="Entity" objectID="6788E363-180C-2C68-B35C-858D98CE5781" name="PACIENTE" seqName="seg_0"/>
-   <object objectType="Entity" objectID="B50CCD9F-B326-1129-57ED-37995036694C" name="PERSONAL" seqName="seg_0"/>
-   <object objectType="Entity" objectID="84D8E3D5-E689-B565-C581-4A9CBBC46015" name="PREVISION" seqName="seg_0"/>
-   <object objectType="Entity" objectID="C49BCF56-9F55-879A-0827-9D597562D15C" name="RECAUDACION" seqName="seg_0"/>
    <object objectType="Entity" objectID="0DEE65BF-7E5E-7771-EAEB-8989084E2F82" name="RESERVA" seqName="seg_0"/>
-   <object objectType="Entity" objectID="AD3FAE40-9350-0798-F1FC-D25FD0FA03C7" name="SECRETARIA" seqName="seg_0"/>
-   <object objectType="Entity" objectID="F76E4F5C-6A34-8254-AE23-B363074E9DCE" name="TIPO_PAGO" seqName="seg_0"/>
-   <object objectType="Entity" objectID="7E5664C7-6C61-FEF0-B7C3-3EEF97E17CA9" name="TIPO_RESERVA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1604E1A7-0B13-CD88-C916-6F62A6386189" name="ESPECIALIDAD" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2B1A1EB5-5556-3463-C9B0-38F9EFEBCE6E" name="LOG_RESERVA" seqName="seg_0"/>
    <object objectType="Entity" objectID="3130EA2C-B8B2-B93C-CDA8-73A9EE9E0A33" name="TIPO_USUARIO" seqName="seg_0"/>
    <object objectType="Entity" objectID="5845A817-A45F-CCD9-070C-4E456C89561A" name="USUARIO" seqName="seg_0"/>
-   <object objectType="Relation" objectID="ACCE121D-21A3-1F52-C6BE-9667668A9270" name="Relation_14" seqName="seg_0"/>
-   <object objectType="Relation" objectID="C50885F1-29BA-E978-84B8-675E92921E89" name="Relation_15" seqName="seg_0"/>
-   <object objectType="Relation" objectID="B23D50C4-F639-5F50-4819-2B63BE778025" name="Relation_16" seqName="seg_0"/>
-   <object objectType="Relation" objectID="633B530F-D641-D2F6-2881-BD57CB710660" name="Relation_17" seqName="seg_0"/>
-   <object objectType="Relation" objectID="87AF1CF8-3BEC-90B2-DF11-10CDCF8FCBBF" name="Relation_18" seqName="seg_0"/>
-   <object objectType="Relation" objectID="2C53FDAE-992D-E522-23BA-E827468F1EDC" name="Relation_19" seqName="seg_0"/>
-   <object objectType="Relation" objectID="B992DCD3-C4CB-A37B-9808-5AF0F5991A72" name="Relation_20" seqName="seg_0"/>
-   <object objectType="Relation" objectID="B25BF029-12BD-A524-B962-A2F31DBE0F02" name="Relation_21" seqName="seg_0"/>
-   <object objectType="Relation" objectID="C347BBAD-CE59-9C1E-DAED-001130771611" name="Relation_22" seqName="seg_0"/>
-   <object objectType="Relation" objectID="1C83CC16-46D4-8E15-E00A-12B81223BAB4" name="Relation_23" seqName="seg_0"/>
-   <object objectType="Relation" objectID="2DFFC030-E9C4-FC2B-AECA-A8C8E9E23933" name="Relation_24" seqName="seg_0"/>
-   <object objectType="Relation" objectID="FE8A9055-0F3D-F0CA-DFD8-BC70C83AA19C" name="Relation_25" seqName="seg_0"/>
-   <object objectType="Relation" objectID="838DDF63-6D80-70CC-6000-F0613CFF3910" name="Relation_26" seqName="seg_0"/>
-   <object objectType="Relation" objectID="D2B6FE0B-6C2E-44B7-EFBA-32D10DEE2910" name="Relation_27" seqName="seg_0"/>
-   <object objectType="Relation" objectID="80B009DD-2DC7-0DCD-69C2-3A489D06A6F7" name="Relation_28" seqName="seg_0"/>
-   <object objectType="Relation" objectID="5BAEAB4A-9440-C5BD-C18F-B04E85D76142" name="Relation_30" seqName="seg_0"/>
-   <object objectType="Relation" objectID="62F8EAA0-F6FD-9DA7-F47F-205EFA54C197" name="Relation_31" seqName="seg_0"/>
-   <object objectType="Relation" objectID="94D8AA9C-1A3F-9F75-F457-B6B918B60C9F" name="Relation_32" seqName="seg_0"/>
+   <object objectType="Entity" objectID="5A7EFE70-BB37-935D-8C90-E41FD0D2A933" name="ATENCION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6788E363-180C-2C68-B35C-858D98CE5781" name="PACIENTE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6AE2F42A-C467-8D2C-6F81-2AAE23008ED9" name="FORMA_PAGO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="7098CDF0-4264-A475-0EFA-9FE9A15DB5D6" name="HORARIO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="7E5664C7-6C61-FEF0-B7C3-3EEF97E17CA9" name="TIPO_RESERVA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="841CC54E-FB86-F6F6-9816-272B4DBE83DF" name="MEDICO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="84D8E3D5-E689-B565-C581-4A9CBBC46015" name="PREVISION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AD3FAE40-9350-0798-F1FC-D25FD0FA03C7" name="SECRETARIA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B50CCD9F-B326-1129-57ED-37995036694C" name="PERSONAL" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B7F3EF8C-0545-104B-0780-53863C55F1D3" name="CENTRO MEDICO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C49BCF56-9F55-879A-0827-9D597562D15C" name="RECAUDACION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E54E8589-75BE-CF78-C4A0-05745E9F8B91" name="ERRORES" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E5C14E9A-378F-6C32-89B0-1AB830E38AA5" name="CAJA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F76E4F5C-6A34-8254-AE23-B363074E9DCE" name="TIPO_PAGO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="FC06A875-70D3-D1A2-6B04-A2EAF78F8B2A" name="CAJERO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1C83CC16-46D4-8E15-E00A-12B81223BAB4" name="USUARIO_TIPOUSUARIO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2C53FDAE-992D-E522-23BA-E827468F1EDC" name="HORAIO_CALENDARIO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2DFFC030-E9C4-FC2B-AECA-A8C8E9E23933" name="ATENCION_RESERVA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5BAEAB4A-9440-C5BD-C18F-B04E85D76142" name="USUARIO_PERSONAL" seqName="seg_0"/>
+   <object objectType="Relation" objectID="62F8EAA0-F6FD-9DA7-F47F-205EFA54C197" name="USUARIO_PACIENTE" seqName="seg_0"/>
+   <object objectType="Relation" objectID="633B530F-D641-D2F6-2881-BD57CB710660" name="HORARIO_MEDICO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="80B009DD-2DC7-0DCD-69C2-3A489D06A6F7" name="CAJA_CAJERO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="838DDF63-6D80-70CC-6000-F0613CFF3910" name="FORMAPAGO_ATENCION" seqName="seg_0"/>
+   <object objectType="Relation" objectID="87AF1CF8-3BEC-90B2-DF11-10CDCF8FCBBF" name="PACIENTE_PREVISION" seqName="seg_0"/>
+   <object objectType="Relation" objectID="94D8AA9C-1A3F-9F75-F457-B6B918B60C9F" name="USUARIO_MEDICO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="ACCE121D-21A3-1F52-C6BE-9667668A9270" name="ATENCION_RECAUDACION" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B23D50C4-F639-5F50-4819-2B63BE778025" name="MEDICO_ESPECIALIDAD" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B25BF029-12BD-A524-B962-A2F31DBE0F02" name="RESERVA_PACIENTE" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B992DCD3-C4CB-A37B-9808-5AF0F5991A72" name="RESERVA_MEDICO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C347BBAD-CE59-9C1E-DAED-001130771611" name="RESERVA_TIPORESERVA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C50885F1-29BA-E978-84B8-675E92921E89" name="CENTROMEDICO_ MEDICO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D2B6FE0B-6C2E-44B7-EFBA-32D10DEE2910" name="CAJA_ATENCION" seqName="seg_0"/>
+   <object objectType="Relation" objectID="FE8A9055-0F3D-F0CA-DFD8-BC70C83AA19C" name="TIPOPAGO_ATENCION" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="8EE0D3DF-E4CF-0DCF-E80D-FB240E2AE4D1" name="Hierarchy_1" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="BF821180-5355-1CBE-D7D0-25B84F7EA862" name="Hierarchy_2" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

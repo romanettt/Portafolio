@@ -26,6 +26,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="FECHA" id="7AEC9A11-DB13-E155-E2F9-77C30D4258EE">
@@ -36,9 +37,9 @@
 <engineerTo>
 <item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="TABLA" id="FE84C287-5D85-8684-B095-1712071C4253">
@@ -49,9 +50,11 @@
 <engineerTo>
 <item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CODIGO_ERROR" id="1A50BE73-8907-C33B-5AB2-02791E4E178E">
 <createdBy>Willywes</createdBy>
@@ -61,9 +64,11 @@
 <engineerTo>
 <item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DETALLE" id="808F9CB5-7DFF-AD31-BADD-6BD1A105C1A3">
 <createdBy>Willywes</createdBy>
@@ -73,9 +78,11 @@
 <engineerTo>
 <item key="530438FC-6ED9-B1F0-BC22-60CA8A906130" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024</dataTypeSize>
+<ownDataTypeParameters>1024,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

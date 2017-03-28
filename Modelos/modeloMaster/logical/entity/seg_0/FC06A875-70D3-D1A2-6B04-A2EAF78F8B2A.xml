@@ -17,7 +17,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="DAE36783-2FA9-FE57-117E-A9766A801E2E">
+<Attribute name="CJR_ID" id="DAE36783-2FA9-FE57-117E-A9766A801E2E">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 23:37:29 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -30,7 +30,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="91EA3EAA-67E9-5A6D-5CE5-B46D23B4D2AA">
+<Attribute name="CAJ_ID" id="91EA3EAA-67E9-5A6D-5CE5-B46D23B4D2AA">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 23:38:55 UTC</createdTime>
 <generatorID>80B009DD-2DC7-0DCD-69C2-3A489D06A6F7</generatorID>

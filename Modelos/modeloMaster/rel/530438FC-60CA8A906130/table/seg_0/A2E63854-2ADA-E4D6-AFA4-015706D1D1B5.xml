@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2E63854-2ADA-E4D6-AFA4-015706D1D1B5" name="ATENCION">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>5A7EFE70-BB37-935D-8C90-E41FD0D2A933</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ATE_ID" id="C3A652E1-0D3C-16DB-B409-EBEE698ECA2F">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>61D8D4B8-A50C-6C8B-3D0B-D08AE11B0EC2</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_PAGO_TPA_ID" id="46E7B013-2FB7-953C-34DA-30C836F93596">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>C8130FBD-A347-7E71-E45E-16AF1D51D728</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DCA6C00-D818-11F9-8AA4-6029AF196F79" referredColumn="591344ED-584B-1C00-2007-2E1933CDA79C"/>
+</associations>
+</Column>
+<Column name="FORMA_PAGO_FPA_ID" id="39C1670B-E040-5C20-01FB-DE194425D93A">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>F66945B9-3D5F-CDC0-6454-4D630FE2974D</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="131682A1-2E52-6D92-E161-0572AE564F70" referredColumn="2E238CCB-3F25-4901-4595-84367B40DC3A"/>
+</associations>
+</Column>
+<Column name="CAJA_CAJ_ID" id="CBE26DCD-8E6E-7C2F-6455-255541EF8A61">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>F29661A4-DA6F-ADCB-2F8D-D0DBF9ECA1C8</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29BB9403-5A4F-3E84-D71D-E4C0069A2DCA" referredColumn="66400B2C-CA9E-C2D5-961F-EDDF11F01CB3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13C86258-F49A-C448-C022-E951C19BD996" name="ATENCION_PKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>D46A3014-255A-0401-A410-83928F56AE53</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3A652E1-0D3C-16DB-B409-EBEE698ECA2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF472687-24CA-B3E1-FDF5-6A1464F0A4F9" name="ATENCION_CAJA_FKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>D2B6FE0B-6C2E-44B7-EFBA-32D10DEE2910</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBE26DCD-8E6E-7C2F-6455-255541EF8A61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59D8BA2B-4E44-4A59-4845-67774684450E" name="ATENCION_FORMA_PAGO_FKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>838DDF63-6D80-70CC-6000-F0613CFF3910</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39C1670B-E040-5C20-01FB-DE194425D93A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0030CA7F-1FB2-FE43-A106-DC24DB8CC976" name="ATENCION_TIPO_PAGO_FKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>FE8A9055-0F3D-F0CA-DFD8-BC70C83AA19C</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46E7B013-2FB7-953C-34DA-30C836F93596"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

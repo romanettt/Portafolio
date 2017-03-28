@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="7521BC35-B270-59B4-D914-0076EC58EDF5">
+<Attribute name="CAL_ID" id="7521BC35-B270-59B4-D914-0076EC58EDF5">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 21:30:37 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MES" id="A811F000-7692-7AC4-749C-1940F0961FFA">
+<Attribute name="CAL_MES" id="A811F000-7692-7AC4-749C-1940F0961FFA">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 21:30:46 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -42,7 +42,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="38DE88EE-A532-E9DF-7CE1-00316BCEC2C6">
+<Attribute name="HOR_ID" id="38DE88EE-A532-E9DF-7CE1-00316BCEC2C6">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 21:33:48 UTC</createdTime>
 <generatorID>2C53FDAE-992D-E522-23BA-E827468F1EDC</generatorID>

@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="0AD4ED20-C7B5-BC75-8B38-C11C36455FD7">
+<Attribute name="FPA_ID" id="0AD4ED20-C7B5-BC75-8B38-C11C36455FD7">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 23:34:48 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NOMBRE" id="8DB3C791-B565-2E4B-AEBA-DB3D2F78EBFF">
+<Attribute name="FPA_NOMBRE" id="8DB3C791-B565-2E4B-AEBA-DB3D2F78EBFF">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 23:34:48 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>

@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="61D8D4B8-A50C-6C8B-3D0B-D08AE11B0EC2">
+<Attribute name="ATE_ID" id="61D8D4B8-A50C-6C8B-3D0B-D08AE11B0EC2">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 23:30:29 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="C8130FBD-A347-7E71-E45E-16AF1D51D728">
+<Attribute name="TPA_ID" id="C8130FBD-A347-7E71-E45E-16AF1D51D728">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 23:36:52 UTC</createdTime>
 <generatorID>FE8A9055-0F3D-F0CA-DFD8-BC70C83AA19C</generatorID>
@@ -43,7 +43,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID2" id="F66945B9-3D5F-CDC0-6454-4D630FE2974D">
+<Attribute name="FPA_ID" id="F66945B9-3D5F-CDC0-6454-4D630FE2974D">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 23:36:57 UTC</createdTime>
 <generatorID>838DDF63-6D80-70CC-6000-F0613CFF3910</generatorID>
@@ -57,7 +57,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID3" id="F29661A4-DA6F-ADCB-2F8D-D0DBF9ECA1C8">
+<Attribute name="CAJ_ID" id="F29661A4-DA6F-ADCB-2F8D-D0DBF9ECA1C8">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 23:38:24 UTC</createdTime>
 <generatorID>D2B6FE0B-6C2E-44B7-EFBA-32D10DEE2910</generatorID>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_15" directorySegmentName="seg_0" id="C50885F1-29BA-E978-84B8-675E92921E89">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CENTROMEDICO_ MEDICO" directorySegmentName="seg_0" id="C50885F1-29BA-E978-84B8-675E92921E89">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 21:15:03 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -9,7 +9,7 @@
 </engineerTo>
 <sourcePk>7AC5B607-80D0-22E3-3C49-670763E1304D</sourcePk>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>B7F3EF8C-0545-104B-0780-53863C55F1D3</sourceEntity>

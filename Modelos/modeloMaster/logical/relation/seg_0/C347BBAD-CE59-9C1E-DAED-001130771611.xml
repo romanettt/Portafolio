@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_22" directorySegmentName="seg_0" id="C347BBAD-CE59-9C1E-DAED-001130771611">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RESERVA_TIPORESERVA" directorySegmentName="seg_0" id="C347BBAD-CE59-9C1E-DAED-001130771611">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 22:08:20 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>

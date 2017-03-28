@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0635D92-836F-037C-8812-92255374177F" name="CAJERO">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>FC06A875-70D3-D1A2-6B04-A2EAF78F8B2A</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PER_ID" id="9B803C17-2EAA-6A64-7BE7-1FB6CEF07EF4">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>747A367E-4480-C774-A81A-08385D803252</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88562283-F482-3B55-F7A8-48DBCE5441DB" referredColumn="A017FD88-026E-602D-0FF9-17FDFC6B0EB2"/>
+</associations>
+</Column>
+<Column name="CJR_ID" id="D4C9FE07-35D6-F2BD-ADFB-78B24AB146B2">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>DAE36783-2FA9-FE57-117E-A9766A801E2E</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAJA_CAJ_ID" id="466C9A89-686C-B99F-C233-8682CE5FBEE8">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>91EA3EAA-67E9-5A6D-5CE5-B46D23B4D2AA</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9DF2081-953F-42C7-6140-2269330DAF1E" referredColumn="66400B2C-CA9E-C2D5-961F-EDDF11F01CB3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C33B1236-08BA-18B8-936E-4F7F2B375D00" name="CAJERO_PKv3">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>9BC73669-7B57-217D-78B0-2FCF8BEFA0A6</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B803C17-2EAA-6A64-7BE7-1FB6CEF07EF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="239B85DF-F0A0-4268-8174-6F86D0B7F6BA" name="CAJERO_PKv5">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>9A85936B-CFAD-7803-236C-C995ABCDDF6D</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4C9FE07-35D6-F2BD-ADFB-78B24AB146B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="106388F4-63CC-1842-F985-62BE070E8150" name="CAJERO_PERSONAL_FK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>8EE0D3DF-E4CF-0DCF-E80D-FB240E2AE4D1</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B803C17-2EAA-6A64-7BE7-1FB6CEF07EF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C69AC38F-45CA-1F82-B33D-01B5D44D84DC" name="CAJERO_CAJA_FKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>80B009DD-2DC7-0DCD-69C2-3A489D06A6F7</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="466C9A89-686C-B99F-C233-8682CE5FBEE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

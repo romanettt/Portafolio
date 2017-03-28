@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="DFD3655E-D7AE-8E81-0997-940A794DDEF0">
+<Attribute name="PAC_ID" id="DFD3655E-D7AE-8E81-0997-940A794DDEF0">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 20:30:12 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="RUT" id="1CDF76C8-53E5-F2C0-F9E2-94F340BB62B5">
+<Attribute name="PAC_RUT" id="1CDF76C8-53E5-F2C0-F9E2-94F340BB62B5">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 20:30:27 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -42,7 +42,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DV" id="27E580C0-3FFB-2A39-33E1-5CA13EA73AB9">
+<Attribute name="PAC_DV" id="27E580C0-3FFB-2A39-33E1-5CA13EA73AB9">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 20:30:38 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -56,7 +56,7 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NOMBRES" id="1936F0A0-FE09-6925-ABBD-C9FEA24AA938">
+<Attribute name="PAC_NOMBRES" id="1936F0A0-FE09-6925-ABBD-C9FEA24AA938">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 20:30:59 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -70,7 +70,7 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PATERNO" id="D4915DA4-9E3E-17DD-EECE-E6741CC3B7DC">
+<Attribute name="PAC_PATERNO" id="D4915DA4-9E3E-17DD-EECE-E6741CC3B7DC">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 20:31:15 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -84,7 +84,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MATERNO" id="675DD35E-3185-229C-1CA6-B16ACFA0AF3F">
+<Attribute name="PAC_MATERNO" id="675DD35E-3185-229C-1CA6-B16ACFA0AF3F">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 20:32:04 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -98,7 +98,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="FNAC" id="956877A1-E74B-F881-93EF-072C05201D23">
+<Attribute name="PAC_FNAC" id="956877A1-E74B-F881-93EF-072C05201D23">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 20:32:57 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -111,7 +111,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DIRECCION" id="E3AB81CD-EB49-624E-2441-265E3AC112B4">
+<Attribute name="PAC_DIRECCION" id="E3AB81CD-EB49-624E-2441-265E3AC112B4">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 20:33:14 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -125,7 +125,7 @@
 <dataTypeSize>150</dataTypeSize>
 <ownDataTypeParameters>150,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CELULAR" id="CD8CCABE-4E14-D119-16ED-2E3A91D8AD19">
+<Attribute name="PAC_CELULAR" id="CD8CCABE-4E14-D119-16ED-2E3A91D8AD19">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 20:33:33 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -139,7 +139,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TELEFONO" id="4E6FF5D6-CA5F-AE9D-3558-DCF8452D79B7">
+<Attribute name="PAC_TELEFONO" id="4E6FF5D6-CA5F-AE9D-3558-DCF8452D79B7">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 20:33:50 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -153,7 +153,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="3083DCBF-2E68-10A3-7114-C3281BD6E2CB">
+<Attribute name="PRE_ID" id="3083DCBF-2E68-10A3-7114-C3281BD6E2CB">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 23:56:06 UTC</createdTime>
 <generatorID>87AF1CF8-3BEC-90B2-DF11-10CDCF8FCBBF</generatorID>
@@ -167,7 +167,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID2" id="64F1E89F-ED06-E3FE-87E7-E8809BA0F277">
+<Attribute name="USU_ID" id="64F1E89F-ED06-E3FE-87E7-E8809BA0F277">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-27 00:00:31 UTC</createdTime>
 <generatorID>62F8EAA0-F6FD-9DA7-F47F-205EFA54C197</generatorID>

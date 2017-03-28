@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF3DC8E6-A7BD-C4CF-1B34-C1BFA1AB8E49" name="SECRETARIA">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>AD3FAE40-9350-0798-F1FC-D25FD0FA03C7</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PER_ID" id="88F305AD-DDDE-F95A-ECFA-8E415D6FECDB">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>747A367E-4480-C774-A81A-08385D803252</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54F68395-7B79-17E0-D935-E7CDCAAF54F4" referredColumn="A017FD88-026E-602D-0FF9-17FDFC6B0EB2"/>
+</associations>
+</Column>
+<Column name="SEC_ID" id="98A6D044-B2C8-82B6-89F7-86E72567CBE1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>4774703B-5A20-4077-0E67-C5E314DD38AF</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC06364B-F5D7-3708-CBDE-EDFFE0DEDCF2" name="SECRETARIA_PKv3">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>9BC73669-7B57-217D-78B0-2FCF8BEFA0A6</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88F305AD-DDDE-F95A-ECFA-8E415D6FECDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE2C4AFD-75BA-AD7C-9935-1CCBE189B5AC" name="SECRETARIA_PKv5">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>C9D9B72D-7259-0A2E-4DD0-0DE5E1FFB199</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98A6D044-B2C8-82B6-89F7-86E72567CBE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7E6E0D2-3429-5E59-C248-C62284A095A5" name="SECRETARIA_PERSONAL_FKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-27 15:11:54 UTC</createdTime>
+<generatorID>BF821180-5355-1CBE-D7D0-25B84F7EA862</generatorID>
+<ownerDesignName>modeloMaster</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88F305AD-DDDE-F95A-ECFA-8E415D6FECDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="C5A334B4-1CEA-441D-A28A-06D78F6FB57A">
+<Attribute name="TPA_ID" id="C5A334B4-1CEA-441D-A28A-06D78F6FB57A">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 23:34:29 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NOMBRE" id="E891D268-3D74-AC25-1303-EF1BB5176159">
+<Attribute name="TPA_NOMBRE" id="E891D268-3D74-AC25-1303-EF1BB5176159">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-03-26 23:34:29 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>

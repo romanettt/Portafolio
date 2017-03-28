@@ -1,45 +1,45 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="Table" objectID="EDFC4094-0076-AA99-EFB4-E485F847695B" name="ATENCION" seqName="seg_0"/>
-   <object objectType="Table" objectID="143250D0-36EA-4EEE-1B54-FFF26910E7CE" name="CAJA" seqName="seg_0"/>
-   <object objectType="Table" objectID="C2E5B87F-46B6-3D26-766B-D5C5CE5ED050" name="CAJERO" seqName="seg_0"/>
-   <object objectType="Table" objectID="16D1094F-02FA-3430-015A-64690D279060" name="CALENDARIO" seqName="seg_0"/>
-   <object objectType="Table" objectID="FFDCC414-BD39-827F-9DBA-1DBB079D19A8" name="CENTRO_MEDICO" seqName="seg_0"/>
-   <object objectType="Table" objectID="59A9620C-DF94-6B36-722F-A0A5FCEEA70A" name="ERRORES" seqName="seg_0"/>
-   <object objectType="Table" objectID="CFD83A95-456C-0BB8-E9E4-5A9FE9EB6AFD" name="ESPECIALIDAD" seqName="seg_0"/>
-   <object objectType="Table" objectID="CA14A808-AD51-9B73-C0B8-1764A5059B69" name="FORMA_PAGO" seqName="seg_0"/>
-   <object objectType="Table" objectID="97E0E0A7-CD14-08B4-2417-AE13A3DE7949" name="HORARIO" seqName="seg_0"/>
-   <object objectType="Table" objectID="BA529083-09AD-9558-6263-F40A33989BC6" name="LOG_RESERVA" seqName="seg_0"/>
-   <object objectType="Table" objectID="7096211E-FCC1-DFAC-895E-F8C5FD575BE3" name="MEDICO" seqName="seg_0"/>
-   <object objectType="Table" objectID="6A0F52E8-B2A7-8986-0AED-50E09CD2C558" name="PACIENTE" seqName="seg_0"/>
-   <object objectType="Table" objectID="43E37A21-B22B-8ED6-F07A-B0DC27436B45" name="PERSONAL" seqName="seg_0"/>
-   <object objectType="Table" objectID="73B87333-06D4-36A9-580B-CD542A5FC476" name="PREVISION" seqName="seg_0"/>
-   <object objectType="Table" objectID="8973C782-296E-96BE-F9F8-75C1E991EE19" name="RECAUDACION" seqName="seg_0"/>
-   <object objectType="Table" objectID="3D9036C1-C20E-C221-2F82-FCE45746A21C" name="RESERVA" seqName="seg_0"/>
-   <object objectType="Table" objectID="6C563670-3568-1F83-A13C-2086A0CFE618" name="SECRETARIA" seqName="seg_0"/>
-   <object objectType="Table" objectID="9D74ED32-4ADA-EBA0-9144-1AD03C27398A" name="TIPO_PAGO" seqName="seg_0"/>
-   <object objectType="Table" objectID="EA0A6529-153E-8BB0-D026-8287640EE44D" name="TIPO_RESERVA" seqName="seg_0"/>
-   <object objectType="Table" objectID="791F7B9A-0E51-6154-9659-EF349C3A6D3F" name="TIPO_USUARIO" seqName="seg_0"/>
-   <object objectType="Table" objectID="B27FE74A-5EDD-16FC-5D08-F52FEAE5B20E" name="USUARIO" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="29EB7CEE-61D0-CC45-9D2E-8CB8397FEC80" name="ATENCION_CAJA_FK" seqName="seg_0" containerID="EDFC4094-0076-AA99-EFB4-E485F847695B" refContainerID="143250D0-36EA-4EEE-1B54-FFF26910E7CE"/>
-   <object objectType="FKIndexAssociation" objectID="E37DE5CC-5E7F-6FE8-4060-5059536DF938" name="ATENCION_FORMA_PAGO_FK" seqName="seg_0" containerID="EDFC4094-0076-AA99-EFB4-E485F847695B" refContainerID="CA14A808-AD51-9B73-C0B8-1764A5059B69"/>
-   <object objectType="FKIndexAssociation" objectID="A18B2992-BF6A-8686-8968-CDBAFEAAEED5" name="ATENCION_TIPO_PAGO_FK" seqName="seg_0" containerID="EDFC4094-0076-AA99-EFB4-E485F847695B" refContainerID="9D74ED32-4ADA-EBA0-9144-1AD03C27398A"/>
-   <object objectType="FKIndexAssociation" objectID="8180F5BE-9CCB-BE11-922D-C6D34FAF2601" name="CAJERO_CAJA_FK" seqName="seg_0" containerID="C2E5B87F-46B6-3D26-766B-D5C5CE5ED050" refContainerID="143250D0-36EA-4EEE-1B54-FFF26910E7CE"/>
-   <object objectType="FKIndexAssociation" objectID="A1BC9124-78DF-32A5-1C3A-6821FA6026E1" name="CAJERO_PERSONAL_FK" seqName="seg_0" containerID="C2E5B87F-46B6-3D26-766B-D5C5CE5ED050" refContainerID="43E37A21-B22B-8ED6-F07A-B0DC27436B45"/>
-   <object objectType="FKIndexAssociation" objectID="E6FFAF38-EE75-9BFD-D19D-9D918E4431F8" name="CALENDARIO_HORARIO_FK" seqName="seg_0" containerID="16D1094F-02FA-3430-015A-64690D279060" refContainerID="97E0E0A7-CD14-08B4-2417-AE13A3DE7949"/>
-   <object objectType="FKIndexAssociation" objectID="200C9EAD-C21C-FC32-FB54-7F798798E860" name="HORARIO_MEDICO_FK" seqName="seg_0" containerID="97E0E0A7-CD14-08B4-2417-AE13A3DE7949" refContainerID="7096211E-FCC1-DFAC-895E-F8C5FD575BE3"/>
-   <object objectType="FKIndexAssociation" objectID="13151C20-F4C0-4A92-407E-1F0B8A17FB08" name="MEDICO_CENTRO_MEDICO_FK" seqName="seg_0" containerID="7096211E-FCC1-DFAC-895E-F8C5FD575BE3" refContainerID="FFDCC414-BD39-827F-9DBA-1DBB079D19A8"/>
-   <object objectType="FKIndexAssociation" objectID="6C91F7B3-2427-0260-7814-8DB13731C4BD" name="MEDICO_ESPECIALIDAD_FK" seqName="seg_0" containerID="7096211E-FCC1-DFAC-895E-F8C5FD575BE3" refContainerID="CFD83A95-456C-0BB8-E9E4-5A9FE9EB6AFD"/>
-   <object objectType="FKIndexAssociation" objectID="6D162CEC-CDE2-ECFE-2707-F9CC3A90EDF1" name="MEDICO_USUARIO_FK" seqName="seg_0" containerID="7096211E-FCC1-DFAC-895E-F8C5FD575BE3" refContainerID="B27FE74A-5EDD-16FC-5D08-F52FEAE5B20E"/>
-   <object objectType="FKIndexAssociation" objectID="A20347F6-EC51-8DC8-8F11-CF6CC2DCC90F" name="PACIENTE_PREVISION_FK" seqName="seg_0" containerID="6A0F52E8-B2A7-8986-0AED-50E09CD2C558" refContainerID="73B87333-06D4-36A9-580B-CD542A5FC476"/>
-   <object objectType="FKIndexAssociation" objectID="1C5C8FD6-A5A6-038F-3183-A6C33ECA377F" name="PACIENTE_USUARIO_FK" seqName="seg_0" containerID="6A0F52E8-B2A7-8986-0AED-50E09CD2C558" refContainerID="B27FE74A-5EDD-16FC-5D08-F52FEAE5B20E"/>
-   <object objectType="FKIndexAssociation" objectID="FC3A5534-5AD0-313B-9C13-9DE382EA751C" name="PERSONAL_USUARIO_FK" seqName="seg_0" containerID="43E37A21-B22B-8ED6-F07A-B0DC27436B45" refContainerID="B27FE74A-5EDD-16FC-5D08-F52FEAE5B20E"/>
-   <object objectType="FKIndexAssociation" objectID="D4876135-AEE7-17CA-59B5-6F260884376B" name="RECAUDACION_ATENCION_FK" seqName="seg_0" containerID="8973C782-296E-96BE-F9F8-75C1E991EE19" refContainerID="EDFC4094-0076-AA99-EFB4-E485F847695B"/>
-   <object objectType="FKIndexAssociation" objectID="A4AD91BF-C9CD-37BA-6C1C-7C6C923B3A24" name="RESERVA_ATENCION_FK" seqName="seg_0" containerID="3D9036C1-C20E-C221-2F82-FCE45746A21C" refContainerID="EDFC4094-0076-AA99-EFB4-E485F847695B"/>
-   <object objectType="FKIndexAssociation" objectID="BAC7ABCA-AEBF-192B-FF9E-D93A0B7ED5BE" name="RESERVA_MEDICO_FK" seqName="seg_0" containerID="3D9036C1-C20E-C221-2F82-FCE45746A21C" refContainerID="7096211E-FCC1-DFAC-895E-F8C5FD575BE3"/>
-   <object objectType="FKIndexAssociation" objectID="0AC44DE7-FA38-2C51-B4EB-055EED7C78F4" name="RESERVA_PACIENTE_FK" seqName="seg_0" containerID="3D9036C1-C20E-C221-2F82-FCE45746A21C" refContainerID="6A0F52E8-B2A7-8986-0AED-50E09CD2C558"/>
-   <object objectType="FKIndexAssociation" objectID="7DE153B4-7261-8A47-8BC5-F78B99FCEC78" name="RESERVA_TIPO_RESERVA_FK" seqName="seg_0" containerID="3D9036C1-C20E-C221-2F82-FCE45746A21C" refContainerID="EA0A6529-153E-8BB0-D026-8287640EE44D"/>
-   <object objectType="FKIndexAssociation" objectID="AE1D92C9-0D56-F538-E57C-64C6D811B3F8" name="SECRETARIA_PERSONAL_FK" seqName="seg_0" containerID="6C563670-3568-1F83-A13C-2086A0CFE618" refContainerID="43E37A21-B22B-8ED6-F07A-B0DC27436B45"/>
-   <object objectType="FKIndexAssociation" objectID="D27EA698-109E-1533-EE9A-30F4D78D2D7D" name="USUARIO_TIPO_USUARIO_FK" seqName="seg_0" containerID="B27FE74A-5EDD-16FC-5D08-F52FEAE5B20E" refContainerID="791F7B9A-0E51-6154-9659-EF349C3A6D3F"/>
-   <object objectType="FKArc" objectID="155DAEA4-1582-C51E-7223-85820FCEC6EE" name="FKArc_1" seqName="seg_0"/>
+   <object objectType="Table" objectID="0668FB54-9068-72DD-ED40-69E95F93CCF7" name="MEDICO" seqName="seg_0"/>
+   <object objectType="Table" objectID="0C0980EF-F7BA-5BFD-E450-67795021DE31" name="ERRORES" seqName="seg_0"/>
+   <object objectType="Table" objectID="1201BA70-02DB-DBEB-2FC2-1E25072F77B6" name="TIPO_USUARIO" seqName="seg_0"/>
+   <object objectType="Table" objectID="17871CFA-4F16-D7E2-1A4E-77AB7696BC37" name="TIPO_RESERVA" seqName="seg_0"/>
+   <object objectType="Table" objectID="25F8EF80-449E-ABA9-F055-12DABBD62E9B" name="CAJA" seqName="seg_0"/>
+   <object objectType="Table" objectID="400B4C31-DC57-05E6-CDA0-EC65474701C0" name="PREVISION" seqName="seg_0"/>
+   <object objectType="Table" objectID="65B62327-8DC0-63D7-E54C-A33B175F939F" name="PACIENTE" seqName="seg_0"/>
+   <object objectType="Table" objectID="69E608B8-C971-4A29-2245-4274DA7A0ED1" name="CENTRO_MEDICO" seqName="seg_0"/>
+   <object objectType="Table" objectID="761F80A4-0FA2-BB47-472B-91357327053F" name="LOG_RESERVA" seqName="seg_0"/>
+   <object objectType="Table" objectID="766D166B-A274-98A9-9D46-3549E87EB70F" name="ESPECIALIDAD" seqName="seg_0"/>
+   <object objectType="Table" objectID="76C91EA0-45BD-6E68-07B8-940D150CB4CA" name="FORMA_PAGO" seqName="seg_0"/>
+   <object objectType="Table" objectID="7EBEE1D4-BEB3-1FE0-AE46-0D1C0ABC391C" name="HORARIO" seqName="seg_0"/>
+   <object objectType="Table" objectID="962A48CA-6B97-BE89-D512-8BC7F659F22A" name="PERSONAL" seqName="seg_0"/>
+   <object objectType="Table" objectID="A0635D92-836F-037C-8812-92255374177F" name="CAJERO" seqName="seg_0"/>
+   <object objectType="Table" objectID="A2E63854-2ADA-E4D6-AFA4-015706D1D1B5" name="ATENCION" seqName="seg_0"/>
+   <object objectType="Table" objectID="A70ECF3B-2E40-827E-6050-EE7933457AA4" name="USUARIO" seqName="seg_0"/>
+   <object objectType="Table" objectID="B693599A-ACF0-2F19-B4BC-00C796DA9E61" name="CALENDARIO" seqName="seg_0"/>
+   <object objectType="Table" objectID="C6A6627B-8B89-3C6D-E4F7-5DF479CDEB50" name="TIPO_PAGO" seqName="seg_0"/>
+   <object objectType="Table" objectID="DF3DC8E6-A7BD-C4CF-1B34-C1BFA1AB8E49" name="SECRETARIA" seqName="seg_0"/>
+   <object objectType="Table" objectID="E71DDBD3-9059-C274-81F9-A63366D768A9" name="RECAUDACION" seqName="seg_0"/>
+   <object objectType="Table" objectID="F1B49852-8C03-776E-017B-5CAFEA653BAD" name="RESERVA" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="098BCC8A-0DB6-19D3-BC24-ED234281FD0C" name="HORARIO_MEDICO_FKv1" containerID="7EBEE1D4-BEB3-1FE0-AE46-0D1C0ABC391C" refContainerID="0668FB54-9068-72DD-ED40-69E95F93CCF7" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0E487A84-AB02-8E3A-D833-0112F271C360" name="MEDICO_CENTRO_MEDICO_FKv1" containerID="0668FB54-9068-72DD-ED40-69E95F93CCF7" refContainerID="69E608B8-C971-4A29-2245-4274DA7A0ED1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="131682A1-2E52-6D92-E161-0572AE564F70" name="ATENCION_FORMA_PAGO_FKv1" containerID="A2E63854-2ADA-E4D6-AFA4-015706D1D1B5" refContainerID="76C91EA0-45BD-6E68-07B8-940D150CB4CA" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2066B5F3-AF07-C135-BCA1-0AEB017E5166" name="PACIENTE_PREVISION_FKv1" containerID="65B62327-8DC0-63D7-E54C-A33B175F939F" refContainerID="400B4C31-DC57-05E6-CDA0-EC65474701C0" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="29BB9403-5A4F-3E84-D71D-E4C0069A2DCA" name="ATENCION_CAJA_FKv1" containerID="A2E63854-2ADA-E4D6-AFA4-015706D1D1B5" refContainerID="25F8EF80-449E-ABA9-F055-12DABBD62E9B" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="35461A2B-206A-9223-511D-6877CF81D205" name="RECAUDACION_ATENCION_FKv1" containerID="E71DDBD3-9059-C274-81F9-A63366D768A9" refContainerID="A2E63854-2ADA-E4D6-AFA4-015706D1D1B5" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="54F68395-7B79-17E0-D935-E7CDCAAF54F4" name="SECRETARIA_PERSONAL_FKv1" containerID="DF3DC8E6-A7BD-C4CF-1B34-C1BFA1AB8E49" refContainerID="962A48CA-6B97-BE89-D512-8BC7F659F22A" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5D7E8E9C-2ECB-B168-EBAA-3C1C9225068E" name="RESERVA_TIPO_RESERVA_FKv1" containerID="F1B49852-8C03-776E-017B-5CAFEA653BAD" refContainerID="17871CFA-4F16-D7E2-1A4E-77AB7696BC37" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="652AF2E2-4572-D990-3790-C5126FBBBE50" name="USUARIO_TIPO_USUARIO_FKv1" containerID="A70ECF3B-2E40-827E-6050-EE7933457AA4" refContainerID="1201BA70-02DB-DBEB-2FC2-1E25072F77B6" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6981FDD5-4364-7D0C-3C60-4979EA2B83AB" name="PACIENTE_USUARIO_FKv1" containerID="65B62327-8DC0-63D7-E54C-A33B175F939F" refContainerID="A70ECF3B-2E40-827E-6050-EE7933457AA4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7512E661-3FA9-3881-2B24-3E2DC8D9BDAB" name="RESERVA_MEDICO_FKv1" containerID="F1B49852-8C03-776E-017B-5CAFEA653BAD" refContainerID="0668FB54-9068-72DD-ED40-69E95F93CCF7" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7637F8CD-980D-B13B-BB33-D6C154AA2DE6" name="RESERVA_PACIENTE_FKv1" containerID="F1B49852-8C03-776E-017B-5CAFEA653BAD" refContainerID="65B62327-8DC0-63D7-E54C-A33B175F939F" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="764A9B58-4880-4E38-A821-F4DC3C18868B" name="MEDICO_ESPECIALIDAD_FKv1" containerID="0668FB54-9068-72DD-ED40-69E95F93CCF7" refContainerID="766D166B-A274-98A9-9D46-3549E87EB70F" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="88562283-F482-3B55-F7A8-48DBCE5441DB" name="CAJERO_PERSONAL_FK" containerID="A0635D92-836F-037C-8812-92255374177F" refContainerID="962A48CA-6B97-BE89-D512-8BC7F659F22A" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="921B2935-5ADB-2E6B-EC13-B6A3442D19F9" name="CALENDARIO_HORARIO_FKv1" containerID="B693599A-ACF0-2F19-B4BC-00C796DA9E61" refContainerID="7EBEE1D4-BEB3-1FE0-AE46-0D1C0ABC391C" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="928C6DA2-ED62-04B5-BE8D-18D57B5889EE" name="MEDICO_USUARIO_FKv1" containerID="0668FB54-9068-72DD-ED40-69E95F93CCF7" refContainerID="A70ECF3B-2E40-827E-6050-EE7933457AA4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9DCA6C00-D818-11F9-8AA4-6029AF196F79" name="ATENCION_TIPO_PAGO_FKv1" containerID="A2E63854-2ADA-E4D6-AFA4-015706D1D1B5" refContainerID="C6A6627B-8B89-3C6D-E4F7-5DF479CDEB50" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A8A783DD-DF7F-F1B7-8FD5-DE807DF5158B" name="RESERVA_ATENCION_FKv1" containerID="F1B49852-8C03-776E-017B-5CAFEA653BAD" refContainerID="A2E63854-2ADA-E4D6-AFA4-015706D1D1B5" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A9DF2081-953F-42C7-6140-2269330DAF1E" name="CAJERO_CAJA_FKv1" containerID="A0635D92-836F-037C-8812-92255374177F" refContainerID="25F8EF80-449E-ABA9-F055-12DABBD62E9B" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F4DFA32D-8759-7DEF-36B8-231AA4CCE392" name="PERSONAL_USUARIO_FKv1" containerID="962A48CA-6B97-BE89-D512-8BC7F659F22A" refContainerID="A70ECF3B-2E40-827E-6050-EE7933457AA4" seqName="seg_0"/>
+   <object objectType="FKArc" objectID="E0776A83-92F3-BECA-2E27-4A974379AA6E" name="FKArc_3" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

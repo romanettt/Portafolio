@@ -1,0 +1,39 @@
+"1.- Modelamiento
+Construye el modelos del Dominio de los casos de uso."	
+Construye modelos de dominio que representa la totalidad de las entidades del negocio, procesos e interrelaciones presentes en los casos de uso
+
+"2.- Normalización
+Normaliza el modelo de datos"	
+Construye un modelo relacional totalmente normalizado a partir de un modelo entidad relación que satisface los requerimeintos de información propuestos en los casos de uso.
+
+"3.- Implementación Modelo de datos
+Construye sentencias SQL"	
+Construye Sentencias SQL de creación, manipulación y vizualización para la totalidad del modelos de datos.
+
+"4.- Acceso a Datos
+Construye componentes de Acceso a Datos."	
+Construye los componentes de acceso a datos que permitan al sistema satisfacer la totalidad requerimientos y solicitudes comprometidos para la iteración.
+
+"5.- Implementacion Modelo Datos
+Programa una base de datos"	
+Implementa una base de datos, que incorpora procedimientos almacenados, vistas de usuario, procesos batch u otros componentes que permitan responder a la totalidad de los requerimeintos y solicitudes de datos del sistema.
+
+"6.- Negocio
+Programa componentes JAVA y/o .NET"	
+Implementa la totalidad de los componentes de la capa de negocio, utilizando JAVA o .NET que permitan satisface las funcionalidades del negocio especificadas en los casos de uso seleccionados para la iteración.
+
+"7.- Patrones
+Uso de Patrones de Diseño y Arquitectónicos"	
+Utiliza patrones de diseño o arquitectónicos en la totatlidad de los casos en que se justifica o es aplicable para mejorar la construcción del sistema.
+
+"8.- Implementación Capa de Presentación
+Construye una capa de Presentación considerando usabilidad y navegabilidad"	
+Construye los componentes de la capa de presentación considerando usabilidad y navegabilidad en la totalidad de ellos.
+
+"9.- Pruebas
+Construye un plan de pruebas para verificar el funcionamiento correcto de la aplicación"	
+Construye un plan de pruebas para verificar la totalidad del funcionamiento correcto de la aplicación
+
+"10.- Pruebas
+Aplica el plan de pruebas para verificar el funcionamiento correcto de la aplicación"	
+Aplica el plan de pruebas para verificar la totalidad del funcionamiento correcto de la aplicación
