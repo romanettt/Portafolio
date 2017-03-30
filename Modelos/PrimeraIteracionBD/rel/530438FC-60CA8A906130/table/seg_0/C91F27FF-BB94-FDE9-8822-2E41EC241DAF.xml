@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C91F27FF-BB94-FDE9-8822-2E41EC241DAF" name="CALENDARIO">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>06A8896F-9EA1-E9C7-2734-60569E1B2CC9</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CAL" id="6107903F-E5BA-9B42-B99C-058D8CBD8480">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>7521BC35-B270-59B4-D914-0076EC58EDF5</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MES" id="53D819C5-44E3-BC8D-C8C1-719C35F39A6C">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>A811F000-7692-7AC4-749C-1940F0961FFA</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORARIO_ID_HOR" id="58F14DAC-A1B2-3F17-BAE4-57C4146C7340">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>38DE88EE-A532-E9DF-7CE1-00316BCEC2C6</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F65B83D6-187E-44D0-CF00-1321F519E38E" referredColumn="C119FDDF-87FF-DCC0-020C-F78B5392A396"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A573C96-060F-AE54-4524-C3870CFF2297" name="CALENDARIO_PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>84C9E803-D162-EFD3-4BD2-2E8431F747AC</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6107903F-E5BA-9B42-B99C-058D8CBD8480"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EE9B6F4-6409-1CB3-C1B1-7FDC5A3966A8" name="CALENDARIO_HORARIO_FK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>2C53FDAE-992D-E522-23BA-E827468F1EDC</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58F14DAC-A1B2-3F17-BAE4-57C4146C7340"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

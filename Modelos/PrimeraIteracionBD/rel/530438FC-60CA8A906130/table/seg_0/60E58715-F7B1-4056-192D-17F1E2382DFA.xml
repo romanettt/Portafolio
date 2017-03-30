@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60E58715-F7B1-4056-192D-17F1E2382DFA" name="ERRORES">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>E54E8589-75BE-CF78-C4A0-05745E9F8B91</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C8EA635E-D138-BAC1-BF22-B35D30EDA9E5">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>9FBA6EA1-9A9C-E8E6-6AD3-6E4C1F343D5C</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="4D1D30C2-8278-D0BA-51C8-C84C8F6DF41F">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>7AEC9A11-DB13-E155-E2F9-77C30D4258EE</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TABLA" id="7120C198-CDB8-24DF-27E7-C73390DD20CC">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>FE84C287-5D85-8684-B095-1712071C4253</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ERROR" id="5DA68D1C-F604-4206-3130-1C9769608B32">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>1A50BE73-8907-C33B-5AB2-02791E4E178E</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DETALLE" id="A18DCB6D-FE84-3EA2-7164-6D43B51EFA58">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>808F9CB5-7DFF-AD31-BADD-6BD1A105C1A3</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024</dataTypeSize>
+<ownDataTypeParameters>1024,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60506A6B-9278-70BD-0BA4-440C2E50FBBD" name="ERRORES_PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>67B5C6A2-4A6A-E4B4-8DDE-0ED9FB5720D8</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8EA635E-D138-BAC1-BF22-B35D30EDA9E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

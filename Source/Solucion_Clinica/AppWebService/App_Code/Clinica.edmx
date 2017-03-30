@@ -1,0 +1,1431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Model.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="11.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ATENCION">
+          <Key>
+            <PropertyRef Name="ATE_ID" />
+          </Key>
+          <Property Name="ATE_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="TIPO_PAGO_TPA_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="FORMA_PAGO_FPA_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="CAJA_CAJ_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CAJA">
+          <Key>
+            <PropertyRef Name="CAJ_ID" />
+          </Key>
+          <Property Name="CAJ_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="CAJ_NOMBRE" Type="varchar2" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CAJERO">
+          <Key>
+            <PropertyRef Name="PER_ID" />
+          </Key>
+          <Property Name="PER_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="CJR_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="CAJA_CAJ_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CALENDARIO">
+          <Key>
+            <PropertyRef Name="CAL_ID" />
+          </Key>
+          <Property Name="CAL_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="CAL_MES" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="HORARIO_HOR_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CENTRO_MEDICO">
+          <Key>
+            <PropertyRef Name="CME_ID" />
+          </Key>
+          <Property Name="CME_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="CME_NOMBRE" Type="varchar2" MaxLength="100" Nullable="false" />
+          <Property Name="CME_DIRECCION" Type="varchar2" MaxLength="100" Nullable="false" />
+          <Property Name="CME_EMAIL" Type="varchar2" MaxLength="100" Nullable="false" />
+          <Property Name="CME_TELEFONO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="CME_HORA_APERT" Type="date" Nullable="false" />
+          <Property Name="CME_HORA_CIERRE" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ERRORES">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="FECHA" Type="date" Nullable="false" />
+          <Property Name="TABLA" Type="varchar2" MaxLength="100" Nullable="false" />
+          <Property Name="CODIGO_ERROR" Type="varchar2" MaxLength="20" Nullable="false" />
+          <Property Name="DETALLE" Type="varchar2" MaxLength="1024" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ESPECIALIDAD">
+          <Key>
+            <PropertyRef Name="ESP_ID" />
+          </Key>
+          <Property Name="ESP_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ESP_NOMBRE" Type="varchar2" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="FORMA_PAGO">
+          <Key>
+            <PropertyRef Name="FPA_ID" />
+          </Key>
+          <Property Name="FPA_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="FPA_NOMBRE" Type="varchar2" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="HORARIO">
+          <Key>
+            <PropertyRef Name="HOR_ID" />
+          </Key>
+          <Property Name="HOR_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="HOR_LUNES" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="HOR_MARTES" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="HOR_MIERCOLES" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="HOR_JUEVES" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="HOR_VIERNES" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="HOR_SABADO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="HOR_DOMINGO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="HOR_INICIO" Type="date" Nullable="false" />
+          <Property Name="HOR_TERMINO" Type="date" Nullable="false" />
+          <Property Name="MEDICO_MED_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="LOG_RESERVA">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="FECHA" Type="varchar2" MaxLength="50" Nullable="false" />
+          <Property Name="ESTADO" Type="varchar2" MaxLength="50" Nullable="false" />
+          <Property Name="ID_USUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_RESERVA" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MEDICO">
+          <Key>
+            <PropertyRef Name="MED_ID" />
+          </Key>
+          <Property Name="MED_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="MED_NOMBRES" Type="varchar2" MaxLength="100" Nullable="false" />
+          <Property Name="MED_PATERNO" Type="varchar2" MaxLength="50" Nullable="false" />
+          <Property Name="MED_MATERNO" Type="varchar2" MaxLength="50" Nullable="false" />
+          <Property Name="CENTRO_MEDICO_CME_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ESPECIALIDAD_ESP_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="MED_MIN_AT" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="MED_VALOR_AT" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="USUARIO_USU_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PACIENTE">
+          <Key>
+            <PropertyRef Name="PAC_ID" />
+          </Key>
+          <Property Name="PAC_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="PAC_RUT" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="PAC_DV" Type="varchar2" MaxLength="1" Nullable="false" />
+          <Property Name="PAC_NOMBRES" Type="varchar2" MaxLength="100" Nullable="false" />
+          <Property Name="PAC_PATERNO" Type="varchar2" MaxLength="50" Nullable="false" />
+          <Property Name="PAC_MATERNO" Type="varchar2" MaxLength="50" Nullable="false" />
+          <Property Name="PAC_FNAC" Type="date" Nullable="false" />
+          <Property Name="PAC_DIRECCION" Type="varchar2" MaxLength="150" Nullable="false" />
+          <Property Name="PAC_CELULAR" Type="number" Precision="38" Scale="0" />
+          <Property Name="PAC_TELEFONO" Type="number" Precision="38" Scale="0" />
+          <Property Name="PREVISION_PRE_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="USUARIO_USU_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PERSONAL">
+          <Key>
+            <PropertyRef Name="PER_ID" />
+          </Key>
+          <Property Name="PER_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="RUT" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DV" Type="varchar2" MaxLength="1" Nullable="false" />
+          <Property Name="NOMBRES" Type="varchar2" MaxLength="100" Nullable="false" />
+          <Property Name="PATERNO" Type="varchar2" MaxLength="50" Nullable="false" />
+          <Property Name="MATERNO" Type="varchar2" MaxLength="50" Nullable="false" />
+          <Property Name="FNAC" Type="date" Nullable="false" />
+          <Property Name="DIRECCION" Type="varchar2" MaxLength="150" Nullable="false" />
+          <Property Name="CELULAR" Type="number" Precision="38" Scale="0" />
+          <Property Name="TELEFONO" Type="number" Precision="38" Scale="0" />
+          <Property Name="ESTADO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="FECHA_REGISTRO" Type="date" Nullable="false" />
+          <Property Name="USUARIO_USU_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PREVISION">
+          <Key>
+            <PropertyRef Name="PRE_ID" />
+          </Key>
+          <Property Name="PRE_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="PRE_NOMBRE" Type="varchar2" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="RECAUDACION">
+          <Key>
+            <PropertyRef Name="REC_ID" />
+          </Key>
+          <Property Name="REC_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ATENCION_ATE_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="REC_PORCENTAJE" Type="float" Precision="126" Scale="0" Nullable="false" />
+          <Property Name="REC_TOTAL" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="RESERVA">
+          <Key>
+            <PropertyRef Name="RES_ID" />
+          </Key>
+          <Property Name="RES_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="RES_FECHA" Type="date" Nullable="false" />
+          <Property Name="RES_HORA_INICIO" Type="date" Nullable="false" />
+          <Property Name="RES_HORA_TERM" Type="date" Nullable="false" />
+          <Property Name="MEDICO_MED_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="PACIENTE_PAC_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="TIPO_RESERVA_TRE_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="RES_ESTADO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ATENCION_ATE_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SECRETARIA">
+          <Key>
+            <PropertyRef Name="PER_ID" />
+          </Key>
+          <Property Name="PER_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="SEC_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TIPO_PAGO">
+          <Key>
+            <PropertyRef Name="TPA_ID" />
+          </Key>
+          <Property Name="TPA_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="TPA_NOMBRE" Type="varchar2" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TIPO_RESERVA">
+          <Key>
+            <PropertyRef Name="TRE_ID" />
+          </Key>
+          <Property Name="TRE_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="TRE_NOMBRE" Type="varchar2" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TIPO_USUARIO">
+          <Key>
+            <PropertyRef Name="TU_ID" />
+          </Key>
+          <Property Name="TU_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="TU_NOMBRE" Type="varchar2" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="USUARIO">
+          <Key>
+            <PropertyRef Name="USU_ID" />
+          </Key>
+          <Property Name="USU_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="USU_USERNAME" Type="varchar2" MaxLength="30" Nullable="false" />
+          <Property Name="USU_PASS" Type="varchar2" MaxLength="32" Nullable="false" />
+          <Property Name="USU_ULTIMOPASS" Type="varchar2" MaxLength="32" Nullable="false" />
+          <Property Name="USU_FREGISTRO" Type="date" Nullable="false" />
+          <Property Name="USU_ESTADO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="TIPO_USUARIO_TU_ID" Type="number" Precision="38" Scale="0" />
+          <Property Name="USU_EMAIL" Type="varchar2" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <Association Name="ATENCION_CAJA_FKV1">
+          <End Role="CAJA" Type="Self.CAJA" Multiplicity="1" />
+          <End Role="ATENCION" Type="Self.ATENCION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CAJA">
+              <PropertyRef Name="CAJ_ID" />
+            </Principal>
+            <Dependent Role="ATENCION">
+              <PropertyRef Name="CAJA_CAJ_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ATENCION_FORMA_PAGO_FKV1">
+          <End Role="FORMA_PAGO" Type="Self.FORMA_PAGO" Multiplicity="1" />
+          <End Role="ATENCION" Type="Self.ATENCION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FORMA_PAGO">
+              <PropertyRef Name="FPA_ID" />
+            </Principal>
+            <Dependent Role="ATENCION">
+              <PropertyRef Name="FORMA_PAGO_FPA_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ATENCION_TIPO_PAGO_FKV1">
+          <End Role="TIPO_PAGO" Type="Self.TIPO_PAGO" Multiplicity="1" />
+          <End Role="ATENCION" Type="Self.ATENCION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TIPO_PAGO">
+              <PropertyRef Name="TPA_ID" />
+            </Principal>
+            <Dependent Role="ATENCION">
+              <PropertyRef Name="TIPO_PAGO_TPA_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="CAJERO_CAJA_FKV1">
+          <End Role="CAJA" Type="Self.CAJA" Multiplicity="1" />
+          <End Role="CAJERO" Type="Self.CAJERO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CAJA">
+              <PropertyRef Name="CAJ_ID" />
+            </Principal>
+            <Dependent Role="CAJERO">
+              <PropertyRef Name="CAJA_CAJ_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="CAJERO_PERSONAL_FK">
+          <End Role="PERSONAL" Type="Self.PERSONAL" Multiplicity="1" />
+          <End Role="CAJERO" Type="Self.CAJERO" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="PERSONAL">
+              <PropertyRef Name="PER_ID" />
+            </Principal>
+            <Dependent Role="CAJERO">
+              <PropertyRef Name="PER_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="CALENDARIO_HORARIO_FKV1">
+          <End Role="HORARIO" Type="Self.HORARIO" Multiplicity="1" />
+          <End Role="CALENDARIO" Type="Self.CALENDARIO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HORARIO">
+              <PropertyRef Name="HOR_ID" />
+            </Principal>
+            <Dependent Role="CALENDARIO">
+              <PropertyRef Name="HORARIO_HOR_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="HORARIO_MEDICO_FKV1">
+          <End Role="MEDICO" Type="Self.MEDICO" Multiplicity="1" />
+          <End Role="HORARIO" Type="Self.HORARIO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MEDICO">
+              <PropertyRef Name="MED_ID" />
+            </Principal>
+            <Dependent Role="HORARIO">
+              <PropertyRef Name="MEDICO_MED_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MEDICO_CENTRO_MEDICO_FKV1">
+          <End Role="CENTRO_MEDICO" Type="Self.CENTRO_MEDICO" Multiplicity="1" />
+          <End Role="MEDICO" Type="Self.MEDICO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CENTRO_MEDICO">
+              <PropertyRef Name="CME_ID" />
+            </Principal>
+            <Dependent Role="MEDICO">
+              <PropertyRef Name="CENTRO_MEDICO_CME_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MEDICO_ESPECIALIDAD_FKV1">
+          <End Role="ESPECIALIDAD" Type="Self.ESPECIALIDAD" Multiplicity="1" />
+          <End Role="MEDICO" Type="Self.MEDICO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ESPECIALIDAD">
+              <PropertyRef Name="ESP_ID" />
+            </Principal>
+            <Dependent Role="MEDICO">
+              <PropertyRef Name="ESPECIALIDAD_ESP_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MEDICO_USUARIO_FKV1">
+          <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+          <End Role="MEDICO" Type="Self.MEDICO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USUARIO">
+              <PropertyRef Name="USU_ID" />
+            </Principal>
+            <Dependent Role="MEDICO">
+              <PropertyRef Name="USUARIO_USU_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="PACIENTE_PREVISION_FKV1">
+          <End Role="PREVISION" Type="Self.PREVISION" Multiplicity="1" />
+          <End Role="PACIENTE" Type="Self.PACIENTE" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PREVISION">
+              <PropertyRef Name="PRE_ID" />
+            </Principal>
+            <Dependent Role="PACIENTE">
+              <PropertyRef Name="PREVISION_PRE_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="PACIENTE_USUARIO_FKV1">
+          <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+          <End Role="PACIENTE" Type="Self.PACIENTE" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USUARIO">
+              <PropertyRef Name="USU_ID" />
+            </Principal>
+            <Dependent Role="PACIENTE">
+              <PropertyRef Name="USUARIO_USU_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="PERSONAL_USUARIO_FKV1">
+          <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+          <End Role="PERSONAL" Type="Self.PERSONAL" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USUARIO">
+              <PropertyRef Name="USU_ID" />
+            </Principal>
+            <Dependent Role="PERSONAL">
+              <PropertyRef Name="USUARIO_USU_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RECAUDACION_ATENCION_FKV1">
+          <End Role="ATENCION" Type="Self.ATENCION" Multiplicity="1" />
+          <End Role="RECAUDACION" Type="Self.RECAUDACION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ATENCION">
+              <PropertyRef Name="ATE_ID" />
+            </Principal>
+            <Dependent Role="RECAUDACION">
+              <PropertyRef Name="ATENCION_ATE_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RESERVA_ATENCION_FKV1">
+          <End Role="ATENCION" Type="Self.ATENCION" Multiplicity="1" />
+          <End Role="RESERVA" Type="Self.RESERVA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ATENCION">
+              <PropertyRef Name="ATE_ID" />
+            </Principal>
+            <Dependent Role="RESERVA">
+              <PropertyRef Name="ATENCION_ATE_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RESERVA_MEDICO_FKV1">
+          <End Role="MEDICO" Type="Self.MEDICO" Multiplicity="1" />
+          <End Role="RESERVA" Type="Self.RESERVA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MEDICO">
+              <PropertyRef Name="MED_ID" />
+            </Principal>
+            <Dependent Role="RESERVA">
+              <PropertyRef Name="MEDICO_MED_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RESERVA_PACIENTE_FKV1">
+          <End Role="PACIENTE" Type="Self.PACIENTE" Multiplicity="1" />
+          <End Role="RESERVA" Type="Self.RESERVA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PACIENTE">
+              <PropertyRef Name="PAC_ID" />
+            </Principal>
+            <Dependent Role="RESERVA">
+              <PropertyRef Name="PACIENTE_PAC_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RESERVA_TIPO_RESERVA_FKV1">
+          <End Role="TIPO_RESERVA" Type="Self.TIPO_RESERVA" Multiplicity="1" />
+          <End Role="RESERVA" Type="Self.RESERVA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TIPO_RESERVA">
+              <PropertyRef Name="TRE_ID" />
+            </Principal>
+            <Dependent Role="RESERVA">
+              <PropertyRef Name="TIPO_RESERVA_TRE_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SECRETARIA_PERSONAL_FKV1">
+          <End Role="PERSONAL" Type="Self.PERSONAL" Multiplicity="1" />
+          <End Role="SECRETARIA" Type="Self.SECRETARIA" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="PERSONAL">
+              <PropertyRef Name="PER_ID" />
+            </Principal>
+            <Dependent Role="SECRETARIA">
+              <PropertyRef Name="PER_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="USUARIO_TIPO_USUARIO_FKV1">
+          <End Role="TIPO_USUARIO" Type="Self.TIPO_USUARIO" Multiplicity="0..1" />
+          <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TIPO_USUARIO">
+              <PropertyRef Name="TU_ID" />
+            </Principal>
+            <Dependent Role="USUARIO">
+              <PropertyRef Name="TIPO_USUARIO_TU_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ModelStoreContainer">
+          <EntitySet Name="ATENCION" EntityType="Self.ATENCION" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="CAJA" EntityType="Self.CAJA" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="CAJERO" EntityType="Self.CAJERO" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="CALENDARIO" EntityType="Self.CALENDARIO" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="CENTRO_MEDICO" EntityType="Self.CENTRO_MEDICO" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="ERRORES" EntityType="Self.ERRORES" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="ESPECIALIDAD" EntityType="Self.ESPECIALIDAD" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="FORMA_PAGO" EntityType="Self.FORMA_PAGO" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="HORARIO" EntityType="Self.HORARIO" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="LOG_RESERVA" EntityType="Self.LOG_RESERVA" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="MEDICO" EntityType="Self.MEDICO" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="PACIENTE" EntityType="Self.PACIENTE" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="PERSONAL" EntityType="Self.PERSONAL" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="PREVISION" EntityType="Self.PREVISION" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="RECAUDACION" EntityType="Self.RECAUDACION" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="RESERVA" EntityType="Self.RESERVA" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="SECRETARIA" EntityType="Self.SECRETARIA" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="TIPO_PAGO" EntityType="Self.TIPO_PAGO" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="TIPO_RESERVA" EntityType="Self.TIPO_RESERVA" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="TIPO_USUARIO" EntityType="Self.TIPO_USUARIO" Schema="CMDBA" store:Type="Tables" />
+          <EntitySet Name="USUARIO" EntityType="Self.USUARIO" Schema="CMDBA" store:Type="Tables" />
+          <AssociationSet Name="ATENCION_CAJA_FKV1" Association="Self.ATENCION_CAJA_FKV1">
+            <End Role="CAJA" EntitySet="CAJA" />
+            <End Role="ATENCION" EntitySet="ATENCION" />
+          </AssociationSet>
+          <AssociationSet Name="ATENCION_FORMA_PAGO_FKV1" Association="Self.ATENCION_FORMA_PAGO_FKV1">
+            <End Role="FORMA_PAGO" EntitySet="FORMA_PAGO" />
+            <End Role="ATENCION" EntitySet="ATENCION" />
+          </AssociationSet>
+          <AssociationSet Name="ATENCION_TIPO_PAGO_FKV1" Association="Self.ATENCION_TIPO_PAGO_FKV1">
+            <End Role="TIPO_PAGO" EntitySet="TIPO_PAGO" />
+            <End Role="ATENCION" EntitySet="ATENCION" />
+          </AssociationSet>
+          <AssociationSet Name="CAJERO_CAJA_FKV1" Association="Self.CAJERO_CAJA_FKV1">
+            <End Role="CAJA" EntitySet="CAJA" />
+            <End Role="CAJERO" EntitySet="CAJERO" />
+          </AssociationSet>
+          <AssociationSet Name="CAJERO_PERSONAL_FK" Association="Self.CAJERO_PERSONAL_FK">
+            <End Role="PERSONAL" EntitySet="PERSONAL" />
+            <End Role="CAJERO" EntitySet="CAJERO" />
+          </AssociationSet>
+          <AssociationSet Name="CALENDARIO_HORARIO_FKV1" Association="Self.CALENDARIO_HORARIO_FKV1">
+            <End Role="HORARIO" EntitySet="HORARIO" />
+            <End Role="CALENDARIO" EntitySet="CALENDARIO" />
+          </AssociationSet>
+          <AssociationSet Name="HORARIO_MEDICO_FKV1" Association="Self.HORARIO_MEDICO_FKV1">
+            <End Role="MEDICO" EntitySet="MEDICO" />
+            <End Role="HORARIO" EntitySet="HORARIO" />
+          </AssociationSet>
+          <AssociationSet Name="MEDICO_CENTRO_MEDICO_FKV1" Association="Self.MEDICO_CENTRO_MEDICO_FKV1">
+            <End Role="CENTRO_MEDICO" EntitySet="CENTRO_MEDICO" />
+            <End Role="MEDICO" EntitySet="MEDICO" />
+          </AssociationSet>
+          <AssociationSet Name="MEDICO_ESPECIALIDAD_FKV1" Association="Self.MEDICO_ESPECIALIDAD_FKV1">
+            <End Role="ESPECIALIDAD" EntitySet="ESPECIALIDAD" />
+            <End Role="MEDICO" EntitySet="MEDICO" />
+          </AssociationSet>
+          <AssociationSet Name="MEDICO_USUARIO_FKV1" Association="Self.MEDICO_USUARIO_FKV1">
+            <End Role="USUARIO" EntitySet="USUARIO" />
+            <End Role="MEDICO" EntitySet="MEDICO" />
+          </AssociationSet>
+          <AssociationSet Name="PACIENTE_PREVISION_FKV1" Association="Self.PACIENTE_PREVISION_FKV1">
+            <End Role="PREVISION" EntitySet="PREVISION" />
+            <End Role="PACIENTE" EntitySet="PACIENTE" />
+          </AssociationSet>
+          <AssociationSet Name="PACIENTE_USUARIO_FKV1" Association="Self.PACIENTE_USUARIO_FKV1">
+            <End Role="USUARIO" EntitySet="USUARIO" />
+            <End Role="PACIENTE" EntitySet="PACIENTE" />
+          </AssociationSet>
+          <AssociationSet Name="PERSONAL_USUARIO_FKV1" Association="Self.PERSONAL_USUARIO_FKV1">
+            <End Role="USUARIO" EntitySet="USUARIO" />
+            <End Role="PERSONAL" EntitySet="PERSONAL" />
+          </AssociationSet>
+          <AssociationSet Name="RECAUDACION_ATENCION_FKV1" Association="Self.RECAUDACION_ATENCION_FKV1">
+            <End Role="ATENCION" EntitySet="ATENCION" />
+            <End Role="RECAUDACION" EntitySet="RECAUDACION" />
+          </AssociationSet>
+          <AssociationSet Name="RESERVA_ATENCION_FKV1" Association="Self.RESERVA_ATENCION_FKV1">
+            <End Role="ATENCION" EntitySet="ATENCION" />
+            <End Role="RESERVA" EntitySet="RESERVA" />
+          </AssociationSet>
+          <AssociationSet Name="RESERVA_MEDICO_FKV1" Association="Self.RESERVA_MEDICO_FKV1">
+            <End Role="MEDICO" EntitySet="MEDICO" />
+            <End Role="RESERVA" EntitySet="RESERVA" />
+          </AssociationSet>
+          <AssociationSet Name="RESERVA_PACIENTE_FKV1" Association="Self.RESERVA_PACIENTE_FKV1">
+            <End Role="PACIENTE" EntitySet="PACIENTE" />
+            <End Role="RESERVA" EntitySet="RESERVA" />
+          </AssociationSet>
+          <AssociationSet Name="RESERVA_TIPO_RESERVA_FKV1" Association="Self.RESERVA_TIPO_RESERVA_FKV1">
+            <End Role="TIPO_RESERVA" EntitySet="TIPO_RESERVA" />
+            <End Role="RESERVA" EntitySet="RESERVA" />
+          </AssociationSet>
+          <AssociationSet Name="SECRETARIA_PERSONAL_FKV1" Association="Self.SECRETARIA_PERSONAL_FKV1">
+            <End Role="PERSONAL" EntitySet="PERSONAL" />
+            <End Role="SECRETARIA" EntitySet="SECRETARIA" />
+          </AssociationSet>
+          <AssociationSet Name="USUARIO_TIPO_USUARIO_FKV1" Association="Self.USUARIO_TIPO_USUARIO_FKV1">
+            <End Role="TIPO_USUARIO" EntitySet="TIPO_USUARIO" />
+            <End Role="USUARIO" EntitySet="USUARIO" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="ATENCION">
+          <Key>
+            <PropertyRef Name="ATE_ID" />
+          </Key>
+          <Property Name="ATE_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="TIPO_PAGO_TPA_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="FORMA_PAGO_FPA_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="CAJA_CAJ_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="CAJA" Relationship="Self.ATENCION_CAJA_FKV1" FromRole="ATENCION" ToRole="CAJA" />
+          <NavigationProperty Name="FORMA_PAGO" Relationship="Self.ATENCION_FORMA_PAGO_FKV1" FromRole="ATENCION" ToRole="FORMA_PAGO" />
+          <NavigationProperty Name="TIPO_PAGO" Relationship="Self.ATENCION_TIPO_PAGO_FKV1" FromRole="ATENCION" ToRole="TIPO_PAGO" />
+          <NavigationProperty Name="RECAUDACION" Relationship="Self.RECAUDACION_ATENCION_FKV1" FromRole="ATENCION" ToRole="RECAUDACION" />
+          <NavigationProperty Name="RESERVA" Relationship="Self.RESERVA_ATENCION_FKV1" FromRole="ATENCION" ToRole="RESERVA" />
+        </EntityType>
+        <EntityType Name="CAJA">
+          <Key>
+            <PropertyRef Name="CAJ_ID" />
+          </Key>
+          <Property Name="CAJ_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="CAJ_NOMBRE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="ATENCION" Relationship="Self.ATENCION_CAJA_FKV1" FromRole="CAJA" ToRole="ATENCION" />
+          <NavigationProperty Name="CAJERO" Relationship="Self.CAJERO_CAJA_FKV1" FromRole="CAJA" ToRole="CAJERO" />
+        </EntityType>
+        <EntityType Name="CAJERO">
+          <Key>
+            <PropertyRef Name="PER_ID" />
+          </Key>
+          <Property Name="PER_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="CJR_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="CAJA_CAJ_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="CAJA" Relationship="Self.CAJERO_CAJA_FKV1" FromRole="CAJERO" ToRole="CAJA" />
+          <NavigationProperty Name="PERSONAL" Relationship="Self.CAJERO_PERSONAL_FK" FromRole="CAJERO" ToRole="PERSONAL" />
+        </EntityType>
+        <EntityType Name="CALENDARIO">
+          <Key>
+            <PropertyRef Name="CAL_ID" />
+          </Key>
+          <Property Name="CAL_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="CAL_MES" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="HORARIO_HOR_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="HORARIO" Relationship="Self.CALENDARIO_HORARIO_FKV1" FromRole="CALENDARIO" ToRole="HORARIO" />
+        </EntityType>
+        <EntityType Name="CENTRO_MEDICO">
+          <Key>
+            <PropertyRef Name="CME_ID" />
+          </Key>
+          <Property Name="CME_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="CME_NOMBRE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CME_DIRECCION" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CME_EMAIL" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CME_TELEFONO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="CME_HORA_APERT" Type="DateTime" Nullable="false" />
+          <Property Name="CME_HORA_CIERRE" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="MEDICO" Relationship="Self.MEDICO_CENTRO_MEDICO_FKV1" FromRole="CENTRO_MEDICO" ToRole="MEDICO" />
+        </EntityType>
+        <EntityType Name="ERRORES">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="FECHA" Type="DateTime" Nullable="false" />
+          <Property Name="TABLA" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CODIGO_ERROR" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DETALLE" Type="String" MaxLength="1024" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ESPECIALIDAD">
+          <Key>
+            <PropertyRef Name="ESP_ID" />
+          </Key>
+          <Property Name="ESP_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ESP_NOMBRE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="MEDICO" Relationship="Self.MEDICO_ESPECIALIDAD_FKV1" FromRole="ESPECIALIDAD" ToRole="MEDICO" />
+        </EntityType>
+        <EntityType Name="FORMA_PAGO">
+          <Key>
+            <PropertyRef Name="FPA_ID" />
+          </Key>
+          <Property Name="FPA_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="FPA_NOMBRE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="ATENCION" Relationship="Self.ATENCION_FORMA_PAGO_FKV1" FromRole="FORMA_PAGO" ToRole="ATENCION" />
+        </EntityType>
+        <EntityType Name="HORARIO">
+          <Key>
+            <PropertyRef Name="HOR_ID" />
+          </Key>
+          <Property Name="HOR_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="HOR_LUNES" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="HOR_MARTES" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="HOR_MIERCOLES" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="HOR_JUEVES" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="HOR_VIERNES" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="HOR_SABADO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="HOR_DOMINGO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="HOR_INICIO" Type="DateTime" Nullable="false" />
+          <Property Name="HOR_TERMINO" Type="DateTime" Nullable="false" />
+          <Property Name="MEDICO_MED_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="CALENDARIO" Relationship="Self.CALENDARIO_HORARIO_FKV1" FromRole="HORARIO" ToRole="CALENDARIO" />
+          <NavigationProperty Name="MEDICO" Relationship="Self.HORARIO_MEDICO_FKV1" FromRole="HORARIO" ToRole="MEDICO" />
+        </EntityType>
+        <EntityType Name="LOG_RESERVA">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="FECHA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ESTADO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ID_USUARIO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_RESERVA" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MEDICO">
+          <Key>
+            <PropertyRef Name="MED_ID" />
+          </Key>
+          <Property Name="MED_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="MED_NOMBRES" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="MED_PATERNO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="MED_MATERNO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CENTRO_MEDICO_CME_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ESPECIALIDAD_ESP_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="MED_MIN_AT" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="MED_VALOR_AT" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="USUARIO_USU_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="CENTRO_MEDICO" Relationship="Self.MEDICO_CENTRO_MEDICO_FKV1" FromRole="MEDICO" ToRole="CENTRO_MEDICO" />
+          <NavigationProperty Name="ESPECIALIDAD" Relationship="Self.MEDICO_ESPECIALIDAD_FKV1" FromRole="MEDICO" ToRole="ESPECIALIDAD" />
+          <NavigationProperty Name="HORARIO" Relationship="Self.HORARIO_MEDICO_FKV1" FromRole="MEDICO" ToRole="HORARIO" />
+          <NavigationProperty Name="USUARIO" Relationship="Self.MEDICO_USUARIO_FKV1" FromRole="MEDICO" ToRole="USUARIO" />
+          <NavigationProperty Name="RESERVA" Relationship="Self.RESERVA_MEDICO_FKV1" FromRole="MEDICO" ToRole="RESERVA" />
+        </EntityType>
+        <EntityType Name="PACIENTE">
+          <Key>
+            <PropertyRef Name="PAC_ID" />
+          </Key>
+          <Property Name="PAC_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="PAC_RUT" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="PAC_DV" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PAC_NOMBRES" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PAC_PATERNO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PAC_MATERNO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PAC_FNAC" Type="DateTime" Nullable="false" />
+          <Property Name="PAC_DIRECCION" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PAC_CELULAR" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="PAC_TELEFONO" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="PREVISION_PRE_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="USUARIO_USU_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="PREVISION" Relationship="Self.PACIENTE_PREVISION_FKV1" FromRole="PACIENTE" ToRole="PREVISION" />
+          <NavigationProperty Name="USUARIO" Relationship="Self.PACIENTE_USUARIO_FKV1" FromRole="PACIENTE" ToRole="USUARIO" />
+          <NavigationProperty Name="RESERVA" Relationship="Self.RESERVA_PACIENTE_FKV1" FromRole="PACIENTE" ToRole="RESERVA" />
+        </EntityType>
+        <EntityType Name="PERSONAL">
+          <Key>
+            <PropertyRef Name="PER_ID" />
+          </Key>
+          <Property Name="PER_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="RUT" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DV" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="NOMBRES" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PATERNO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="MATERNO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="FNAC" Type="DateTime" Nullable="false" />
+          <Property Name="DIRECCION" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CELULAR" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="TELEFONO" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ESTADO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="FECHA_REGISTRO" Type="DateTime" Nullable="false" />
+          <Property Name="USUARIO_USU_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="CAJERO" Relationship="Self.CAJERO_PERSONAL_FK" FromRole="PERSONAL" ToRole="CAJERO" />
+          <NavigationProperty Name="USUARIO" Relationship="Self.PERSONAL_USUARIO_FKV1" FromRole="PERSONAL" ToRole="USUARIO" />
+          <NavigationProperty Name="SECRETARIA" Relationship="Self.SECRETARIA_PERSONAL_FKV1" FromRole="PERSONAL" ToRole="SECRETARIA" />
+        </EntityType>
+        <EntityType Name="PREVISION">
+          <Key>
+            <PropertyRef Name="PRE_ID" />
+          </Key>
+          <Property Name="PRE_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="PRE_NOMBRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="PACIENTE" Relationship="Self.PACIENTE_PREVISION_FKV1" FromRole="PREVISION" ToRole="PACIENTE" />
+        </EntityType>
+        <EntityType Name="RECAUDACION">
+          <Key>
+            <PropertyRef Name="REC_ID" />
+          </Key>
+          <Property Name="REC_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ATENCION_ATE_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="REC_PORCENTAJE" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="REC_TOTAL" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="ATENCION" Relationship="Self.RECAUDACION_ATENCION_FKV1" FromRole="RECAUDACION" ToRole="ATENCION" />
+        </EntityType>
+        <EntityType Name="RESERVA">
+          <Key>
+            <PropertyRef Name="RES_ID" />
+          </Key>
+          <Property Name="RES_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="RES_FECHA" Type="DateTime" Nullable="false" />
+          <Property Name="RES_HORA_INICIO" Type="DateTime" Nullable="false" />
+          <Property Name="RES_HORA_TERM" Type="DateTime" Nullable="false" />
+          <Property Name="MEDICO_MED_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="PACIENTE_PAC_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="TIPO_RESERVA_TRE_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="RES_ESTADO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ATENCION_ATE_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="ATENCION" Relationship="Self.RESERVA_ATENCION_FKV1" FromRole="RESERVA" ToRole="ATENCION" />
+          <NavigationProperty Name="MEDICO" Relationship="Self.RESERVA_MEDICO_FKV1" FromRole="RESERVA" ToRole="MEDICO" />
+          <NavigationProperty Name="PACIENTE" Relationship="Self.RESERVA_PACIENTE_FKV1" FromRole="RESERVA" ToRole="PACIENTE" />
+          <NavigationProperty Name="TIPO_RESERVA" Relationship="Self.RESERVA_TIPO_RESERVA_FKV1" FromRole="RESERVA" ToRole="TIPO_RESERVA" />
+        </EntityType>
+        <EntityType Name="SECRETARIA">
+          <Key>
+            <PropertyRef Name="PER_ID" />
+          </Key>
+          <Property Name="PER_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="SEC_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="PERSONAL" Relationship="Self.SECRETARIA_PERSONAL_FKV1" FromRole="SECRETARIA" ToRole="PERSONAL" />
+        </EntityType>
+        <EntityType Name="TIPO_PAGO">
+          <Key>
+            <PropertyRef Name="TPA_ID" />
+          </Key>
+          <Property Name="TPA_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="TPA_NOMBRE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="ATENCION" Relationship="Self.ATENCION_TIPO_PAGO_FKV1" FromRole="TIPO_PAGO" ToRole="ATENCION" />
+        </EntityType>
+        <EntityType Name="TIPO_RESERVA">
+          <Key>
+            <PropertyRef Name="TRE_ID" />
+          </Key>
+          <Property Name="TRE_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="TRE_NOMBRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="RESERVA" Relationship="Self.RESERVA_TIPO_RESERVA_FKV1" FromRole="TIPO_RESERVA" ToRole="RESERVA" />
+        </EntityType>
+        <EntityType Name="TIPO_USUARIO">
+          <Key>
+            <PropertyRef Name="TU_ID" />
+          </Key>
+          <Property Name="TU_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="TU_NOMBRE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="USUARIO" Relationship="Self.USUARIO_TIPO_USUARIO_FKV1" FromRole="TIPO_USUARIO" ToRole="USUARIO" />
+        </EntityType>
+        <EntityType Name="USUARIO">
+          <Key>
+            <PropertyRef Name="USU_ID" />
+          </Key>
+          <Property Name="USU_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="USU_USERNAME" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="USU_PASS" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="USU_ULTIMOPASS" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="USU_FREGISTRO" Type="DateTime" Nullable="false" />
+          <Property Name="USU_ESTADO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="TIPO_USUARIO_TU_ID" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="USU_EMAIL" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="MEDICO" Relationship="Self.MEDICO_USUARIO_FKV1" FromRole="USUARIO" ToRole="MEDICO" />
+          <NavigationProperty Name="PACIENTE" Relationship="Self.PACIENTE_USUARIO_FKV1" FromRole="USUARIO" ToRole="PACIENTE" />
+          <NavigationProperty Name="PERSONAL" Relationship="Self.PERSONAL_USUARIO_FKV1" FromRole="USUARIO" ToRole="PERSONAL" />
+          <NavigationProperty Name="TIPO_USUARIO" Relationship="Self.USUARIO_TIPO_USUARIO_FKV1" FromRole="USUARIO" ToRole="TIPO_USUARIO" />
+        </EntityType>
+        <Association Name="ATENCION_CAJA_FKV1">
+          <End Role="CAJA" Type="Self.CAJA" Multiplicity="1" />
+          <End Role="ATENCION" Type="Self.ATENCION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CAJA">
+              <PropertyRef Name="CAJ_ID" />
+            </Principal>
+            <Dependent Role="ATENCION">
+              <PropertyRef Name="CAJA_CAJ_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ATENCION_FORMA_PAGO_FKV1">
+          <End Role="FORMA_PAGO" Type="Self.FORMA_PAGO" Multiplicity="1" />
+          <End Role="ATENCION" Type="Self.ATENCION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FORMA_PAGO">
+              <PropertyRef Name="FPA_ID" />
+            </Principal>
+            <Dependent Role="ATENCION">
+              <PropertyRef Name="FORMA_PAGO_FPA_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ATENCION_TIPO_PAGO_FKV1">
+          <End Role="TIPO_PAGO" Type="Self.TIPO_PAGO" Multiplicity="1" />
+          <End Role="ATENCION" Type="Self.ATENCION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TIPO_PAGO">
+              <PropertyRef Name="TPA_ID" />
+            </Principal>
+            <Dependent Role="ATENCION">
+              <PropertyRef Name="TIPO_PAGO_TPA_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RECAUDACION_ATENCION_FKV1">
+          <End Role="ATENCION" Type="Self.ATENCION" Multiplicity="1" />
+          <End Role="RECAUDACION" Type="Self.RECAUDACION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ATENCION">
+              <PropertyRef Name="ATE_ID" />
+            </Principal>
+            <Dependent Role="RECAUDACION">
+              <PropertyRef Name="ATENCION_ATE_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RESERVA_ATENCION_FKV1">
+          <End Role="ATENCION" Type="Self.ATENCION" Multiplicity="1" />
+          <End Role="RESERVA" Type="Self.RESERVA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ATENCION">
+              <PropertyRef Name="ATE_ID" />
+            </Principal>
+            <Dependent Role="RESERVA">
+              <PropertyRef Name="ATENCION_ATE_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="CAJERO_CAJA_FKV1">
+          <End Role="CAJA" Type="Self.CAJA" Multiplicity="1" />
+          <End Role="CAJERO" Type="Self.CAJERO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CAJA">
+              <PropertyRef Name="CAJ_ID" />
+            </Principal>
+            <Dependent Role="CAJERO">
+              <PropertyRef Name="CAJA_CAJ_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="CAJERO_PERSONAL_FK">
+          <End Role="PERSONAL" Type="Self.PERSONAL" Multiplicity="1" />
+          <End Role="CAJERO" Type="Self.CAJERO" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="PERSONAL">
+              <PropertyRef Name="PER_ID" />
+            </Principal>
+            <Dependent Role="CAJERO">
+              <PropertyRef Name="PER_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="CALENDARIO_HORARIO_FKV1">
+          <End Role="HORARIO" Type="Self.HORARIO" Multiplicity="1" />
+          <End Role="CALENDARIO" Type="Self.CALENDARIO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HORARIO">
+              <PropertyRef Name="HOR_ID" />
+            </Principal>
+            <Dependent Role="CALENDARIO">
+              <PropertyRef Name="HORARIO_HOR_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MEDICO_CENTRO_MEDICO_FKV1">
+          <End Role="CENTRO_MEDICO" Type="Self.CENTRO_MEDICO" Multiplicity="1" />
+          <End Role="MEDICO" Type="Self.MEDICO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CENTRO_MEDICO">
+              <PropertyRef Name="CME_ID" />
+            </Principal>
+            <Dependent Role="MEDICO">
+              <PropertyRef Name="CENTRO_MEDICO_CME_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MEDICO_ESPECIALIDAD_FKV1">
+          <End Role="ESPECIALIDAD" Type="Self.ESPECIALIDAD" Multiplicity="1" />
+          <End Role="MEDICO" Type="Self.MEDICO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ESPECIALIDAD">
+              <PropertyRef Name="ESP_ID" />
+            </Principal>
+            <Dependent Role="MEDICO">
+              <PropertyRef Name="ESPECIALIDAD_ESP_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="HORARIO_MEDICO_FKV1">
+          <End Role="MEDICO" Type="Self.MEDICO" Multiplicity="1" />
+          <End Role="HORARIO" Type="Self.HORARIO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MEDICO">
+              <PropertyRef Name="MED_ID" />
+            </Principal>
+            <Dependent Role="HORARIO">
+              <PropertyRef Name="MEDICO_MED_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MEDICO_USUARIO_FKV1">
+          <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+          <End Role="MEDICO" Type="Self.MEDICO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USUARIO">
+              <PropertyRef Name="USU_ID" />
+            </Principal>
+            <Dependent Role="MEDICO">
+              <PropertyRef Name="USUARIO_USU_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RESERVA_MEDICO_FKV1">
+          <End Role="MEDICO" Type="Self.MEDICO" Multiplicity="1" />
+          <End Role="RESERVA" Type="Self.RESERVA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MEDICO">
+              <PropertyRef Name="MED_ID" />
+            </Principal>
+            <Dependent Role="RESERVA">
+              <PropertyRef Name="MEDICO_MED_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="PACIENTE_PREVISION_FKV1">
+          <End Role="PREVISION" Type="Self.PREVISION" Multiplicity="1" />
+          <End Role="PACIENTE" Type="Self.PACIENTE" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PREVISION">
+              <PropertyRef Name="PRE_ID" />
+            </Principal>
+            <Dependent Role="PACIENTE">
+              <PropertyRef Name="PREVISION_PRE_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="PACIENTE_USUARIO_FKV1">
+          <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+          <End Role="PACIENTE" Type="Self.PACIENTE" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USUARIO">
+              <PropertyRef Name="USU_ID" />
+            </Principal>
+            <Dependent Role="PACIENTE">
+              <PropertyRef Name="USUARIO_USU_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RESERVA_PACIENTE_FKV1">
+          <End Role="PACIENTE" Type="Self.PACIENTE" Multiplicity="1" />
+          <End Role="RESERVA" Type="Self.RESERVA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PACIENTE">
+              <PropertyRef Name="PAC_ID" />
+            </Principal>
+            <Dependent Role="RESERVA">
+              <PropertyRef Name="PACIENTE_PAC_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="PERSONAL_USUARIO_FKV1">
+          <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+          <End Role="PERSONAL" Type="Self.PERSONAL" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USUARIO">
+              <PropertyRef Name="USU_ID" />
+            </Principal>
+            <Dependent Role="PERSONAL">
+              <PropertyRef Name="USUARIO_USU_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SECRETARIA_PERSONAL_FKV1">
+          <End Role="PERSONAL" Type="Self.PERSONAL" Multiplicity="1" />
+          <End Role="SECRETARIA" Type="Self.SECRETARIA" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="PERSONAL">
+              <PropertyRef Name="PER_ID" />
+            </Principal>
+            <Dependent Role="SECRETARIA">
+              <PropertyRef Name="PER_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RESERVA_TIPO_RESERVA_FKV1">
+          <End Role="TIPO_RESERVA" Type="Self.TIPO_RESERVA" Multiplicity="1" />
+          <End Role="RESERVA" Type="Self.RESERVA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TIPO_RESERVA">
+              <PropertyRef Name="TRE_ID" />
+            </Principal>
+            <Dependent Role="RESERVA">
+              <PropertyRef Name="TIPO_RESERVA_TRE_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="USUARIO_TIPO_USUARIO_FKV1">
+          <End Role="TIPO_USUARIO" Type="Self.TIPO_USUARIO" Multiplicity="0..1" />
+          <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TIPO_USUARIO">
+              <PropertyRef Name="TU_ID" />
+            </Principal>
+            <Dependent Role="USUARIO">
+              <PropertyRef Name="TIPO_USUARIO_TU_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EntitiesClinica" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ATENCION" EntityType="Self.ATENCION" />
+          <EntitySet Name="CAJA" EntityType="Self.CAJA" />
+          <EntitySet Name="CAJERO" EntityType="Self.CAJERO" />
+          <EntitySet Name="CALENDARIO" EntityType="Self.CALENDARIO" />
+          <EntitySet Name="CENTRO_MEDICO" EntityType="Self.CENTRO_MEDICO" />
+          <EntitySet Name="ERRORES" EntityType="Self.ERRORES" />
+          <EntitySet Name="ESPECIALIDAD" EntityType="Self.ESPECIALIDAD" />
+          <EntitySet Name="FORMA_PAGO" EntityType="Self.FORMA_PAGO" />
+          <EntitySet Name="HORARIO" EntityType="Self.HORARIO" />
+          <EntitySet Name="LOG_RESERVA" EntityType="Self.LOG_RESERVA" />
+          <EntitySet Name="MEDICO" EntityType="Self.MEDICO" />
+          <EntitySet Name="PACIENTE" EntityType="Self.PACIENTE" />
+          <EntitySet Name="PERSONAL" EntityType="Self.PERSONAL" />
+          <EntitySet Name="PREVISION" EntityType="Self.PREVISION" />
+          <EntitySet Name="RECAUDACION" EntityType="Self.RECAUDACION" />
+          <EntitySet Name="RESERVA" EntityType="Self.RESERVA" />
+          <EntitySet Name="SECRETARIA" EntityType="Self.SECRETARIA" />
+          <EntitySet Name="TIPO_PAGO" EntityType="Self.TIPO_PAGO" />
+          <EntitySet Name="TIPO_RESERVA" EntityType="Self.TIPO_RESERVA" />
+          <EntitySet Name="TIPO_USUARIO" EntityType="Self.TIPO_USUARIO" />
+          <EntitySet Name="USUARIO" EntityType="Self.USUARIO" />
+          <AssociationSet Name="ATENCION_CAJA_FKV1" Association="Self.ATENCION_CAJA_FKV1">
+            <End Role="CAJA" EntitySet="CAJA" />
+            <End Role="ATENCION" EntitySet="ATENCION" />
+          </AssociationSet>
+          <AssociationSet Name="ATENCION_FORMA_PAGO_FKV1" Association="Self.ATENCION_FORMA_PAGO_FKV1">
+            <End Role="FORMA_PAGO" EntitySet="FORMA_PAGO" />
+            <End Role="ATENCION" EntitySet="ATENCION" />
+          </AssociationSet>
+          <AssociationSet Name="ATENCION_TIPO_PAGO_FKV1" Association="Self.ATENCION_TIPO_PAGO_FKV1">
+            <End Role="TIPO_PAGO" EntitySet="TIPO_PAGO" />
+            <End Role="ATENCION" EntitySet="ATENCION" />
+          </AssociationSet>
+          <AssociationSet Name="RECAUDACION_ATENCION_FKV1" Association="Self.RECAUDACION_ATENCION_FKV1">
+            <End Role="ATENCION" EntitySet="ATENCION" />
+            <End Role="RECAUDACION" EntitySet="RECAUDACION" />
+          </AssociationSet>
+          <AssociationSet Name="RESERVA_ATENCION_FKV1" Association="Self.RESERVA_ATENCION_FKV1">
+            <End Role="ATENCION" EntitySet="ATENCION" />
+            <End Role="RESERVA" EntitySet="RESERVA" />
+          </AssociationSet>
+          <AssociationSet Name="CAJERO_CAJA_FKV1" Association="Self.CAJERO_CAJA_FKV1">
+            <End Role="CAJA" EntitySet="CAJA" />
+            <End Role="CAJERO" EntitySet="CAJERO" />
+          </AssociationSet>
+          <AssociationSet Name="CAJERO_PERSONAL_FK" Association="Self.CAJERO_PERSONAL_FK">
+            <End Role="PERSONAL" EntitySet="PERSONAL" />
+            <End Role="CAJERO" EntitySet="CAJERO" />
+          </AssociationSet>
+          <AssociationSet Name="CALENDARIO_HORARIO_FKV1" Association="Self.CALENDARIO_HORARIO_FKV1">
+            <End Role="HORARIO" EntitySet="HORARIO" />
+            <End Role="CALENDARIO" EntitySet="CALENDARIO" />
+          </AssociationSet>
+          <AssociationSet Name="MEDICO_CENTRO_MEDICO_FKV1" Association="Self.MEDICO_CENTRO_MEDICO_FKV1">
+            <End Role="CENTRO_MEDICO" EntitySet="CENTRO_MEDICO" />
+            <End Role="MEDICO" EntitySet="MEDICO" />
+          </AssociationSet>
+          <AssociationSet Name="MEDICO_ESPECIALIDAD_FKV1" Association="Self.MEDICO_ESPECIALIDAD_FKV1">
+            <End Role="ESPECIALIDAD" EntitySet="ESPECIALIDAD" />
+            <End Role="MEDICO" EntitySet="MEDICO" />
+          </AssociationSet>
+          <AssociationSet Name="HORARIO_MEDICO_FKV1" Association="Self.HORARIO_MEDICO_FKV1">
+            <End Role="MEDICO" EntitySet="MEDICO" />
+            <End Role="HORARIO" EntitySet="HORARIO" />
+          </AssociationSet>
+          <AssociationSet Name="MEDICO_USUARIO_FKV1" Association="Self.MEDICO_USUARIO_FKV1">
+            <End Role="USUARIO" EntitySet="USUARIO" />
+            <End Role="MEDICO" EntitySet="MEDICO" />
+          </AssociationSet>
+          <AssociationSet Name="RESERVA_MEDICO_FKV1" Association="Self.RESERVA_MEDICO_FKV1">
+            <End Role="MEDICO" EntitySet="MEDICO" />
+            <End Role="RESERVA" EntitySet="RESERVA" />
+          </AssociationSet>
+          <AssociationSet Name="PACIENTE_PREVISION_FKV1" Association="Self.PACIENTE_PREVISION_FKV1">
+            <End Role="PREVISION" EntitySet="PREVISION" />
+            <End Role="PACIENTE" EntitySet="PACIENTE" />
+          </AssociationSet>
+          <AssociationSet Name="PACIENTE_USUARIO_FKV1" Association="Self.PACIENTE_USUARIO_FKV1">
+            <End Role="USUARIO" EntitySet="USUARIO" />
+            <End Role="PACIENTE" EntitySet="PACIENTE" />
+          </AssociationSet>
+          <AssociationSet Name="RESERVA_PACIENTE_FKV1" Association="Self.RESERVA_PACIENTE_FKV1">
+            <End Role="PACIENTE" EntitySet="PACIENTE" />
+            <End Role="RESERVA" EntitySet="RESERVA" />
+          </AssociationSet>
+          <AssociationSet Name="PERSONAL_USUARIO_FKV1" Association="Self.PERSONAL_USUARIO_FKV1">
+            <End Role="USUARIO" EntitySet="USUARIO" />
+            <End Role="PERSONAL" EntitySet="PERSONAL" />
+          </AssociationSet>
+          <AssociationSet Name="SECRETARIA_PERSONAL_FKV1" Association="Self.SECRETARIA_PERSONAL_FKV1">
+            <End Role="PERSONAL" EntitySet="PERSONAL" />
+            <End Role="SECRETARIA" EntitySet="SECRETARIA" />
+          </AssociationSet>
+          <AssociationSet Name="RESERVA_TIPO_RESERVA_FKV1" Association="Self.RESERVA_TIPO_RESERVA_FKV1">
+            <End Role="TIPO_RESERVA" EntitySet="TIPO_RESERVA" />
+            <End Role="RESERVA" EntitySet="RESERVA" />
+          </AssociationSet>
+          <AssociationSet Name="USUARIO_TIPO_USUARIO_FKV1" Association="Self.USUARIO_TIPO_USUARIO_FKV1">
+            <End Role="TIPO_USUARIO" EntitySet="TIPO_USUARIO" />
+            <End Role="USUARIO" EntitySet="USUARIO" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="EntitiesClinica">
+          <EntitySetMapping Name="ATENCION">
+            <EntityTypeMapping TypeName="Model.ATENCION">
+              <MappingFragment StoreEntitySet="ATENCION">
+                <ScalarProperty Name="ATE_ID" ColumnName="ATE_ID" />
+                <ScalarProperty Name="TIPO_PAGO_TPA_ID" ColumnName="TIPO_PAGO_TPA_ID" />
+                <ScalarProperty Name="FORMA_PAGO_FPA_ID" ColumnName="FORMA_PAGO_FPA_ID" />
+                <ScalarProperty Name="CAJA_CAJ_ID" ColumnName="CAJA_CAJ_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CAJA">
+            <EntityTypeMapping TypeName="Model.CAJA">
+              <MappingFragment StoreEntitySet="CAJA">
+                <ScalarProperty Name="CAJ_ID" ColumnName="CAJ_ID" />
+                <ScalarProperty Name="CAJ_NOMBRE" ColumnName="CAJ_NOMBRE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CAJERO">
+            <EntityTypeMapping TypeName="Model.CAJERO">
+              <MappingFragment StoreEntitySet="CAJERO">
+                <ScalarProperty Name="PER_ID" ColumnName="PER_ID" />
+                <ScalarProperty Name="CJR_ID" ColumnName="CJR_ID" />
+                <ScalarProperty Name="CAJA_CAJ_ID" ColumnName="CAJA_CAJ_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CALENDARIO">
+            <EntityTypeMapping TypeName="Model.CALENDARIO">
+              <MappingFragment StoreEntitySet="CALENDARIO">
+                <ScalarProperty Name="CAL_ID" ColumnName="CAL_ID" />
+                <ScalarProperty Name="CAL_MES" ColumnName="CAL_MES" />
+                <ScalarProperty Name="HORARIO_HOR_ID" ColumnName="HORARIO_HOR_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CENTRO_MEDICO">
+            <EntityTypeMapping TypeName="Model.CENTRO_MEDICO">
+              <MappingFragment StoreEntitySet="CENTRO_MEDICO">
+                <ScalarProperty Name="CME_ID" ColumnName="CME_ID" />
+                <ScalarProperty Name="CME_NOMBRE" ColumnName="CME_NOMBRE" />
+                <ScalarProperty Name="CME_DIRECCION" ColumnName="CME_DIRECCION" />
+                <ScalarProperty Name="CME_EMAIL" ColumnName="CME_EMAIL" />
+                <ScalarProperty Name="CME_TELEFONO" ColumnName="CME_TELEFONO" />
+                <ScalarProperty Name="CME_HORA_APERT" ColumnName="CME_HORA_APERT" />
+                <ScalarProperty Name="CME_HORA_CIERRE" ColumnName="CME_HORA_CIERRE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ERRORES">
+            <EntityTypeMapping TypeName="Model.ERRORES">
+              <MappingFragment StoreEntitySet="ERRORES">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+                <ScalarProperty Name="TABLA" ColumnName="TABLA" />
+                <ScalarProperty Name="CODIGO_ERROR" ColumnName="CODIGO_ERROR" />
+                <ScalarProperty Name="DETALLE" ColumnName="DETALLE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ESPECIALIDAD">
+            <EntityTypeMapping TypeName="Model.ESPECIALIDAD">
+              <MappingFragment StoreEntitySet="ESPECIALIDAD">
+                <ScalarProperty Name="ESP_ID" ColumnName="ESP_ID" />
+                <ScalarProperty Name="ESP_NOMBRE" ColumnName="ESP_NOMBRE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FORMA_PAGO">
+            <EntityTypeMapping TypeName="Model.FORMA_PAGO">
+              <MappingFragment StoreEntitySet="FORMA_PAGO">
+                <ScalarProperty Name="FPA_ID" ColumnName="FPA_ID" />
+                <ScalarProperty Name="FPA_NOMBRE" ColumnName="FPA_NOMBRE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="HORARIO">
+            <EntityTypeMapping TypeName="Model.HORARIO">
+              <MappingFragment StoreEntitySet="HORARIO">
+                <ScalarProperty Name="HOR_ID" ColumnName="HOR_ID" />
+                <ScalarProperty Name="HOR_LUNES" ColumnName="HOR_LUNES" />
+                <ScalarProperty Name="HOR_MARTES" ColumnName="HOR_MARTES" />
+                <ScalarProperty Name="HOR_MIERCOLES" ColumnName="HOR_MIERCOLES" />
+                <ScalarProperty Name="HOR_JUEVES" ColumnName="HOR_JUEVES" />
+                <ScalarProperty Name="HOR_VIERNES" ColumnName="HOR_VIERNES" />
+                <ScalarProperty Name="HOR_SABADO" ColumnName="HOR_SABADO" />
+                <ScalarProperty Name="HOR_DOMINGO" ColumnName="HOR_DOMINGO" />
+                <ScalarProperty Name="HOR_INICIO" ColumnName="HOR_INICIO" />
+                <ScalarProperty Name="HOR_TERMINO" ColumnName="HOR_TERMINO" />
+                <ScalarProperty Name="MEDICO_MED_ID" ColumnName="MEDICO_MED_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LOG_RESERVA">
+            <EntityTypeMapping TypeName="Model.LOG_RESERVA">
+              <MappingFragment StoreEntitySet="LOG_RESERVA">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+                <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+                <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+                <ScalarProperty Name="ID_RESERVA" ColumnName="ID_RESERVA" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MEDICO">
+            <EntityTypeMapping TypeName="Model.MEDICO">
+              <MappingFragment StoreEntitySet="MEDICO">
+                <ScalarProperty Name="MED_ID" ColumnName="MED_ID" />
+                <ScalarProperty Name="MED_NOMBRES" ColumnName="MED_NOMBRES" />
+                <ScalarProperty Name="MED_PATERNO" ColumnName="MED_PATERNO" />
+                <ScalarProperty Name="MED_MATERNO" ColumnName="MED_MATERNO" />
+                <ScalarProperty Name="CENTRO_MEDICO_CME_ID" ColumnName="CENTRO_MEDICO_CME_ID" />
+                <ScalarProperty Name="ESPECIALIDAD_ESP_ID" ColumnName="ESPECIALIDAD_ESP_ID" />
+                <ScalarProperty Name="MED_MIN_AT" ColumnName="MED_MIN_AT" />
+                <ScalarProperty Name="MED_VALOR_AT" ColumnName="MED_VALOR_AT" />
+                <ScalarProperty Name="USUARIO_USU_ID" ColumnName="USUARIO_USU_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PACIENTE">
+            <EntityTypeMapping TypeName="Model.PACIENTE">
+              <MappingFragment StoreEntitySet="PACIENTE">
+                <ScalarProperty Name="PAC_ID" ColumnName="PAC_ID" />
+                <ScalarProperty Name="PAC_RUT" ColumnName="PAC_RUT" />
+                <ScalarProperty Name="PAC_DV" ColumnName="PAC_DV" />
+                <ScalarProperty Name="PAC_NOMBRES" ColumnName="PAC_NOMBRES" />
+                <ScalarProperty Name="PAC_PATERNO" ColumnName="PAC_PATERNO" />
+                <ScalarProperty Name="PAC_MATERNO" ColumnName="PAC_MATERNO" />
+                <ScalarProperty Name="PAC_FNAC" ColumnName="PAC_FNAC" />
+                <ScalarProperty Name="PAC_DIRECCION" ColumnName="PAC_DIRECCION" />
+                <ScalarProperty Name="PAC_CELULAR" ColumnName="PAC_CELULAR" />
+                <ScalarProperty Name="PAC_TELEFONO" ColumnName="PAC_TELEFONO" />
+                <ScalarProperty Name="PREVISION_PRE_ID" ColumnName="PREVISION_PRE_ID" />
+                <ScalarProperty Name="USUARIO_USU_ID" ColumnName="USUARIO_USU_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PERSONAL">
+            <EntityTypeMapping TypeName="Model.PERSONAL">
+              <MappingFragment StoreEntitySet="PERSONAL">
+                <ScalarProperty Name="PER_ID" ColumnName="PER_ID" />
+                <ScalarProperty Name="RUT" ColumnName="RUT" />
+                <ScalarProperty Name="DV" ColumnName="DV" />
+                <ScalarProperty Name="NOMBRES" ColumnName="NOMBRES" />
+                <ScalarProperty Name="PATERNO" ColumnName="PATERNO" />
+                <ScalarProperty Name="MATERNO" ColumnName="MATERNO" />
+                <ScalarProperty Name="FNAC" ColumnName="FNAC" />
+                <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+                <ScalarProperty Name="CELULAR" ColumnName="CELULAR" />
+                <ScalarProperty Name="TELEFONO" ColumnName="TELEFONO" />
+                <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+                <ScalarProperty Name="FECHA_REGISTRO" ColumnName="FECHA_REGISTRO" />
+                <ScalarProperty Name="USUARIO_USU_ID" ColumnName="USUARIO_USU_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PREVISION">
+            <EntityTypeMapping TypeName="Model.PREVISION">
+              <MappingFragment StoreEntitySet="PREVISION">
+                <ScalarProperty Name="PRE_ID" ColumnName="PRE_ID" />
+                <ScalarProperty Name="PRE_NOMBRE" ColumnName="PRE_NOMBRE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RECAUDACION">
+            <EntityTypeMapping TypeName="Model.RECAUDACION">
+              <MappingFragment StoreEntitySet="RECAUDACION">
+                <ScalarProperty Name="REC_ID" ColumnName="REC_ID" />
+                <ScalarProperty Name="ATENCION_ATE_ID" ColumnName="ATENCION_ATE_ID" />
+                <ScalarProperty Name="REC_PORCENTAJE" ColumnName="REC_PORCENTAJE" />
+                <ScalarProperty Name="REC_TOTAL" ColumnName="REC_TOTAL" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RESERVA">
+            <EntityTypeMapping TypeName="Model.RESERVA">
+              <MappingFragment StoreEntitySet="RESERVA">
+                <ScalarProperty Name="RES_ID" ColumnName="RES_ID" />
+                <ScalarProperty Name="RES_FECHA" ColumnName="RES_FECHA" />
+                <ScalarProperty Name="RES_HORA_INICIO" ColumnName="RES_HORA_INICIO" />
+                <ScalarProperty Name="RES_HORA_TERM" ColumnName="RES_HORA_TERM" />
+                <ScalarProperty Name="MEDICO_MED_ID" ColumnName="MEDICO_MED_ID" />
+                <ScalarProperty Name="PACIENTE_PAC_ID" ColumnName="PACIENTE_PAC_ID" />
+                <ScalarProperty Name="TIPO_RESERVA_TRE_ID" ColumnName="TIPO_RESERVA_TRE_ID" />
+                <ScalarProperty Name="RES_ESTADO" ColumnName="RES_ESTADO" />
+                <ScalarProperty Name="ATENCION_ATE_ID" ColumnName="ATENCION_ATE_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SECRETARIA">
+            <EntityTypeMapping TypeName="Model.SECRETARIA">
+              <MappingFragment StoreEntitySet="SECRETARIA">
+                <ScalarProperty Name="PER_ID" ColumnName="PER_ID" />
+                <ScalarProperty Name="SEC_ID" ColumnName="SEC_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TIPO_PAGO">
+            <EntityTypeMapping TypeName="Model.TIPO_PAGO">
+              <MappingFragment StoreEntitySet="TIPO_PAGO">
+                <ScalarProperty Name="TPA_ID" ColumnName="TPA_ID" />
+                <ScalarProperty Name="TPA_NOMBRE" ColumnName="TPA_NOMBRE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TIPO_RESERVA">
+            <EntityTypeMapping TypeName="Model.TIPO_RESERVA">
+              <MappingFragment StoreEntitySet="TIPO_RESERVA">
+                <ScalarProperty Name="TRE_ID" ColumnName="TRE_ID" />
+                <ScalarProperty Name="TRE_NOMBRE" ColumnName="TRE_NOMBRE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TIPO_USUARIO">
+            <EntityTypeMapping TypeName="Model.TIPO_USUARIO">
+              <MappingFragment StoreEntitySet="TIPO_USUARIO">
+                <ScalarProperty Name="TU_ID" ColumnName="TU_ID" />
+                <ScalarProperty Name="TU_NOMBRE" ColumnName="TU_NOMBRE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="USUARIO">
+            <EntityTypeMapping TypeName="Model.USUARIO">
+              <MappingFragment StoreEntitySet="USUARIO">
+                <ScalarProperty Name="USU_ID" ColumnName="USU_ID" />
+                <ScalarProperty Name="USU_USERNAME" ColumnName="USU_USERNAME" />
+                <ScalarProperty Name="USU_PASS" ColumnName="USU_PASS" />
+                <ScalarProperty Name="USU_ULTIMOPASS" ColumnName="USU_ULTIMOPASS" />
+                <ScalarProperty Name="USU_FREGISTRO" ColumnName="USU_FREGISTRO" />
+                <ScalarProperty Name="USU_ESTADO" ColumnName="USU_ESTADO" />
+                <ScalarProperty Name="TIPO_USUARIO_TU_ID" ColumnName="TIPO_USUARIO_TU_ID" />
+                <ScalarProperty Name="USU_EMAIL" ColumnName="USU_EMAIL" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

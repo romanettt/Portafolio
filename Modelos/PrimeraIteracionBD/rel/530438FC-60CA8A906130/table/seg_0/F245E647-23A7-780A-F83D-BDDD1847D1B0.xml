@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F245E647-23A7-780A-F83D-BDDD1847D1B0" name="PACIENTE">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>6788E363-180C-2C68-B35C-858D98CE5781</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PACIENTE" id="7567BAFB-2929-5680-C855-F359C84C95E2">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>DFD3655E-D7AE-8E81-0997-940A794DDEF0</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUT" id="651EC51F-9CD9-0701-8765-2283E9B0F03C">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>1CDF76C8-53E5-F2C0-F9E2-94F340BB62B5</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DV" id="A4266E46-FAA9-2E48-78C8-92E370857ECB">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>27E580C0-3FFB-2A39-33E1-5CA13EA73AB9</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRES" id="2D54DA2C-E824-CBE9-F871-274BDC25C8BA">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>1936F0A0-FE09-6925-ABBD-C9FEA24AA938</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PATERNO" id="507F5014-CD39-0287-C1CC-45E38DD53C0B">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>D4915DA4-9E3E-17DD-EECE-E6741CC3B7DC</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MATERNO" id="DA20EBF4-9428-F8BD-B088-2FCAF98D6A23">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>675DD35E-3185-229C-1CA6-B16ACFA0AF3F</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FNAC" id="36B4E192-DE1A-4A73-9FC7-EFEB067C8CF9">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>956877A1-E74B-F881-93EF-072C05201D23</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="1EB0FC71-50C1-5E87-FF94-FD92AD67841A">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>E3AB81CD-EB49-624E-2441-265E3AC112B4</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CELULAR" id="37FE4EB2-5C86-3F1D-F2BB-E5E9B0592F63">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>CD8CCABE-4E14-D119-16ED-2E3A91D8AD19</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="97B6523B-A207-7D27-062F-08C254BCF133">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>4E6FF5D6-CA5F-AE9D-3558-DCF8452D79B7</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_ID_USU" id="60B22258-5141-990E-1D07-F746B823535B">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>64F1E89F-ED06-E3FE-87E7-E8809BA0F277</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F8A1753-AB76-2B5C-8C6E-B917C98D6CAB" referredColumn="05F4C99D-5D34-4413-17B3-6A93FEC9020B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8855555F-2A32-4A0D-27EE-22DC7E1E0AFA" name="PACIENTE_PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>6752AA22-8E7D-F828-3507-2AE6184783F5</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7567BAFB-2929-5680-C855-F359C84C95E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A40066B-E578-2AB6-F520-E093AA577BB2" name="PACIENTE_USUARIO_FK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-03-30 19:20:47 UTC</createdTime>
+<generatorID>62F8EAA0-F6FD-9DA7-F47F-205EFA54C197</generatorID>
+<ownerDesignName>PrimeraIteracionBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60B22258-5141-990E-1D07-F746B823535B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
