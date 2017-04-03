@@ -4,9 +4,9 @@
    <object objectType="Entity" objectID="75B33A8A-18FE-EE6C-7A4E-55A88FE24FFF" name="ATENCION" seqName="seg_0"/>
    <object objectType="Entity" objectID="2F0D38DD-BB20-689B-4EA0-FDB3B5CF4DAA" name="CAJA" seqName="seg_0"/>
    <object objectType="Entity" objectID="28BB8967-1D4A-AE31-1EB7-346C10DCFA9B" name="CAJERO" seqName="seg_0"/>
-   <object objectType="Entity" objectID="693EBF49-F699-13E7-FE5A-89CE4FF373B3" name="CALENDARIO_BASE" seqName="seg_0"/>
-   <object objectType="Entity" objectID="BE96C0E4-07E0-8A54-7410-FCF373BCDF9E" name="CENTRO_MEDICO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="693EBF49-F699-13E7-FE5A-89CE4FF373B3" name="CAL_BASE" seqName="seg_0"/>
    <object objectType="Entity" objectID="37CE1482-BA26-D979-C7E3-47DFA99D4DE2" name="CITA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BE96C0E4-07E0-8A54-7410-FCF373BCDF9E" name="CTO_MEDICO" seqName="seg_0"/>
    <object objectType="Entity" objectID="D3D2FEB7-B6BE-55DF-1952-5034371EB58C" name="DISPONIBLIDAD" seqName="seg_0"/>
    <object objectType="Entity" objectID="742B9E89-ED33-8B47-E7B0-C4787E1FED04" name="ERRORES" seqName="seg_0"/>
    <object objectType="Entity" objectID="A712A00F-7948-89F8-8D05-03B207551BF0" name="ESPECIALIDAD" seqName="seg_0"/>
