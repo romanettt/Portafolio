@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CITA_PACIENTE" directorySegmentName="seg_0" id="D3C7FB6E-8FD0-5C80-B8CA-E43A930CB852">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-02 22:37:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<targetPk>80624986-A4E7-552C-C9DB-CB815D91814B</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>37CE1482-BA26-D979-C7E3-47DFA99D4DE2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>FE297B6F-ADBB-D911-284D-41819CAFA1D8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

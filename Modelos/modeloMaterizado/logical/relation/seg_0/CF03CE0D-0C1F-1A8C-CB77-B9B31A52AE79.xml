@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ATENCION_TIPOPAGO" directorySegmentName="seg_0" id="CF03CE0D-0C1F-1A8C-CB77-B9B31A52AE79">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:36:40 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<sourcePk>D1542FA9-EB0D-5335-87CD-01DB16807B53</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C39126FA-856B-3AF6-50EE-06BA05E70A1E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>75B33A8A-18FE-EE6C-7A4E-55A88FE24FFF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

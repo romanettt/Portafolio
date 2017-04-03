@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PACIENTE_PREVISION" directorySegmentName="seg_0" id="ED204B50-4EA3-E853-6C6D-33CDA8751C81">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-02 23:03:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<sourcePk>80624986-A4E7-552C-C9DB-CB815D91814B</sourcePk>
+<targetPk>7D4166C0-1E4E-E684-8A1A-5D02F3E53080</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FE297B6F-ADBB-D911-284D-41819CAFA1D8</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5B313345-A0D1-7C6D-1CF1-F1DAC4FE669F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

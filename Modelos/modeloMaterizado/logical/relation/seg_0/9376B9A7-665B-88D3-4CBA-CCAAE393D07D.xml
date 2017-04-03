@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AGENDA_ESTADO" directorySegmentName="seg_0" id="9376B9A7-665B-88D3-4CBA-CCAAE393D07D">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-02 01:22:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<sourcePk>97F80D2A-1593-2C22-70EA-5A2B1173B9B2</sourcePk>
+<targetPk>9DD850D7-FEE4-8827-A363-BDD4A0E78426</targetPk>
+<identifying>false</identifying>
+<nameOnSource>TIENE</nameOnSource>
+<nameOnTarget>PERTENECE</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B048CC0E-098F-D2AD-A541-23F380DFFED0</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>01BB65D2-E9C1-29EF-96B4-B4E2D5EEABE7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

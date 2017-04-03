@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8622A77D-5CC4-38E9-5AD0-C13683B28A16" name="AGENDA">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>B048CC0E-098F-D2AD-A541-23F380DFFED0</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C0B7B126-CA28-7D95-F389-CAB28F9377D7">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>A5252693-F47B-E8B6-CEE9-B45A4F07C5CD</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="0D207A39-C1AA-27C7-D90C-448471ABC48C">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>26441DBC-035E-939A-9E60-6517484240A6</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISPONIBLIDAD_ID" id="3D1BF859-4E07-3EDA-5E30-8C31CC24B167">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>4EF3CA55-6DA8-39BB-49BA-397C45A025DB</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3ADC99D1-1061-2EAE-EC6B-B48A7771E346" referredColumn="CA3F2093-9142-25A8-7B22-9022D3D08E64"/>
+</associations>
+</Column>
+<Column name="ESTADO_AGENDA_ID" id="5E6B982A-5BC4-5132-91C5-DF6F42C5D570">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>B8A0E84E-69CE-E0B6-245E-5F60FE82B0E7</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24CA933E-75B1-4C48-0BB2-2CD36FD76F5C" referredColumn="07607E73-CFD5-5F9F-CC21-8F3523F0AA05"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47376132-1DE0-805E-1D59-96A00B4C1ABC" name="AGENDA_PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>97F80D2A-1593-2C22-70EA-5A2B1173B9B2</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0B7B126-CA28-7D95-F389-CAB28F9377D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7BD09A1-0BE4-4ADC-FFF4-759A835F51F9" name="AGENDA_DISPONIBLIDAD_FK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>FA5B9FF4-53DD-1255-FD41-AA451B42625A</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D1BF859-4E07-3EDA-5E30-8C31CC24B167"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB0026C0-04FD-A915-CABB-9356220D0CE4" name="AGENDA_ESTADO_AGENDA_FK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>9376B9A7-665B-88D3-4CBA-CCAAE393D07D</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E6B982A-5BC4-5132-91C5-DF6F42C5D570"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

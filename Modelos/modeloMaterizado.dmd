@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modeloMaterizado" id="A077D40A-820F-95E9-B984-CF29FA667110" version="3.5">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-01 23:14:43 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A077D40A-820F-95E9-B984-CF29FA667110</designId>
+</OSDM_Design>

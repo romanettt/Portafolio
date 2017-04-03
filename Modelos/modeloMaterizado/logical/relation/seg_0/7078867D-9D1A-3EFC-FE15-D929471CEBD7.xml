@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CENTROMEDICO_CAJERO" directorySegmentName="seg_0" id="7078867D-9D1A-3EFC-FE15-D929471CEBD7">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:14:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<targetPk>E2998FE9-9A7D-FAB7-10DC-A00B2640B76B</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>28BB8967-1D4A-AE31-1EB7-346C10DCFA9B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BE96C0E4-07E0-8A54-7410-FCF373BCDF9E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E19834F-83D2-BD68-FBDD-65132448E2AC" name="CITA">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>37CE1482-BA26-D979-C7E3-47DFA99D4DE2</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="12C44561-3C14-17B8-8DFD-4D9655DCB7DE">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>91BB5510-816A-27A0-B51B-12CC4D1CDECA</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_INICIO" id="B98C6411-39CA-DEF5-9455-C998DCD662B7">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>FE2339D1-6399-DC35-D54A-6E9A96137ACD</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_TERMINO" id="782BA590-BE77-CA9E-45DF-34FCF7C5CCBD">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>B5D05346-273B-A5D6-A10D-CCD13311F5E7</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGENDA_ID" id="F48D7112-1FBF-D602-A7A1-5607083B8AB5">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>670D954C-D227-E830-ECEA-E9B2BF63C24A</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="836F71A9-FE1E-E241-CF37-23976FBE77E8" referredColumn="C0B7B126-CA28-7D95-F389-CAB28F9377D7"/>
+</associations>
+</Column>
+<Column name="PACIENTE_ID" id="2F4B5E27-1C55-5C5C-B42C-1930406DE4E1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>688F8630-1BAE-08C9-0185-55093CF79025</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC8A90C9-D0DE-78A1-CC2D-45A8052BDE85" referredColumn="CCDE9E5E-3B4E-8A00-860A-0C90221B52AA"/>
+</associations>
+</Column>
+<Column name="ESTADO_CITA_ID" id="90232053-2FB2-1886-F3AD-3EA55EF0182E">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>F20C6991-35FA-FFCA-F8D6-5CA2923D996E</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A611006A-73B1-D6BC-7C70-36684ABC8F24" referredColumn="EB28B63D-BB28-91E7-BAE7-DEF4BF2D9A7A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DFA2142-900C-89E3-AD0D-3E4CE88D8BC9" name="CITA_PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>3EB32A0B-B43E-EBB7-38DE-CDBF7F0B586B</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12C44561-3C14-17B8-8DFD-4D9655DCB7DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B3C49AE-AF31-0FF5-82D1-923A13A8FC76" name="CITA_AGENDA_FKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>E94C7903-75D0-FAB6-8241-057E90684456</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F48D7112-1FBF-D602-A7A1-5607083B8AB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E47A0F39-BAB0-069D-1EE3-E8ED355F587E" name="CITA_ESTADO_CITA_FKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>6B9EE4D7-3FCE-1CD6-8688-213A6DB2AA75</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90232053-2FB2-1886-F3AD-3EA55EF0182E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5E53FDF-43FA-8FA6-33BA-D46283516E40" name="CITA_PACIENTE_FKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:59:10 UTC</createdTime>
+<generatorID>D3C7FB6E-8FD0-5C80-B8CA-E43A930CB852</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F4B5E27-1C55-5C5C-B42C-1930406DE4E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

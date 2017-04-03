@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ATENCION_FORMAPAGO" directorySegmentName="seg_0" id="D809F3F8-E12D-9592-2E76-9C542BC2EEB5">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:36:09 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<sourcePk>1E96EE51-F715-B5AE-607E-9FFF4E3FACDB</sourcePk>
+<targetPk>83A21318-64DE-69D5-2572-D44AF9D8EA19</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>75B33A8A-18FE-EE6C-7A4E-55A88FE24FFF</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B59DE086-CFEB-A43E-819A-96D158457C99</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AGENDA_CITAS" directorySegmentName="seg_0" id="E94C7903-75D0-FAB6-8241-057E90684456">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-02 22:35:55 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<sourcePk>97F80D2A-1593-2C22-70EA-5A2B1173B9B2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B048CC0E-098F-D2AD-A541-23F380DFFED0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>37CE1482-BA26-D979-C7E3-47DFA99D4DE2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

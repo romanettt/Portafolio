@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CAJA_ATENCION" directorySegmentName="seg_0" id="744BE559-F25E-B6CA-B63A-50A01D083D90">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-03 00:39:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<sourcePk>1E96EE51-F715-B5AE-607E-9FFF4E3FACDB</sourcePk>
+<targetPk>32391629-F209-A25D-3582-066AB2176536</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>75B33A8A-18FE-EE6C-7A4E-55A88FE24FFF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2F0D38DD-BB20-689B-4EA0-FDB3B5CF4DAA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CENTROMEDICO_MEDICO" directorySegmentName="seg_0" id="DC7AC212-7E22-0F1A-DE4D-C23C6AE75D8B">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-01 23:37:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<sourcePk>E2998FE9-9A7D-FAB7-10DC-A00B2640B76B</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>PUEDE TENER</nameOnSource>
+<nameOnTarget>PERTENECE</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BE96C0E4-07E0-8A54-7410-FCF373BCDF9E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8CC83965-D255-12CB-570F-020127C7C2F5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
