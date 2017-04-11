@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="693EBF49-F699-13E7-FE5A-89CE4FF373B3" name="CAL_BASE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="693EBF49-F699-13E7-FE5A-89CE4FF373B3" name="CB">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-01 23:32:06 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="0BCCB054-3FFE-31FD-E5D0-DA0C42BA2419">
+<Attribute name="ID_CB" id="0BCCB054-3FFE-31FD-E5D0-DA0C42BA2419">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-01 23:32:16 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -57,7 +57,7 @@
 <dataTypeSize>255 CHAR</dataTypeSize>
 <ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="321C65F7-F447-9E62-2269-F7D61B8C6997">
+<Attribute name="ID_CM" id="321C65F7-F447-9E62-2269-F7D61B8C6997">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-02 01:24:05 UTC</createdTime>
 <generatorID>8B17A6AD-4FCC-79E7-999A-73C693E042B5</generatorID>
@@ -78,8 +78,9 @@
 <createdTime>2017-04-01 23:32:22 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>modeloMaterizado</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

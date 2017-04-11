@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="3A2BD938-1A30-F2BB-2EA4-53297D7E7D2D">
+<Attribute name="ID_CAJ" id="3A2BD938-1A30-F2BB-2EA4-53297D7E7D2D">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-03 00:08:56 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -139,7 +139,7 @@
 <dataTypeSize>32 CHAR</dataTypeSize>
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID2" id="960F008F-7389-219C-5FC9-613466E9F92B">
+<Attribute name="ID_CM" id="960F008F-7389-219C-5FC9-613466E9F92B">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-03 00:14:38 UTC</createdTime>
 <generatorID>7078867D-9D1A-3EFC-FE15-D929471CEBD7</generatorID>
@@ -167,6 +167,30 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>3A2BD938-1A30-F2BB-2EA4-53297D7E7D2D</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="94D6A901-68E5-68EF-EACA-66029009C019" name="RUT">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 20:08:57 UTC</createdTime>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<newElementsIDs>D5F6A233-1CC6-169D-E85D-09399CEC1B76</newElementsIDs>
+<usedAttributes>
+<attributeRef>D5F6A233-1CC6-169D-E85D-09399CEC1B76</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="FF40E13D-2D53-42DF-0A3A-107024E446BD" name="EMAIL">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 20:09:30 UTC</createdTime>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<newElementsIDs>361DE1C7-7D78-9797-13AD-78DE4EDF037B</newElementsIDs>
+<usedAttributes>
+<attributeRef>361DE1C7-7D78-9797-13AD-78DE4EDF037B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

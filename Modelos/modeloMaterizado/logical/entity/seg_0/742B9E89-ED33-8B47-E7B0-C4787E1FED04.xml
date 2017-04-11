@@ -15,4 +15,69 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ERROR" id="6B34EFD1-1A8D-FD29-4EE7-10AE38B47A24">
+<createdBy>home</createdBy>
+<createdTime>2017-04-04 20:33:22 UTC</createdTime>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD" id="2BF31DAC-AFCA-FF70-84AB-DA1CAF6E6A22">
+<createdBy>home</createdBy>
+<createdTime>2017-04-04 20:34:20 UTC</createdTime>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="CE9A2386-BF44-F0DA-FC8F-4BDCE3A4929B">
+<createdBy>home</createdBy>
+<createdTime>2017-04-04 20:34:27 UTC</createdTime>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA" id="4408F8EF-38A1-90E3-E361-C541F0132687">
+<createdBy>home</createdBy>
+<createdTime>2017-04-04 20:34:31 UTC</createdTime>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8BE56924-094B-4F58-931F-C3702C076939" name="ERRORES PK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:33:40 UTC</createdTime>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6B34EFD1-1A8D-FD29-4EE7-10AE38B47A24</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

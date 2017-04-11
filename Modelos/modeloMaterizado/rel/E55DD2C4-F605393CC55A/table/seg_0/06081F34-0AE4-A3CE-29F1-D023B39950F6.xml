@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06081F34-0AE4-A3CE-29F1-D023B39950F6" name="INFORME">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:56 UTC</createdTime>
+<generatorID>DF621B38-EEB2-C95F-C81D-6149849E8F18</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_INF" id="2C779FCF-2354-8AEA-308D-29AFA841525C">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:56 UTC</createdTime>
+<generatorID>535F3884-A0E7-7F24-9579-A20CD80FFC44</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PORCENTAJE" id="0090CC6D-9393-D105-4B54-D09DC1A1740E">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:56 UTC</createdTime>
+<generatorID>804C5A6E-BBC9-4C09-7E69-051EC9F01292</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMISION" id="06722E43-2E2C-F7B4-2FD2-E99F8CA33602">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:57 UTC</createdTime>
+<generatorID>4D910CAD-AA73-F784-648F-794B72D0FBA0</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATENCION_ID_AT" id="ACF2750E-54EE-EA1A-78EE-08C54B610943">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:57 UTC</createdTime>
+<generatorID>F280E5DA-5F81-0842-294D-F1AA36C40E02</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB9A93C1-533C-B1E6-7262-2C079F1152E3" referredColumn="CC49A628-BD37-8757-7B57-D6A6706514C2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FCFE036-5270-D76B-CBA8-E0DC5280B658" name="INFORME_PK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:57 UTC</createdTime>
+<generatorID>087CBA3F-A3D8-061C-45CD-B6F5C9922EE2</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C779FCF-2354-8AEA-308D-29AFA841525C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A9B9F5B-72FD-5248-F43C-9F13EF70DEAD" name="INFORME_ATENCION_FK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:57 UTC</createdTime>
+<generatorID>60E230DC-5880-B6A4-14C5-4E03063596EC</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACF2750E-54EE-EA1A-78EE-08C54B610943"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

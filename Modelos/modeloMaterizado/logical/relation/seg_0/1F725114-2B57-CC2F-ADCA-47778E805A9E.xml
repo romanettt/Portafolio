@@ -10,6 +10,8 @@
 <sourcePk>3EB32A0B-B43E-EBB7-38DE-CDBF7F0B586B</sourcePk>
 <targetPk>1E96EE51-F715-B5AE-607E-9FFF4E3FACDB</targetPk>
 <identifying>false</identifying>
+<nameOnSource>PUEDE </nameOnSource>
+<nameOnTarget>TIENE</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="8A9E2D8A-4949-4F6D-7A45-ABEBC88706B1">
+<Attribute name="ID_DISP" id="8A9E2D8A-4949-4F6D-7A45-ABEBC88706B1">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-01 23:29:30 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -146,7 +146,7 @@
 <logicalDatatype>LOGDT042</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="71F6221D-93F6-AF0D-4EA4-BF11389D25F4">
+<Attribute name="ID_MD" id="71F6221D-93F6-AF0D-4EA4-BF11389D25F4">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-01 23:39:20 UTC</createdTime>
 <generatorID>276CCF0D-7EA2-FA9A-7626-6D692E2BC774</generatorID>
@@ -160,6 +160,34 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_DISP1" id="903F0C45-601E-36D2-5F5B-D9CC8077A139">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 20:04:23 UTC</createdTime>
+<generatorID>641830A9-0E2D-0388-CCA8-25F3FBD6890A</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<referedAttribute>934E79C9-F801-7570-0803-16EC7CF55B0B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_DISP11" id="F6061FEF-ABAB-0D33-0295-F2789554891B">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 20:04:23 UTC</createdTime>
+<generatorID>641830A9-0E2D-0388-CCA8-25F3FBD6890A</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<referedAttribute>E0195AC6-22C5-F715-66F4-4A61921B8437</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="75A6EF3C-8640-F480-39DF-8C53D2F5D0AF" name="DISPONIBLIDAD PK">
@@ -167,8 +195,9 @@
 <createdTime>2017-04-01 23:29:43 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>modeloMaterizado</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

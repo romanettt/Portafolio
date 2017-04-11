@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63F5D010-7F96-1F10-E175-0D3ACB7C852A" name="REGISTRO_PAGO_COMISION">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>5DB60409-4F15-4EF5-4AD7-01AED109A139</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PG_C" id="3983899D-B942-DCAB-5854-6D18A92E0DB0">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>F4779992-5143-1783-3B2F-29EBB7791469</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL" id="428F6C8F-B03A-896E-E401-9A775D36923A">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>9C6BA836-EFC5-E91A-8A15-E044A15071E2</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="52840E74-A50E-AEB7-057B-9622E3C36BBC">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>1C28D178-BB25-FB52-C83C-E330B456E753</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEDICO_ID_MD" id="5D527220-6F01-0040-EDD8-D6FEF2762531">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>2541E0B8-541D-1325-4F4C-EB9B5E46585E</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC55CF45-C53C-EACE-6C3C-48DB04375A44" referredColumn="9125E181-3E95-9DDF-A260-82D34CD3B3AB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="406593E4-DDBA-C553-B282-5DF4FBE5DC5C" name="REGISTRO_PAGO_COMISION_PK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>72B66AB8-3ABB-6545-FAA6-374A153BDCA2</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3983899D-B942-DCAB-5854-6D18A92E0DB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8F6DAF0-A18D-3294-E217-091B01E80FE7" name="REGISTRO_PAGO_COMISION_MEDICO_FK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:22 UTC</createdTime>
+<generatorID>7557C7E1-2CC7-B1BE-0445-1F0B45615F6E</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D527220-6F01-0040-EDD8-D6FEF2762531"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D1BB56E-E25B-2BBD-DD69-B8A6FB07479D" name="CITA">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:56 UTC</createdTime>
+<generatorID>37CE1482-BA26-D979-C7E3-47DFA99D4DE2</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CT" id="4E42B097-23A0-684F-7EB9-C882253AE872">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:56 UTC</createdTime>
+<generatorID>91BB5510-816A-27A0-B51B-12CC4D1CDECA</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_INICIO" id="0FC4F1C2-473D-4BFC-4747-A7FD52FFF730">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:56 UTC</createdTime>
+<generatorID>FE2339D1-6399-DC35-D54A-6E9A96137ACD</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_TERMINO" id="A10F6ED0-B3E6-470D-5E02-28F1CCCC70B7">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:56 UTC</createdTime>
+<generatorID>B5D05346-273B-A5D6-A10D-CCD13311F5E7</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGENDA_ID_AG" id="7838A7CA-51E7-1776-8ED9-80904D7AFF1C">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:56 UTC</createdTime>
+<generatorID>670D954C-D227-E830-ECEA-E9B2BF63C24A</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6F3A025-E749-23E9-A2F9-45EDB80B4A91" referredColumn="0CFC9AD7-FF0C-1F09-F67C-D9F1BD76C070"/>
+</associations>
+</Column>
+<Column name="PACIENTE_ID_PACIENTE" id="F26C4B96-AE45-6518-07A7-2473936767AD">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:56 UTC</createdTime>
+<generatorID>688F8630-1BAE-08C9-0185-55093CF79025</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5BA350D-2468-B446-D445-8B084A7B66E6" referredColumn="FB65CB7F-D4C7-DB4A-BFC8-20D2578E32DD"/>
+</associations>
+</Column>
+<Column name="ESTADO_CITA_ID_EST_CT" id="73CB64C3-4BA7-DE3D-6319-BEB7F8057816">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:56 UTC</createdTime>
+<generatorID>F20C6991-35FA-FFCA-F8D6-5CA2923D996E</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B970A55C-F64D-6BD2-E7DB-995F0A502925" referredColumn="0E580CB8-873D-7FF9-CCCA-6B88ED3DA8EC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA25011B-C774-0D8E-22BB-8FA32A5DE897" name="CITA_PK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:56 UTC</createdTime>
+<generatorID>3EB32A0B-B43E-EBB7-38DE-CDBF7F0B586B</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E42B097-23A0-684F-7EB9-C882253AE872"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD81199D-FE5E-2A5F-DB91-6B0370F24387" name="CITA_AGENDA_FK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:57 UTC</createdTime>
+<generatorID>E94C7903-75D0-FAB6-8241-057E90684456</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7838A7CA-51E7-1776-8ED9-80904D7AFF1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45736ABD-FC84-1849-D4B1-CA475E975B53" name="CITA_ESTADO_CITA_FK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:57 UTC</createdTime>
+<generatorID>6B9EE4D7-3FCE-1CD6-8688-213A6DB2AA75</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73CB64C3-4BA7-DE3D-6319-BEB7F8057816"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B5BC2B4-1CFF-144C-DC97-384F50E2D289" name="CITA_PACIENTE_FK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:57 UTC</createdTime>
+<generatorID>D3C7FB6E-8FD0-5C80-B8CA-E43A930CB852</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F26C4B96-AE45-6518-07A7-2473936767AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

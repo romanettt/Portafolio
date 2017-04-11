@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AC55CF45-C53C-EACE-6C3C-48DB04375A44" containerWithKeyObject="63F5D010-7F96-1F10-E175-0D3ACB7C852A" localFKIndex="F8F6DAF0-A18D-3294-E217-091B01E80FE7" name="REGISTRO_PAGO_COMISION_MEDICO_FK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:22 UTC</createdTime>
+<generatorID>7557C7E1-2CC7-B1BE-0445-1F0B45615F6E</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B3722DA6-5510-3F2E-C4D1-3092954DE636</referredTableID>
+<keyObject>C95AA0DC-928D-2E51-5F4B-61E9D13F5829</keyObject>
+<referredKeyID>C95AA0DC-928D-2E51-5F4B-61E9D13F5829</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

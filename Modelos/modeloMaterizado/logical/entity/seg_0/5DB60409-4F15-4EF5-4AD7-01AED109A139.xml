@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5DB60409-4F15-4EF5-4AD7-01AED109A139" name="REGISTRO_PAGO_COMISION">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5DB60409-4F15-4EF5-4AD7-01AED109A139" name="REG_PAGO_COM">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-03 01:00:11 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="F4779992-5143-1783-3B2F-29EBB7791469">
+<Attribute name="ID_PG_C" id="F4779992-5143-1783-3B2F-29EBB7791469">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-03 01:00:20 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -37,6 +37,33 @@
 <engineerTo>
 <item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA" id="1C28D178-BB25-FB52-C83C-E330B456E753">
+<createdBy>home</createdBy>
+<createdTime>2017-04-04 20:23:19 UTC</createdTime>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_MD" id="2541E0B8-541D-1325-4F4C-EB9B5E46585E">
+<createdBy>home</createdBy>
+<createdTime>2017-04-04 20:23:50 UTC</createdTime>
+<generatorID>7557C7E1-2CC7-B1BE-0445-1F0B45615F6E</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<referedAttribute>3370FEE4-03E9-4393-D48C-A8D42DCA9C1C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

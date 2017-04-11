@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3DC28CA-2351-7C42-B464-D3C8C1F4A69D" name="ESPECIALIDAD">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:56 UTC</createdTime>
+<generatorID>A712A00F-7948-89F8-8D05-03B207551BF0</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESP" id="7D9395BE-5C4F-CDE0-7592-6F0237129655">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:56 UTC</createdTime>
+<generatorID>A8525ED8-7428-A9DE-F464-7BF63000857D</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="444993E6-EC51-2717-E4FD-8DBBACD345D8">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:56 UTC</createdTime>
+<generatorID>91F51452-1E82-8C8C-9428-C89FA534757A</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74873444-27EF-2ACA-6073-4A881A9B9864" name="ESPECIALIDAD_PK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 21:38:56 UTC</createdTime>
+<generatorID>24FE350A-202D-7FD2-2246-BCEFB330B568</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D9395BE-5C4F-CDE0-7592-6F0237129655"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

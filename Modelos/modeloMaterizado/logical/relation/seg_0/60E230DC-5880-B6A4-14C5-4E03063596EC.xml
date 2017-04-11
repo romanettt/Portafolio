@@ -10,8 +10,10 @@
 <sourcePk>087CBA3F-A3D8-061C-45CD-B6F5C9922EE2</sourcePk>
 <targetPk>1E96EE51-F715-B5AE-607E-9FFF4E3FACDB</targetPk>
 <identifying>false</identifying>
+<nameOnSource>TIENE MUCHOS</nameOnSource>
+<nameOnTarget>PUEDE TENER</nameOnTarget>
 <optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>DF621B38-EEB2-C95F-C81D-6149849E8F18</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>

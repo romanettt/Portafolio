@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="91BB5510-816A-27A0-B51B-12CC4D1CDECA">
+<Attribute name="ID_CT" id="91BB5510-816A-27A0-B51B-12CC4D1CDECA">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-02 22:16:35 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -55,7 +55,7 @@
 <logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="670D954C-D227-E830-ECEA-E9B2BF63C24A">
+<Attribute name="ID_AG" id="670D954C-D227-E830-ECEA-E9B2BF63C24A">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-02 22:36:05 UTC</createdTime>
 <generatorID>E94C7903-75D0-FAB6-8241-057E90684456</generatorID>
@@ -69,7 +69,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID2" id="688F8630-1BAE-08C9-0185-55093CF79025">
+<Attribute name="ID_PACIENTE" id="688F8630-1BAE-08C9-0185-55093CF79025">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-02 22:41:39 UTC</createdTime>
 <generatorID>D3C7FB6E-8FD0-5C80-B8CA-E43A930CB852</generatorID>
@@ -84,7 +84,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID3" id="F20C6991-35FA-FFCA-F8D6-5CA2923D996E">
+<Attribute name="ID_EST_CT" id="F20C6991-35FA-FFCA-F8D6-5CA2923D996E">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-02 22:52:47 UTC</createdTime>
 <generatorID>6B9EE4D7-3FCE-1CD6-8688-213A6DB2AA75</generatorID>

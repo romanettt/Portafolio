@@ -9,6 +9,8 @@
 </engineerTo>
 <targetPk>80624986-A4E7-552C-C9DB-CB815D91814B</targetPk>
 <identifying>false</identifying>
+<nameOnSource>PUEDE</nameOnSource>
+<nameOnTarget>TIENE</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>

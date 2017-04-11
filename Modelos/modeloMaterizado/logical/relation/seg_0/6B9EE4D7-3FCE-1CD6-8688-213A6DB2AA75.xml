@@ -10,6 +10,8 @@
 <sourcePk>3EB32A0B-B43E-EBB7-38DE-CDBF7F0B586B</sourcePk>
 <targetPk>1A5A3E6C-9F8E-170F-5EF8-D9F7AC37CB8F</targetPk>
 <identifying>false</identifying>
+<nameOnSource>TIENE MUCHAS</nameOnSource>
+<nameOnTarget>TIENE</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>

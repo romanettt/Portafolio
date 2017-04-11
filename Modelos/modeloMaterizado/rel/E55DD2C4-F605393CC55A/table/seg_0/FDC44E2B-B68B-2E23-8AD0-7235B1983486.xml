@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDC44E2B-B68B-2E23-8AD0-7235B1983486" name="LOG_CITAS">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>07C057B3-C5E9-E3B3-8E7A-A6E5A685A14E</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="B2A15543-D6C0-ECDA-BCD2-77BE0CD48B97">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>5694CD86-4608-1527-8748-C6C6F9008598</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PACIENTE" id="61B24A0B-4712-3F26-88EB-95C36F45781E">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>B682F426-5D11-C387-69C0-A0BB8FC4E7A6</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="9CA74CB5-A7E9-EBA8-A641-E453E915091C">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>584F9168-633D-1A0C-4862-3F37616DCC29</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_OLD" id="26867B57-1C18-B3B2-444F-E525EB090993">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>F43D90EE-5699-B66A-B696-05B07591E908</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_NEW" id="E8A90F9A-5A5F-37BF-84FC-9E8258ECBCC7">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>98714A06-096C-7E5C-80A5-A9A27789F733</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB04A56C-C136-1B03-BAB4-017EA4C06631" name="LOG_CITAS_PK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>4364E5D2-D262-421A-C41B-DB2220728F84</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2A15543-D6C0-ECDA-BCD2-77BE0CD48B97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

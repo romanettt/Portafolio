@@ -1,2 +1,89 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.relational.RelationalDesign/>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="010E640F-AF69-16CA-2D08-48D732B7E4E9" name="TIPO_PAGO" seqName="seg_0"/>
+   <object objectType="Table" objectID="06081F34-0AE4-A3CE-29F1-D023B39950F6" name="INFORME" seqName="seg_0"/>
+   <object objectType="Table" objectID="0A376661-3CD5-3B69-6865-F22FD3B5ECA8" name="DISPONIBLIDAD" seqName="seg_0"/>
+   <object objectType="Table" objectID="1679F504-609E-479F-41F0-7C559C38AEFC" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="1680E371-EA6B-574D-7C25-0D13BF77FA11" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="19B34939-24AC-F5FA-3CA6-8EA362906AB3" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="1F1D8566-FC08-2D4A-EFCD-206AEA216A15" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="287695D4-C4E7-E7D7-22CE-D7A1C380706A" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="2D93C319-7FA5-0291-7D2A-DE253FA05609" name="PREVISION" seqName="seg_0"/>
+   <object objectType="Table" objectID="2F8B0777-57B4-55E8-5DC3-17E6683A8EB2" name="AGENDA" seqName="seg_0"/>
+   <object objectType="Table" objectID="327DE4D6-6760-7811-A2AE-2EA7547B6107" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="33DFDF39-E1E8-C59C-4746-47F70A0647E3" name="EST_DISP" seqName="seg_0"/>
+   <object objectType="Table" objectID="39A82774-3E5A-A4F0-EDA6-D73AF3672658" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="4158EAAF-94B8-66C5-BB07-DC427CA8B8DA" name="CAJERO" seqName="seg_0"/>
+   <object objectType="Table" objectID="427C43D8-DD94-A17E-3120-BEF8A85CD760" name="LOG_SESIONES" seqName="seg_0"/>
+   <object objectType="Table" objectID="5701ACF8-FC10-2BCB-C5E2-7A27EE936C38" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="573B3D02-59B6-7774-BAFE-8D20485CE393" name="ERRORES" seqName="seg_0"/>
+   <object objectType="Table" objectID="57F74D75-2F24-F840-F160-D65941326ACE" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="5D1BB56E-E25B-2BBD-DD69-B8A6FB07479D" name="CITA" seqName="seg_0"/>
+   <object objectType="Table" objectID="63F5D010-7F96-1F10-E175-0D3ACB7C852A" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="69F375FD-1FB1-4D7A-D95D-8DA41BE94746" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="70DA736F-170F-64DE-1C5C-209D6B015797" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="728FD333-B67D-4E48-420E-EDF113837B24" name="REG_PAGO_COM" seqName="seg_0"/>
+   <object objectType="Table" objectID="77FA7FBD-26F8-EABD-1375-2E9B98B26277" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="7964D40E-A78B-3DF1-4FC3-5286B77501FE" name="FORMA_PAGO" seqName="seg_0"/>
+   <object objectType="Table" objectID="798A3596-7997-035E-BA6D-A215E62B92E5" name="PACIENTE" seqName="seg_0"/>
+   <object objectType="Table" objectID="8B01BF3F-09D3-1409-AA56-62FF282C064C" name="REG_USERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="8E8FB032-A50B-D11F-AF81-C5AB55BD737A" name="ATENCION" seqName="seg_0"/>
+   <object objectType="Table" objectID="92E8DA40-36DA-17B8-43E7-4BDD6EEFEFCC" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="9DDEF12C-5BEF-AEFD-30E4-430778763FB3" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="9E459D0C-76A5-E1DC-6E78-249EA5D3E61B" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="A39C8D03-0E66-57BA-B3B7-06C9E127EB4D" name="SECRETARIA" seqName="seg_0"/>
+   <object objectType="Table" objectID="A42CC960-DAB5-8EA8-503F-AD5AF014D02D" name="CB" seqName="seg_0"/>
+   <object objectType="Table" objectID="A4943E70-95E8-80E5-999B-2FD2CBCF3FC1" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="A90087AA-7C60-4998-47D8-DFA8A3A3C07E" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="AFD064CA-AE0F-6786-6158-76A0A2E2535F" name="LOG_CITAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="B0C8A39A-1B30-72AC-8689-3A9A13B6949E" name="CAJA" seqName="seg_0"/>
+   <object objectType="Table" objectID="B3722DA6-5510-3F2E-C4D1-3092954DE636" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="B431FB6C-8CFF-AB62-F5F0-EC9C188D9073" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="BF3F88AD-AF7F-DCCD-9D90-0849D5FB7D39" name="MEDICO" seqName="seg_0"/>
+   <object objectType="Table" objectID="CCC078F9-A7DA-D499-0854-95BBFA9DE403" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="CF5004A0-3D9E-64AD-60B2-66B2A0FDBC8A" name="ESTADO_CITA" seqName="seg_0"/>
+   <object objectType="Table" objectID="D14A336E-D04C-BD63-10E0-EEC50952E0AE" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="D3DC28CA-2351-7C42-B464-D3C8C1F4A69D" name="ESPECIALIDAD" seqName="seg_0"/>
+   <object objectType="Table" objectID="DC2E9C3C-5D2F-35D9-33AC-117F11D2A19D" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="E0D74BAF-BA8E-1505-6B5B-67D8310B5506" name="CENTRO_MEDICO" seqName="seg_0"/>
+   <object objectType="Table" objectID="E1F69506-D43A-A448-E22B-E669E94D6BC1" name="ESTADO_AGENDA" seqName="seg_0"/>
+   <object objectType="Table" objectID="FDC44E2B-B68B-2E23-8AD0-7235B1983486" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0899A04D-507F-56F4-A0CA-9BBD989F09C6" name="CB_CENTRO_MEDICO_FK" containerID="A42CC960-DAB5-8EA8-503F-AD5AF014D02D" refContainerID="E0D74BAF-BA8E-1505-6B5B-67D8310B5506" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1E72DC07-4B3E-9ACA-EB25-359FAD977D94" name="CAJERO_CENTRO_MEDICO_FK" containerID="4158EAAF-94B8-66C5-BB07-DC427CA8B8DA" refContainerID="E0D74BAF-BA8E-1505-6B5B-67D8310B5506" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1FCD04ED-898E-4BD1-1606-AAF31D13C7DE" name="DISPONIBLIDAD_EST_DISP_FK" containerID="0A376661-3CD5-3B69-6865-F22FD3B5ECA8" refContainerID="33DFDF39-E1E8-C59C-4746-47F70A0647E3" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2F60F093-93E1-B13E-5A84-FDA9991037AA" name="CAJA_ATENCION_FK" containerID="B0C8A39A-1B30-72AC-8689-3A9A13B6949E" refContainerID="8E8FB032-A50B-D11F-AF81-C5AB55BD737A" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3B9B2900-76E5-B0AC-1081-536F2DE3886F" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="44BAAD31-BF22-A894-BB65-6F8BC413F18D" name="PACIENTE_PREVISION_FK" containerID="798A3596-7997-035E-BA6D-A215E62B92E5" refContainerID="2D93C319-7FA5-0291-7D2A-DE253FA05609" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="472E8F2E-B9CF-42E9-6B1E-33F04B6D26F9" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="486E756F-FB98-E656-BE1E-C5F0AD60F50D" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="551FF085-9AC1-27A1-00A2-A98661B2A95D" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="55BC219F-2BED-7C87-F233-A80DFC885075" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5D151939-B2CE-5373-DEA3-E448DFD24D8C" name="MEDICO_ESPECIALIDAD_FK" containerID="BF3F88AD-AF7F-DCCD-9D90-0849D5FB7D39" refContainerID="D3DC28CA-2351-7C42-B464-D3C8C1F4A69D" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="64A96538-25EB-A2CD-A71F-F270469B659A" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6B2A188F-4DF4-C945-9A3E-3608F74739ED" name="DISPONIBLIDAD_MEDICO_FK" containerID="0A376661-3CD5-3B69-6865-F22FD3B5ECA8" refContainerID="BF3F88AD-AF7F-DCCD-9D90-0849D5FB7D39" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8078C374-A799-5B5B-AFDD-19F0787CC39C" name="AGENDA_ESTADO_AGENDA_FK" containerID="2F8B0777-57B4-55E8-5DC3-17E6683A8EB2" refContainerID="E1F69506-D43A-A448-E22B-E669E94D6BC1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9124E371-EED2-5114-21C8-C00DDB8D75DD" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A2E7EE46-7583-CB13-6A19-DF5603170465" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A482644B-65B0-3885-A828-964FCC59F93A" name="AGENDA_DISPONIBLIDAD_FK" containerID="2F8B0777-57B4-55E8-5DC3-17E6683A8EB2" refContainerID="0A376661-3CD5-3B69-6865-F22FD3B5ECA8" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A6F3A025-E749-23E9-A2F9-45EDB80B4A91" name="CITA_AGENDA_FK" containerID="5D1BB56E-E25B-2BBD-DD69-B8A6FB07479D" refContainerID="2F8B0777-57B4-55E8-5DC3-17E6683A8EB2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="AC55CF45-C53C-EACE-6C3C-48DB04375A44" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="AEDD1E04-3B48-4F52-5C49-955C2AC307E7" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B10CFF90-8166-F9E2-39EC-E88806FB06A0" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B3F7F628-283D-22D9-97B7-35987EEB32C1" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B970A55C-F64D-6BD2-E7DB-995F0A502925" name="CITA_ESTADO_CITA_FK" containerID="5D1BB56E-E25B-2BBD-DD69-B8A6FB07479D" refContainerID="CF5004A0-3D9E-64AD-60B2-66B2A0FDBC8A" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C1D41CEF-F08F-CF6B-8C81-1DD95FE20443" name="SECRETARIA_CENTRO_MEDICO_FK" containerID="A39C8D03-0E66-57BA-B3B7-06C9E127EB4D" refContainerID="E0D74BAF-BA8E-1505-6B5B-67D8310B5506" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C9284C94-972D-B749-76FA-7079E655696A" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CA06E7D4-5D72-0D76-2639-05DDDB75BF7F" name="ATENCION_CITA_FK" containerID="8E8FB032-A50B-D11F-AF81-C5AB55BD737A" refContainerID="5D1BB56E-E25B-2BBD-DD69-B8A6FB07479D" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CA072D44-00CE-7F5A-EE05-F736047C1707" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CA0D94B4-2DAB-EA12-BA39-51E2E856FEB2" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D2E253DE-3C49-A9E6-F8BA-455D617081DF" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D504C770-DFC0-3501-57C1-B96427443AAC" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E24CFB0C-2E0C-AE3D-FB09-0C6043BFA038" name="ATENCION_TIPO_PAGO_FK" containerID="8E8FB032-A50B-D11F-AF81-C5AB55BD737A" refContainerID="010E640F-AF69-16CA-2D08-48D732B7E4E9" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E3A723EE-1697-D8E6-E2B3-EB6325DBD18F" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E9327195-D58F-1943-F11E-317A014C42C6" name="ATENCION_FORMA_PAGO_FK" containerID="8E8FB032-A50B-D11F-AF81-C5AB55BD737A" refContainerID="7964D40E-A78B-3DF1-4FC3-5286B77501FE" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="ECEA19FD-FC65-A396-9378-42F292A3A753" name="REG_PAG_COM_MEDICO_FK" containerID="728FD333-B67D-4E48-420E-EDF113837B24" refContainerID="BF3F88AD-AF7F-DCCD-9D90-0849D5FB7D39" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EE90182B-CF87-9EA0-EF84-32F7396EB4EA" name="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F43C7167-75BF-08E3-35F9-167EAE82AB7F" name="MEDICO_CENTRO_MEDICO_FK" containerID="BF3F88AD-AF7F-DCCD-9D90-0849D5FB7D39" refContainerID="E0D74BAF-BA8E-1505-6B5B-67D8310B5506" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F5BA350D-2468-B446-D445-8B084A7B66E6" name="CITA_PACIENTE_FK" containerID="5D1BB56E-E25B-2BBD-DD69-B8A6FB07479D" refContainerID="798A3596-7997-035E-BA6D-A215E62B92E5" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FB9A93C1-533C-B1E6-7262-2C079F1152E3" name="INFORME_ATENCION_FK" containerID="06081F34-0AE4-A3CE-29F1-D023B39950F6" refContainerID="8E8FB032-A50B-D11F-AF81-C5AB55BD737A" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

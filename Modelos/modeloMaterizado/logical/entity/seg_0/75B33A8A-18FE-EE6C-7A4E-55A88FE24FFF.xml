@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="CD42352F-2D00-C0A5-B095-276CE7BF4B85">
+<Attribute name="ID_AT" id="CD42352F-2D00-C0A5-B095-276CE7BF4B85">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-02 22:30:51 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -68,7 +68,7 @@
 <logicalDatatype>LOGDT042</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="822A3CF1-DB43-7111-B19A-DFABF150B00A">
+<Attribute name="ID_CT" id="822A3CF1-DB43-7111-B19A-DFABF150B00A">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-03 00:34:17 UTC</createdTime>
 <generatorID>1F725114-2B57-CC2F-ADCA-47778E805A9E</generatorID>
@@ -82,7 +82,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID2" id="D0B8DFCC-FC98-AE66-E564-56C33D319AC8">
+<Attribute name="ID_F_PGO" id="D0B8DFCC-FC98-AE66-E564-56C33D319AC8">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-03 00:36:32 UTC</createdTime>
 <generatorID>D809F3F8-E12D-9592-2E76-9C542BC2EEB5</generatorID>
@@ -96,7 +96,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID3" id="CEAE646A-CDAD-642A-C45E-41E265B21E42">
+<Attribute name="ID_T_PGO" id="CEAE646A-CDAD-642A-C45E-41E265B21E42">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-03 00:36:40 UTC</createdTime>
 <generatorID>CF03CE0D-0C1F-1A8C-CB77-B9B31A52AE79</generatorID>

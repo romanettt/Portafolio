@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="535F3884-A0E7-7F24-9579-A20CD80FFC44">
+<Attribute name="ID_INF" id="535F3884-A0E7-7F24-9579-A20CD80FFC44">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-03 00:20:20 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -57,7 +57,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="F280E5DA-5F81-0842-294D-F1AA36C40E02">
+<Attribute name="ID_AT" id="F280E5DA-5F81-0842-294D-F1AA36C40E02">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-03 00:58:45 UTC</createdTime>
 <generatorID>60E230DC-5880-B6A4-14C5-4E03063596EC</generatorID>

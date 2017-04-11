@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="3370FEE4-03E9-4393-D48C-A8D42DCA9C1C">
+<Attribute name="ID_MD" id="3370FEE4-03E9-4393-D48C-A8D42DCA9C1C">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-01 23:18:55 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -139,7 +139,7 @@
 <dataTypeSize>32 CHAR</dataTypeSize>
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="4834778B-F4E1-0017-F53F-052645668D79">
+<Attribute name="ID_ESP" id="4834778B-F4E1-0017-F53F-052645668D79">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-01 23:35:38 UTC</createdTime>
 <generatorID>7EBA6BEE-9F61-217F-1766-EA28A512100E</generatorID>
@@ -153,7 +153,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID2" id="0C7E5DD0-9758-743C-1CF8-81FEE28B367B">
+<Attribute name="ID_CM" id="0C7E5DD0-9758-743C-1CF8-81FEE28B367B">
 <createdBy>Willywes</createdBy>
 <createdTime>2017-04-01 23:38:00 UTC</createdTime>
 <generatorID>DC7AC212-7E22-0F1A-DE4D-C23C6AE75D8B</generatorID>
@@ -174,12 +174,37 @@
 <createdTime>2017-04-01 23:21:59 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>modeloMaterizado</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>3370FEE4-03E9-4393-D48C-A8D42DCA9C1C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="0B5635E2-2236-22FB-112A-C47F58554664" name="RUT">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 20:07:19 UTC</createdTime>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<newElementsIDs>BB9CF62B-7448-7415-7F8F-035C43C31EEE</newElementsIDs>
+<usedAttributes>
+<attributeRef>BB9CF62B-7448-7415-7F8F-035C43C31EEE</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="AD58505E-35AB-B179-4056-BCBABFBC5EFF" name="EMAIL">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 20:07:45 UTC</createdTime>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<newElementsIDs>D1EB3C35-37D8-7A8E-EAEC-51CC80572389</newElementsIDs>
+<usedAttributes>
+<attributeRef>D1EB3C35-37D8-7A8E-EAEC-51CC80572389</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70DA736F-170F-64DE-1C5C-209D6B015797" name="PACIENTE">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>FE297B6F-ADBB-D911-284D-41819CAFA1D8</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PACIENTE" id="5125DD77-1E30-B232-ABBD-CC0C513C8341">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>9227119C-FC39-0C5E-38CF-D747CAD984AC</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="D456F535-E4B4-B726-D68D-1CBCC247EB96">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>68AEE714-2609-1C07-C162-34344783A23F</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUT" id="330BA634-54A2-0312-E165-31A8B9FFDB28">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>0E3C42F5-092D-B945-4B12-313C855A9365</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DV" id="78D52BBD-D362-90EE-8EBC-2BE3EAE13A80">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>E3CDEE63-BA6D-A548-2042-326DF200701C</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="3D0EA566-3792-79D8-0C30-3182727BBDB3">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>1BEFA3D7-FA0A-379D-68DA-A0CE143991C4</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="D5AA36E3-37E3-834B-F53C-A2FF6405B3D8">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>6A695669-23A4-918C-67D5-69B9A7052788</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="70425B40-F32E-01DE-3A60-ADCF06BBED39">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>DA62DE9A-540C-1677-405F-042ADAC6A9B5</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREVISION_ID_PREV" id="CBEBC154-AC55-EE42-2547-69F5514E5B5B">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>DA0BD95E-8548-2DFA-A369-4C8E002DCE27</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55BC219F-2BED-7C87-F233-A80DFC885075" referredColumn="D24E520A-E694-CC3A-5FBF-E54A930565CB"/>
+</associations>
+</Column>
+<Column name="PASS" id="44E956F8-3AA7-9239-B9DE-DA3618E627A7">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>445DB5A8-A21E-A528-32AC-C88BF6249D94</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2488851E-8ACC-6BD3-0A83-D2D7706A3A11" name="PACIENTE_PK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:21 UTC</createdTime>
+<generatorID>80624986-A4E7-552C-C9DB-CB815D91814B</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5125DD77-1E30-B232-ABBD-CC0C513C8341"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6839238-4F36-DD6E-F2C5-1F5E45400369" name="PACIENTE_RUT_UN">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 20:31:29 UTC</createdTime>
+<generatorID>8DF136A7-ADC6-2098-15BD-3A35B4CC4228</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="330BA634-54A2-0312-E165-31A8B9FFDB28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C668235-94CD-680F-A113-F3032CDFB2A6" name="PACIENTE_EMAIL_UN">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 20:31:29 UTC</createdTime>
+<generatorID>97A4CF62-998E-A419-3944-B5D68321CCB1</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70425B40-F32E-01DE-3A60-ADCF06BBED39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3AB8E48-AE10-53B4-5496-92BC19EBEDDF" name="PACIENTE_PREVISION_FK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-05 00:49:22 UTC</createdTime>
+<generatorID>ED204B50-4EA3-E853-6C6D-33CDA8751C81</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBEBC154-AC55-EE42-2547-69F5514E5B5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
