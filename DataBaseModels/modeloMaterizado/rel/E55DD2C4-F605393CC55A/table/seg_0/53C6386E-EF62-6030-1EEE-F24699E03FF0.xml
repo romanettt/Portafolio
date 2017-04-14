@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53C6386E-EF62-6030-1EEE-F24699E03FF0" name="AGENDA">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:44 UTC</createdTime>
+<generatorID>B048CC0E-098F-D2AD-A541-23F380DFFED0</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_AG" id="5E792F86-4D31-347A-A316-69B57E64A56D">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:44 UTC</createdTime>
+<generatorID>A5252693-F47B-E8B6-CEE9-B45A4F07C5CD</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="083A6B6B-62FB-A095-1A7D-281A66C5CC31">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:44 UTC</createdTime>
+<generatorID>26441DBC-035E-939A-9E60-6517484240A6</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JORNADA" id="D323F95F-546F-BBD4-E02E-06A8A977CDC4">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:44 UTC</createdTime>
+<generatorID>2E3E97C5-A810-5402-ED78-0873C63B5A8E</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_INICIO" id="5C09A6B5-3D38-5836-7271-6E6E74C5F3F6">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:44 UTC</createdTime>
+<generatorID>9A489A2D-E6EC-4875-92C1-DE25DA6C209B</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_TERMINO" id="BE5C6275-759C-D4ED-C3AF-4877A1A9C66F">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:44 UTC</createdTime>
+<generatorID>BC76A20F-568C-22A8-86E4-4B72EEB9638B</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEDICO_ID_MD" id="6416FC91-7C06-2BE0-5E19-1E5A76E8C7F8">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:44 UTC</createdTime>
+<generatorID>AEC739DA-6304-D2DF-E8B0-FFBFC7D51155</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6406C21-8F3B-5DDE-0F1C-6C797D135EB2" referredColumn="F64F5F1C-7F99-5CA3-06AE-75743F1203D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="129EC25E-AD9A-0AA7-A81D-FED3FC7A4EBD" name="AGENDA_PK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:44 UTC</createdTime>
+<generatorID>97F80D2A-1593-2C22-70EA-5A2B1173B9B2</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E792F86-4D31-347A-A316-69B57E64A56D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="256F9B61-1A52-DDFC-7187-F9FCC72F152C" name="AGENDA_MEDICO_FK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:45 UTC</createdTime>
+<generatorID>DE5A3A1A-4BEA-D1BD-43BD-A59B73B236BE</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6416FC91-7C06-2BE0-5E19-1E5A76E8C7F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

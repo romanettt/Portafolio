@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99EB921E-83B0-D70E-AFDC-ABA9A95AC23E" name="ATENCION">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:44 UTC</createdTime>
+<generatorID>75B33A8A-18FE-EE6C-7A4E-55A88FE24FFF</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_AT" id="BAB04273-2B9B-CBBE-5B6F-365C8035C5BC">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:44 UTC</createdTime>
+<generatorID>CD42352F-2D00-C0A5-B095-276CE7BF4B85</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="187BDCE0-55C3-1111-37F7-B14CF241FDA8">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:44 UTC</createdTime>
+<generatorID>E00A565C-D988-79A1-82C2-66293DF3CEC9</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR" id="ABB777D3-C513-1A36-E3FB-E8A90341C269">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:44 UTC</createdTime>
+<generatorID>B53D9C73-EB78-2391-7C94-7950B1EE650C</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="C369FE2C-4E62-EF30-9503-ED7BBC80B1FB">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:44 UTC</createdTime>
+<generatorID>E09170CD-65EB-5624-915E-D080E1F15E06</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITA_ID_CT" id="F001D944-9146-7B2B-016B-41DEFC9E9EB9">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:44 UTC</createdTime>
+<generatorID>822A3CF1-DB43-7111-B19A-DFABF150B00A</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC945707-1D14-7CED-CD60-F36A372AD709" referredColumn="0FD6D9A7-B4E4-9BA0-9B17-A705A37F5152"/>
+</associations>
+</Column>
+<Column name="FORMA_PAGO_ID_F_PGO" id="865745FA-45AF-AAF2-7A06-69820FFE75C6">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:44 UTC</createdTime>
+<generatorID>D0B8DFCC-FC98-AE66-E564-56C33D319AC8</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79D9F2C1-9951-DC69-6DE9-163AC9B33656" referredColumn="26DAD6A9-9C3E-53FF-AE64-AAD8AB8139D1"/>
+</associations>
+</Column>
+<Column name="TIPO_PAGO_ID_T_PGO" id="4B5E4406-6C35-AFFC-8F0F-7DE03EBA1456">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:44 UTC</createdTime>
+<generatorID>CEAE646A-CDAD-642A-C45E-41E265B21E42</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66E418E3-B5F9-2BB0-2610-3302F02D62AA" referredColumn="8586F4EB-06F6-0A95-2EB6-7677AD71006F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD149AEA-F7DD-A54F-7078-7885643490AC" name="ATENCION_PK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:44 UTC</createdTime>
+<generatorID>1E96EE51-F715-B5AE-607E-9FFF4E3FACDB</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAB04273-2B9B-CBBE-5B6F-365C8035C5BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E91D76F4-6445-07B1-23F2-28F56735F3B0" name="ATENCION__IDX">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:45 UTC</createdTime>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1F725114-2B57-CC2F-ADCA-47778E805A9E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F001D944-9146-7B2B-016B-41DEFC9E9EB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63A3B613-DADA-C379-C8A2-E2AB23B711DB" name="ATENCION_CITA_FK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:45 UTC</createdTime>
+<generatorID>1F725114-2B57-CC2F-ADCA-47778E805A9E</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F001D944-9146-7B2B-016B-41DEFC9E9EB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A0BA16A-B0F3-3801-DC2E-F7FA57E76EAD" name="ATENCION_FORMA_PAGO_FK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:45 UTC</createdTime>
+<generatorID>D809F3F8-E12D-9592-2E76-9C542BC2EEB5</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="865745FA-45AF-AAF2-7A06-69820FFE75C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5D90DCA-1977-F9D6-2214-F5C0FC20F71B" name="ATENCION_TIPO_PAGO_FK">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:53:45 UTC</createdTime>
+<generatorID>CF03CE0D-0C1F-1A8C-CB77-B9B31A52AE79</generatorID>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B5E4406-6C35-AFFC-8F0F-7DE03EBA1456"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

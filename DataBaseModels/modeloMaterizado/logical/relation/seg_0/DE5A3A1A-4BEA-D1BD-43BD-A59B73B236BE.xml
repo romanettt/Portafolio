@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MEDICO_AGENDA" directorySegmentName="seg_0" id="DE5A3A1A-4BEA-D1BD-43BD-A59B73B236BE">
+<createdBy>home</createdBy>
+<createdTime>2017-04-06 23:43:12 UTC</createdTime>
+<ownerDesignName>modeloMaterizado</ownerDesignName>
+<engineerTo>
+<item key="E55DD2C4-920E-9260-AD1D-F605393CC55A" value="true"/>
+</engineerTo>
+<sourcePk>40EA4E5C-EAB7-DD7D-A0CC-6F66E11969BE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8CC83965-D255-12CB-570F-020127C7C2F5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B048CC0E-098F-D2AD-A541-23F380DFFED0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
