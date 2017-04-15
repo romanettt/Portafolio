@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modeloRemasterizado" id="8E80F7E4-E436-3964-E533-AC5C4DBEBE5F" version="3.5">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 00:52:38 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8E80F7E4-E436-3964-E533-AC5C4DBEBE5F</designId>
+</OSDM_Design>

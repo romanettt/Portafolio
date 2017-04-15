@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="859463AE-63AC-D23F-5E3D-ADF1AFE0AF94" name="CALENDARIO_BASE">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 01:01:48 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="76141864-3150-DD4C-4D28-A5351C8654F8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="5DAF33F3-AB16-D3C4-DB16-DEA013B111D4">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 01:14:34 UTC</createdTime>
+<comment>Id de registros del Calendario Base</comment>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="76141864-3150-DD4C-4D28-A5351C8654F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA" id="1828D3EA-2176-4CA6-0DBB-5D28E54C8A23">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 01:01:56 UTC</createdTime>
+<comment>Fecha del Calendario Base que serán consideradas feriados o domingos</comment>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="76141864-3150-DD4C-4D28-A5351C8654F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MOTIVO" id="BD20322D-B420-31D5-F673-5F92FCDC6D3D">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 01:01:58 UTC</createdTime>
+<comment>Motivo del Feriado</comment>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="76141864-3150-DD4C-4D28-A5351C8654F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="763D14C3-0C7E-0123-6FA6-7478D933DAD3">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 01:29:06 UTC</createdTime>
+<comment>Id del Centro Médico</comment>
+<generatorID>3A9276D5-D7A1-0786-B573-145AEC6571D1</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="76141864-3150-DD4C-4D28-A5351C8654F8" value="true"/>
+</engineerTo>
+<referedAttribute>BC177DDB-4BC6-7F4E-A708-B9A6AD36F2C1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4A1B240-D5CE-1337-1232-90F3962B6E39" name="CALENDARIO_BASE PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 01:02:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="76141864-3150-DD4C-4D28-A5351C8654F8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5DAF33F3-AB16-D3C4-DB16-DEA013B111D4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0BD7A279-E406-9A18-F230-27CDE6A422C0" name="CENTRO_MEDICO">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 01:29:40 UTC</createdTime>
+<generatorID>E561D4F2-76EC-0D02-4849-9CBFA59CF914</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F77E342D-7266-C3BD-C5B6-F0C31B09DD39">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 01:29:40 UTC</createdTime>
+<comment>Id del Centro Médico</comment>
+<generatorID>BC177DDB-4BC6-7F4E-A708-B9A6AD36F2C1</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUT" id="CF34F340-621D-4B80-BE66-5B0AC621D5AD">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 01:29:40 UTC</createdTime>
+<comment>Rut del Centro Médico</comment>
+<generatorID>68B0C365-08A3-546D-90C8-B87D6E13A410</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DV" id="F3045518-C97A-14BC-7476-D46F565FF30E">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 01:29:40 UTC</createdTime>
+<comment>Digito verificador del RUT del Centro Médico</comment>
+<generatorID>5683FE19-4AEE-BF98-C8CF-5D2CFEB9D784</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="1A2C097B-C328-BCDC-5D65-C0C0D017BD29">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 01:29:40 UTC</createdTime>
+<comment>Nombre de Centro Médico</comment>
+<generatorID>3DF344A9-96FC-8C05-FA3C-6DEA69633928</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="3777DA1F-189E-FE6D-4713-0DAAAE21F958">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 01:29:40 UTC</createdTime>
+<comment>Dirección del Centro Médico</comment>
+<generatorID>C2DF06F1-E882-BE55-F66E-40D5C0B1117B</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="1ABFFF62-4941-565E-0E1B-7C101F15FA15">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 01:29:40 UTC</createdTime>
+<comment>Teléfono del Centro Médico</comment>
+<generatorID>0C7CD51A-8BE1-836F-BF8F-122DA975C8DB</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="30C9CA15-FEE2-EA26-0CD2-70944E914D16">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 01:29:40 UTC</createdTime>
+<comment>Email del Centro Médico</comment>
+<generatorID>5F5B1B96-626B-2B95-1C17-1560DAFE60F1</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B96A663E-1801-85B2-0C02-F7948391D16D" name="CENTRO_MEDICO_PKv5">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 01:29:40 UTC</createdTime>
+<generatorID>FFFE3D95-8ED2-F4DB-CC50-EF99465D6308</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F77E342D-7266-C3BD-C5B6-F0C31B09DD39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C83FC518-725F-42E6-C746-C538E6D70709" name="CENTRO_MEDICO_RUT_UNv5">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 01:29:40 UTC</createdTime>
+<generatorID>822A57F4-F731-A1ED-D8A1-F6563621E9E4</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF34F340-621D-4B80-BE66-5B0AC621D5AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A91B6239-C48A-88EA-ECAA-CBA9DA2D6E95" name="CENTRO_MEDICO_EMAIL_UNv5">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 01:29:40 UTC</createdTime>
+<generatorID>562FA1E8-A1AF-2048-562D-D844EB3ED407</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30C9CA15-FEE2-EA26-0CD2-70944E914D16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

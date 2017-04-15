@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="859463AE-63AC-D23F-5E3D-ADF1AFE0AF94" name="CALENDARIO_BASE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E561D4F2-76EC-0D02-4849-9CBFA59CF914" name="CENTRO_MEDICO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3A9276D5-D7A1-0786-B573-145AEC6571D1" name="Relation_6" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
