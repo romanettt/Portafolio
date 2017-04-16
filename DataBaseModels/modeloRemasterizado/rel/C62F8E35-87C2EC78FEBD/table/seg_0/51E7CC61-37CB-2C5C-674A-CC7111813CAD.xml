@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51E7CC61-37CB-2C5C-674A-CC7111813CAD" name="Especialidad">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>8BCE3F3A-4FBB-94B2-00BA-7EBB965475B9</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="21F46E47-294C-17D2-2104-DEF07BCCE776">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>EC1F7EEE-E106-85D1-7EA6-F219D3D23BEE</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="0580CF6D-BBE2-03A2-85D0-193E66A9F364">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>1EFEFA4B-09FF-BA08-18C6-0ECB1FC8585D</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F8F2B87-C659-06D9-3730-99C72301C888" name="Especialidad_PKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>21110A4A-4F55-9279-8EC9-3E3EC9EC0D23</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21F46E47-294C-17D2-2104-DEF07BCCE776"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

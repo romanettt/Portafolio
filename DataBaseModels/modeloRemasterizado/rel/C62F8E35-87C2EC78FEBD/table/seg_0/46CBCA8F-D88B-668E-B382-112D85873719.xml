@@ -1,0 +1,221 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46CBCA8F-D88B-668E-B382-112D85873719" name="Medico">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>B7E30138-1DEF-B441-1499-C5773FDE70CB</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="69D98727-64D9-87C4-EF0C-ECDF539D68DB">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>3A53BE18-E003-9E0E-DA15-5C7E2BE9B4E3</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Creacion" id="78462F9C-EB82-7441-911E-B9E133DBFEF3">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>474C4961-1C46-F8F4-CE02-EB9EC38CCD66</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rut" id="D5F0C773-E26C-B538-5B13-99EF6854D521">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>9C7CF83B-F349-7C7B-7B9F-799E7691772C</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dv" id="4D0DAEBB-0834-A00F-4B7A-086F5F9B1851">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>775DB3A9-D6FF-D41E-4D2C-AAFEEF85A2BE</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paterno" id="A128A845-8A95-A9BF-9A35-BE28E646F564">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>0B5B1A37-E62D-98C0-FFF8-406BCA8229B5</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Materno" id="1FD0B755-FD51-F663-888B-8BEB59E92150">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>28739EB5-D4E4-0C6B-AB34-7901ED1B2DE4</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombres" id="F475C409-0C2A-7C4C-7530-82D528E15074">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>A3661E8B-E031-CE46-547F-5864E24DBEFF</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="513D6031-B12D-9D31-43C0-85E283B49777">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>4949B5F7-C036-4FEA-8CAD-F1019EC6908C</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clave" id="800BEB7A-4FDF-B5B9-7893-B55C5DB4B7D3">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>0E2CEB07-64D4-0E01-F7AB-0177739230C7</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Minutos_Atencion" id="78CC3379-0917-111E-A7C0-3B986208AC92">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>58EB6546-D226-5DBB-C8F7-A9EE192A5559</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Centro_Medico_Id" id="E1534D56-E249-E9A7-C857-4A9CF97F359B">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>D28E3A4B-AEC5-C06F-AC60-140607431852</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C47D4FF-C9DE-54EF-4157-AC03EEE91817" referredColumn="DC25F761-7EC4-F0CE-F496-AFC079504A0B"/>
+</associations>
+</Column>
+<Column name="Especialidad_Id" id="8AD3D618-3A77-07FD-4E54-8298A72CEDC2">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>B93E466E-359E-AF43-B9C8-83EC5714ACFA</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E3391CA-B887-8B4E-05BF-ABDE90D3F6A9" referredColumn="21F46E47-294C-17D2-2104-DEF07BCCE776"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA9CF62B-4F9B-0215-EBEF-376B1CF8D00D" name="Medico_PKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>453AA116-EA6C-4C9C-4F79-3B595423942D</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69D98727-64D9-87C4-EF0C-ECDF539D68DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2326DC1B-9F5C-670F-12BF-53403AE20350" name="Medico_Rut_UNv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>867E1183-2182-8532-A452-62567FBDD305</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5F0C773-E26C-B538-5B13-99EF6854D521"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="016BA1C2-4D5C-8741-446E-9AE5159344FE" name="Medico_Email_UNv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>F9129260-42BE-366F-5BDD-8F50F6F1FFFF</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="513D6031-B12D-9D31-43C0-85E283B49777"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4BC5C26-67D9-B3D8-F41C-A2B9D9D431D8" name="Medico_Centro_Medico_FKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>6FD3287D-FDFE-960B-4DC1-4A071477F6CF</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1534D56-E249-E9A7-C857-4A9CF97F359B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38066293-94C5-16C3-D63C-B95AF57DA69F" name="Medico_Especialidad_FKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>933F9FB7-8BB5-35F8-1AFB-D2ED1890CCA2</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AD3D618-3A77-07FD-4E54-8298A72CEDC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

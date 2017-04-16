@@ -12,6 +12,9 @@ namespace CentroMedico.DALC
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Objects;
+    using System.Data.Objects.DataClasses;
+    using System.Linq;
     
     public partial class CentroMedicoEntities : DbContext
     {
@@ -32,5 +35,14 @@ namespace CentroMedico.DALC
         public DbSet<ESPECIALIDAD> ESPECIALIDAD { get; set; }
         public DbSet<MEDICO> MEDICO { get; set; }
         public DbSet<SECRETARIA> SECRETARIA { get; set; }
+    
+        public virtual int SALUDAR(string v_NOMBRE)
+        {
+            var v_NOMBREParameter = v_NOMBRE != null ?
+                new ObjectParameter("V_NOMBRE", v_NOMBRE) :
+                new ObjectParameter("V_NOMBRE", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("SALUDAR", v_NOMBREParameter);
+        }
     }
 }

@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17B03FC5-88B9-4C20-90EE-1766BB0208DC" name="Centro_Medico">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>E375890D-DA1E-B2DE-0851-72AE270E382C</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="DC25F761-7EC4-F0CE-F496-AFC079504A0B">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>17E7DB80-EA81-1754-A27F-8D0033CA2D07</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rut" id="A57F12A1-4616-E792-407D-134848DB4704">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>0E9FF330-7B45-68BA-A92D-7E16267229EA</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dv" id="DAB03A2F-C33C-832E-0783-AC4575C76BEF">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>F1F2B37B-5835-23D1-277C-A40797163A0C</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="180F192E-65E1-1941-E62E-64E6A365FB15">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>AE35F7C3-957B-5BA6-B9C2-DDF029661CD9</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="BA4739A3-7D91-9C1F-9351-6416BC6D1F26">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>7CC0FA7F-CFF7-AFAB-1753-623DF40DE525</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="1007C610-CCAD-474B-F1B0-37361743AB86">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>CD5A791D-F51A-1CCB-29CE-197092BC6026</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="244A33D3-CF7E-946C-6C2C-22ECDC0A60AA">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>86416B1E-7217-8D29-172B-2E7E044A8585</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E000D6E0-4FC2-B61D-C10F-2DA6D7A3BCC6" name="Centro_Medico_PKv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>C585CBF9-4A55-EF1F-631E-0A9C4514146E</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC25F761-7EC4-F0CE-F496-AFC079504A0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D809E8A-5C16-7A45-82EF-288BCB170CEF" name="Centro_Medico_Rut_UNv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>EE614BBC-7CD3-57E7-33FE-D56A9DB6F178</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A57F12A1-4616-E792-407D-134848DB4704"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E41BBD56-6A6A-F888-62E2-EFCDD0F493A7" name="Centro_Medico_Email_UNv1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-16 20:02:36 UTC</createdTime>
+<generatorID>574BDE08-AF10-2BCB-3FBF-2B713C442B2F</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="244A33D3-CF7E-946C-6C2C-22ECDC0A60AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

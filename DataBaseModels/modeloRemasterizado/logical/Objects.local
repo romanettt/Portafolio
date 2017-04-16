@@ -7,4 +7,10 @@
    <object objectType="Entity" objectID="8BCE3F3A-4FBB-94B2-00BA-7EBB965475B9" name="Especialidad" seqName="seg_0"/>
    <object objectType="Entity" objectID="B7E30138-1DEF-B441-1499-C5773FDE70CB" name="Medico" seqName="seg_0"/>
    <object objectType="Entity" objectID="226CB02C-A474-54E1-950D-28CBCEB73DEC" name="Secretaria" seqName="seg_0"/>
+   <object objectType="Relation" objectID="DC81FDB5-054C-AB36-47AA-3D2071E11466" name="CMedico_CBase" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6FD3287D-FDFE-960B-4DC1-4A071477F6CF" name="CMedico_Medico" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4EF6BF27-CD40-7B03-CC55-787C4814B83B" name="Medico_Agenda" seqName="seg_0"/>
+   <object objectType="Relation" objectID="99AD4B32-FFD0-CB78-5515-D8D6564355F1" name="Medico_Disponiblidad" seqName="seg_0"/>
+   <object objectType="Relation" objectID="933F9FB7-8BB5-35F8-1AFB-D2ED1890CCA2" name="Medico_Especialidad" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3727A94C-7B3B-9B07-5311-99C42ABFD0FF" name="Secretaria_CMedico" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

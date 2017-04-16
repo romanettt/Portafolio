@@ -27,8 +27,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>11</dataTypePrecision>
-<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Rut" id="0E9FF330-7B45-68BA-A92D-7E16267229EA">
 <createdBy>Willywes</createdBy>
@@ -121,9 +121,8 @@
 <createdTime>2017-04-15 05:55:21 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>modeloRemasterizado</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="false"/>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -31,8 +31,8 @@ namespace CentroMedico.Negocio
             try
             {
                 DALC.ESPECIALIDAD especialidad = new DALC.ESPECIALIDAD();
-                especialidad.ID = this.Id;
-                especialidad.NOMBRE = this.Nombre;
+                especialidad.ID = Id;
+                especialidad.NOMBRE = Nombre;
 
                 CommonBC.ModeloCentroMedico.ESPECIALIDAD.Add(especialidad);
                 CommonBC.ModeloCentroMedico.SaveChanges();
@@ -40,6 +40,7 @@ namespace CentroMedico.Negocio
             }
             catch (Exception)
             {
+                
                 return false;
             }
 
@@ -55,9 +56,9 @@ namespace CentroMedico.Negocio
 
                 return true;
             }
-            catch (Exception)
+            catch (Exception e)
             {
-
+                Console.WriteLine(e);
                 return false;
             }
         }

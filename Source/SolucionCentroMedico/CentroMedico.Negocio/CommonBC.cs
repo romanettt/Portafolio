@@ -7,7 +7,7 @@ using CentroMedico.DALC;
 
 namespace CentroMedico.Negocio
 {
-    class CommonBC
+    public class CommonBC
     {
         private static CentroMedicoEntities _modeloCentroMedico;
 

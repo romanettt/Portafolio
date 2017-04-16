@@ -161,6 +161,13 @@
   <Function Name="CREATE_ESPECIALIDAD" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="CMDBA" ReturnType="pl/sql boolean">
     <Parameter Name="NOMBRE" Type="varchar2" Mode="In" />
   </Function>
+  <Function Name="ESPECIALIDAD_TAPI_INS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="CMDBA" StoreFunctionName="ESPECIALIDAD_TAPI.INS">
+    <Parameter Name="P_ID" Type="number" Mode="In" />
+    <Parameter Name="P_NOMBRE" Type="varchar2" Mode="In" />
+  </Function>
+  <Function Name="SALUDAR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="CMDBA">
+    <Parameter Name="V_NOMBRE" Type="varchar2" Mode="In" />
+  </Function>
   <Function Name="UPDATE_ESPECIALIDAD" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="CMDBA" ReturnType="pl/sql boolean">
     <Parameter Name="NOMBRE" Type="varchar2" Mode="In" />
     <Parameter Name="ID_ESP" Type="number" Mode="In" />

@@ -13,48 +13,9 @@
 <display>false</display>
 <notation>1</notation>
 <objectViews>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="1452E0A8-1188-C4E1-6E4D-3749D41AFA35" otype="Table" vid="6AED6515-052B-8A60-DD6D-DB2D03D575C9">
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="06FABDF2-8D30-F18D-9673-3EB1DFEA33E1" otype="Table" vid="549C0B6E-CA42-750D-C68F-608FBE193902">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="304" y="34" width="276" height="135"/>
-<useCustomFormat>true</useCustomFormat>
-<useDefaultColor>false</useDefaultColor>
-<backgroundColor>-3355393</backgroundColor>
-<foregroundColor>-16750900</foregroundColor>
-<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
-<FontObject>
-<foType>Título</foType>
-<fontStyle>1</fontStyle>
-<colorRGB>-16776961</colorRGB>
-</FontObject>
-<FontObject>
-<foType>Columna</foType>
-<colorRGB>-16777216</colorRGB>
-</FontObject>
-<FontObject>
-<foType>No Nulo</foType>
-<colorRGB>-65536</colorRGB>
-</FontObject>
-<FontObject>
-<foType>Elemento de Clave Primaria</foType>
-<colorRGB>-16776961</colorRGB>
-</FontObject>
-<FontObject>
-<foType>Tipo de Dato</foType>
-<colorRGB>-16744448</colorRGB>
-</FontObject>
-<FontObject>
-<foType>Elemento de Clave Única</foType>
-<colorRGB>-16776961</colorRGB>
-</FontObject>
-<FontObject>
-<foType>Clave</foType>
-<colorRGB>-16777216</colorRGB>
-</FontObject>
-</fonts>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="1DBD1B99-A0DA-7342-F901-0906EE8F0D9A" otype="Table" vid="15D95BBD-E1AA-6429-1DEC-673134A31A43">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1100" y="252" width="113" height="84"/>
+<bounds x="1067" y="126" width="232" height="140"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-3355393</backgroundColor>
@@ -91,9 +52,48 @@
 </FontObject>
 </fonts>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="3F795B10-AFD0-2741-DEAC-78CB8C578DC7" otype="Table" vid="D1F0E40A-541D-742E-EDE7-F271A08A98A6">
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="079CC6DD-EA7F-FF93-256E-C3A0C2E9EF12" otype="Table" vid="7985EF84-9919-032C-B616-57A2A4041BD0">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="682" y="40" width="269" height="278"/>
+<bounds x="420" y="221" width="233" height="222"/>
+<useCustomFormat>true</useCustomFormat>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-3355393</backgroundColor>
+<foregroundColor>-16750900</foregroundColor>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Columna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>No Nulo</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Elemento de Clave Primaria</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Tipo de Dato</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Elemento de Clave Ajena</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Clave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="17B03FC5-88B9-4C20-90EE-1766BB0208DC" otype="Table" vid="EAB8755B-9ED8-0079-68EF-7649F20A980B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="420" y="15" width="226" height="175"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-3355393</backgroundColor>
@@ -125,53 +125,14 @@
 <colorRGB>-16776961</colorRGB>
 </FontObject>
 <FontObject>
-<foType>Elemento de Clave Ajena</foType>
-<colorRGB>-16777216</colorRGB>
-</FontObject>
-<FontObject>
 <foType>Clave</foType>
 <colorRGB>-16777216</colorRGB>
 </FontObject>
 </fonts>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="7EEE41CB-7293-0F7B-DC9E-B294AF46B2CF" otype="Table" vid="7ADBD235-BF5C-5DBF-BF37-FFBE4A784638">
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="46CBCA8F-D88B-668E-B382-112D85873719" otype="Table" vid="67331944-EA4D-6148-E555-554A50CCB10C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1030" y="48" width="126" height="72"/>
-<useCustomFormat>true</useCustomFormat>
-<useDefaultColor>false</useDefaultColor>
-<backgroundColor>-3355393</backgroundColor>
-<foregroundColor>-16750900</foregroundColor>
-<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
-<FontObject>
-<foType>Título</foType>
-<fontStyle>1</fontStyle>
-<colorRGB>-16776961</colorRGB>
-</FontObject>
-<FontObject>
-<foType>Columna</foType>
-<colorRGB>-16777216</colorRGB>
-</FontObject>
-<FontObject>
-<foType>No Nulo</foType>
-<colorRGB>-65536</colorRGB>
-</FontObject>
-<FontObject>
-<foType>Elemento de Clave Primaria</foType>
-<colorRGB>-16776961</colorRGB>
-</FontObject>
-<FontObject>
-<foType>Tipo de Dato</foType>
-<colorRGB>-16744448</colorRGB>
-</FontObject>
-<FontObject>
-<foType>Clave</foType>
-<colorRGB>-16777216</colorRGB>
-</FontObject>
-</fonts>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="88D63D0A-EC82-A388-3A69-E12B59242BFA" otype="Table" vid="F71EB11D-CC20-C00A-B978-15C5DC4A4C29">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="11" y="28" width="257" height="252"/>
+<bounds x="724" y="12" width="266" height="278"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-3355393</backgroundColor>
@@ -212,9 +173,9 @@
 </FontObject>
 </fonts>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="B4E37E76-3E96-AA36-CB9D-C5E1E6AB6280" otype="Table" vid="D7B5546A-55A3-5AE0-433D-65FC99194993">
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="51E7CC61-37CB-2C5C-674A-CC7111813CAD" otype="Table" vid="3D3128AB-BEEF-3E64-CB98-D7114A79D8CF">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="313" y="191" width="265" height="107"/>
+<bounds x="1064" y="13" width="218" height="85"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-3355393</backgroundColor>
@@ -242,6 +203,45 @@
 <colorRGB>-16744448</colorRGB>
 </FontObject>
 <FontObject>
+<foType>Clave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="70616DD7-6935-9791-9FA1-F15E0E0F1669" otype="Table" vid="C2351869-F917-BD53-E1BB-EEBD6F6D5A7E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="11" y="15" width="289" height="240"/>
+<useCustomFormat>true</useCustomFormat>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-3355393</backgroundColor>
+<foregroundColor>-16750900</foregroundColor>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Columna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>No Nulo</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Elemento de Clave Primaria</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Tipo de Dato</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Elemento de Clave Única</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
 <foType>Elemento de Clave Ajena</foType>
 <colorRGB>-16777216</colorRGB>
 </FontObject>
@@ -251,9 +251,9 @@
 </FontObject>
 </fonts>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="E0B573CA-8E03-2711-8C21-79DD40AD53C6" otype="Table" vid="AB88FF0C-2E27-75E7-78CC-C7A79732D4FF">
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="CB750523-DDF5-0667-BF58-E054D7B9991D" otype="Table" vid="6357517F-2D69-21F9-404C-1FF183C4808C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="364" y="321" width="245" height="227"/>
+<bounds x="115" y="304" width="264" height="127"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-3355393</backgroundColor>
@@ -292,53 +292,53 @@
 </OView>
 </objectViews>
 <connectors>
-<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="43923B84-417E-5D73-D0ED-97916E25FB88" otype="FKIndexAssociation" vid_source="6AED6515-052B-8A60-DD6D-DB2D03D575C9" vid_target="D1F0E40A-541D-742E-EDE7-F271A08A98A6">
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="14FC7FB7-D021-2136-0EB9-5AD13FAC9711" otype="FKIndexAssociation" vid_source="67331944-EA4D-6148-E555-554A50CCB10C" vid_target="549C0B6E-CA42-750D-C68F-608FBE193902">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="580" y="104"/>
-<point x="682" y="104"/>
+<point x="990" y="196"/>
+<point x="1067" y="196"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="4D334DCE-7C93-28F8-A831-3FF9D80E8287" otype="FKIndexAssociation" vid_source="6AED6515-052B-8A60-DD6D-DB2D03D575C9" vid_target="D7B5546A-55A3-5AE0-433D-65FC99194993">
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="5C47D4FF-C9DE-54EF-4157-AC03EEE91817" otype="FKIndexAssociation" vid_source="EAB8755B-9ED8-0079-68EF-7649F20A980B" vid_target="67331944-EA4D-6148-E555-554A50CCB10C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="445" y="169"/>
-<point x="445" y="191"/>
+<point x="646" y="102"/>
+<point x="724" y="102"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="6ABD6ACF-6EBA-5A6C-55D8-BD1E9B4CB2E8" otype="FKIndexAssociation" vid_source="D1F0E40A-541D-742E-EDE7-F271A08A98A6" vid_target="15D95BBD-E1AA-6429-1DEC-673134A31A43">
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="6C675AFE-5B93-9829-A0A4-23E1F4EBA1B2" otype="FKIndexAssociation" vid_source="EAB8755B-9ED8-0079-68EF-7649F20A980B" vid_target="C2351869-F917-BD53-E1BB-EEBD6F6D5A7E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="908" y="179"/>
-<point x="908" y="161"/>
-<point x="1100" y="252"/>
+<point x="420" y="112"/>
+<point x="300" y="112"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="A4206400-FC36-A848-3BD9-BB28612302F5" otype="FKIndexAssociation" vid_source="D1F0E40A-541D-742E-EDE7-F271A08A98A6" vid_target="AB88FF0C-2E27-75E7-78CC-C7A79732D4FF">
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="6E3391CA-B887-8B4E-05BF-ABDE90D3F6A9" otype="FKIndexAssociation" vid_source="3D3128AB-BEEF-3E64-CB98-D7114A79D8CF" vid_target="67331944-EA4D-6148-E555-554A50CCB10C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="682" y="179"/>
-<point x="609" y="434"/>
+<point x="1064" y="55"/>
+<point x="990" y="55"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="F1BD7265-6783-F534-76DD-65CE29F1BD75" otype="FKIndexAssociation" vid_source="6AED6515-052B-8A60-DD6D-DB2D03D575C9" vid_target="F71EB11D-CC20-C00A-B978-15C5DC4A4C29">
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="84425835-8848-E17F-3259-AEDE49AC8BCB" otype="FKIndexAssociation" vid_source="EAB8755B-9ED8-0079-68EF-7649F20A980B" vid_target="6357517F-2D69-21F9-404C-1FF183C4808C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="304" y="101"/>
-<point x="268" y="101"/>
+<point x="420" y="157"/>
+<point x="330" y="157"/>
+<point x="330" y="304"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="FC5C64D7-BB74-842C-EA12-0D86E046C6B4" otype="FKIndexAssociation" vid_source="7ADBD235-BF5C-5DBF-BF37-FFBE4A784638" vid_target="D1F0E40A-541D-742E-EDE7-F271A08A98A6">
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="B4E69EA4-B3F6-0953-9F54-D535DACE3EE4" otype="FKIndexAssociation" vid_source="67331944-EA4D-6148-E555-554A50CCB10C" vid_target="7985EF84-9919-032C-B616-57A2A4041BD0">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1030" y="84"/>
-<point x="951" y="84"/>
+<point x="724" y="255"/>
+<point x="653" y="255"/>
 </points>
 </Connector>
 </connectors>
