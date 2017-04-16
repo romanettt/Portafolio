@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Secretaria_CMedico" directorySegmentName="seg_0" id="3727A94C-7B3B-9B07-5311-99C42ABFD0FF">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 18:19:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<sourcePk>C585CBF9-4A55-EF1F-631E-0A9C4514146E</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Tiene</nameOnSource>
+<nameOnTarget>Pertenece</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E375890D-DA1E-B2DE-0851-72AE270E382C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>226CB02C-A474-54E1-950D-28CBCEB73DEC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8BCE3F3A-4FBB-94B2-00BA-7EBB965475B9" name="Especialidad">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:06:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="EC1F7EEE-E106-85D1-7EA6-F219D3D23BEE">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:06:45 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="1EFEFA4B-09FF-BA08-18C6-0ECB1FC8585D">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:07:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21110A4A-4F55-9279-8EC9-3E3EC9EC0D23" name="Especialidad PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:06:59 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC1F7EEE-E106-85D1-7EA6-F219D3D23BEE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

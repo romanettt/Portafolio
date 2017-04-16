@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Medico_Disponiblidad" directorySegmentName="seg_0" id="99AD4B32-FFD0-CB78-5515-D8D6564355F1">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 18:16:23 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<sourcePk>453AA116-EA6C-4C9C-4F79-3B595423942D</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Tiene</nameOnSource>
+<nameOnTarget>Pertenece</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B7E30138-1DEF-B441-1499-C5773FDE70CB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>399196EE-1BD9-4BF5-B80C-C988C0D4B951</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

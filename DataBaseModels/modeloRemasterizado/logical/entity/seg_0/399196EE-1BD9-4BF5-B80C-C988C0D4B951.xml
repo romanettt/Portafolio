@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="399196EE-1BD9-4BF5-B80C-C988C0D4B951" name="Disponibilidad">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:10:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="0DCC4446-238D-1129-FE17-3CED09D7A12C">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:10:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora_Inicio" id="CFC6D19A-2321-F270-0B1D-DD90EE445928">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:10:59 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora_Termino" id="C14C6BD8-1B8F-0B99-7714-E7A0B13EC1EF">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 17:30:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Lunes" id="A3441DEE-46EC-467F-A26D-FF3285FA16D8">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 17:31:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Martes" id="9C5DC798-0988-148E-0BF7-4ACB7D68F2C0">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 17:32:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Miercoles" id="5705F9D8-4D3B-AC18-6E68-9F6372E4E4D6">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 17:32:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jueves" id="FF3E6461-3221-8BDF-79DC-1CE2D8A9DCEA">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 17:32:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Viernes" id="618D4300-5529-F873-0A99-ED14CE92F1EB">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 17:32:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sabado" id="9D042E14-073C-E7BC-4512-9CEE08737927">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 17:32:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Domingo" id="0D289EA5-49C3-7C92-D3C4-882542D4A60B">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 17:32:02 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="828F2B71-F0D7-B250-2EAB-9449886659EA">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 18:16:23 UTC</createdTime>
+<generatorID>99AD4B32-FFD0-CB78-5515-D8D6564355F1</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<referedAttribute>3A53BE18-E003-9E0E-DA15-5C7E2BE9B4E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E0FA05E-8B1C-579A-B36A-FA8E53DC301D" name="Disponibilidad PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:10:48 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0DCC4446-238D-1129-FE17-3CED09D7A12C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

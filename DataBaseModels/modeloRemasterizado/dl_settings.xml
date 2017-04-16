@@ -218,7 +218,7 @@
 	<engineering_params>
 		<delete_without_origin value="false"/>
 		<engineer_coordinates value="true"/>
-		<engineer_generated value="false"/>
+		<engineer_generated value="true"/>
 		<show_engineering_intree value="false"/>
 		<apply_naming_std value="true"/>
 		<use_pref_abbreviation value="true"/>
@@ -310,7 +310,7 @@
 	<model_compare_storage_props_filter>
 	</model_compare_storage_props_filter>
 	<naming_options>
-		<model_options objectid="76141864-3150-DD4C-4D28-A5351C8654F8">
+		<model_options objectid="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD">
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Table" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Column" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.TableView" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
@@ -318,7 +318,7 @@
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Index" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 		</model_options>
-		<model_options objectid="01813E6F-BBA2-B3EE-1967-C2BF739135AA">
+		<model_options objectid="582BEF09-AEBB-9EDF-CDED-374B0B57F947">
 			<naming_option class_name="oracle.dbtools.crest.model.design.logical.Entity" max_name_length="254" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.logical.Attribute" max_name_length="254" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.logical.EntityView" max_name_length="254" case_type="2" valid_characters="" all_valid="true" />

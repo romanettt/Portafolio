@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CentroMedicoModelStoreContainer" CdmEntityContainer="CentroMedicoEntities">
+    <EntitySetMapping Name="AGENDA">
+      <EntityTypeMapping TypeName="CentroMedicoModel.AGENDA">
+        <MappingFragment StoreEntitySet="AGENDA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="HORA_INICIO" ColumnName="HORA_INICIO" />
+          <ScalarProperty Name="HORA_TERMINO" ColumnName="HORA_TERMINO" />
+          <ScalarProperty Name="MEDICO_ID" ColumnName="MEDICO_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CALENDARIO_BASE">
+      <EntityTypeMapping TypeName="CentroMedicoModel.CALENDARIO_BASE">
+        <MappingFragment StoreEntitySet="CALENDARIO_BASE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="MOTIVO" ColumnName="MOTIVO" />
+          <ScalarProperty Name="CENTRO_MEDICO_ID" ColumnName="CENTRO_MEDICO_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CENTRO_MEDICO">
+      <EntityTypeMapping TypeName="CentroMedicoModel.CENTRO_MEDICO">
+        <MappingFragment StoreEntitySet="CENTRO_MEDICO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="RUT" ColumnName="RUT" />
+          <ScalarProperty Name="DV" ColumnName="DV" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+          <ScalarProperty Name="TELEFONO" ColumnName="TELEFONO" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DISPONIBILIDAD">
+      <EntityTypeMapping TypeName="CentroMedicoModel.DISPONIBILIDAD">
+        <MappingFragment StoreEntitySet="DISPONIBILIDAD">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="HORA_INICIO" ColumnName="HORA_INICIO" />
+          <ScalarProperty Name="HORA_TERMINO" ColumnName="HORA_TERMINO" />
+          <ScalarProperty Name="LUNES" ColumnName="LUNES" />
+          <ScalarProperty Name="MARTES" ColumnName="MARTES" />
+          <ScalarProperty Name="MIERCOLES" ColumnName="MIERCOLES" />
+          <ScalarProperty Name="JUEVES" ColumnName="JUEVES" />
+          <ScalarProperty Name="VIERNES" ColumnName="VIERNES" />
+          <ScalarProperty Name="SABADO" ColumnName="SABADO" />
+          <ScalarProperty Name="DOMINGO" ColumnName="DOMINGO" />
+          <ScalarProperty Name="MEDICO_ID" ColumnName="MEDICO_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESPECIALIDAD">
+      <EntityTypeMapping TypeName="CentroMedicoModel.ESPECIALIDAD">
+        <MappingFragment StoreEntitySet="ESPECIALIDAD">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MEDICO">
+      <EntityTypeMapping TypeName="CentroMedicoModel.MEDICO">
+        <MappingFragment StoreEntitySet="MEDICO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FECHA_CREACION" ColumnName="FECHA_CREACION" />
+          <ScalarProperty Name="RUT" ColumnName="RUT" />
+          <ScalarProperty Name="DV" ColumnName="DV" />
+          <ScalarProperty Name="PATERNO" ColumnName="PATERNO" />
+          <ScalarProperty Name="MATERNO" ColumnName="MATERNO" />
+          <ScalarProperty Name="NOMBRES" ColumnName="NOMBRES" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="CLAVE" ColumnName="CLAVE" />
+          <ScalarProperty Name="MINUTOS_ATENCION" ColumnName="MINUTOS_ATENCION" />
+          <ScalarProperty Name="CENTRO_MEDICO_ID" ColumnName="CENTRO_MEDICO_ID" />
+          <ScalarProperty Name="ESPECIALIDAD_ID" ColumnName="ESPECIALIDAD_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SECRETARIA">
+      <EntityTypeMapping TypeName="CentroMedicoModel.SECRETARIA">
+        <MappingFragment StoreEntitySet="SECRETARIA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FECHA_CREACION" ColumnName="FECHA_CREACION" />
+          <ScalarProperty Name="RUT" ColumnName="RUT" />
+          <ScalarProperty Name="DV" ColumnName="DV" />
+          <ScalarProperty Name="PATERNO" ColumnName="PATERNO" />
+          <ScalarProperty Name="MATERNO" ColumnName="MATERNO" />
+          <ScalarProperty Name="NOMBRES" ColumnName="NOMBRES" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="CLAVE" ColumnName="CLAVE" />
+          <ScalarProperty Name="CENTRO_MEDICO_ID" ColumnName="CENTRO_MEDICO_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="1DBD1B99-A0DA-7342-F901-0906EE8F0D9A" name="Agenda" seqName="seg_0"/>
+   <object objectType="Table" objectID="B4E37E76-3E96-AA36-CB9D-C5E1E6AB6280" name="Calendario_Base" seqName="seg_0"/>
+   <object objectType="Table" objectID="1452E0A8-1188-C4E1-6E4D-3749D41AFA35" name="Centro_Medico" seqName="seg_0"/>
+   <object objectType="Table" objectID="E0B573CA-8E03-2711-8C21-79DD40AD53C6" name="Disponibilidad" seqName="seg_0"/>
+   <object objectType="Table" objectID="7EEE41CB-7293-0F7B-DC9E-B294AF46B2CF" name="Especialidad" seqName="seg_0"/>
+   <object objectType="Table" objectID="3F795B10-AFD0-2741-DEAC-78CB8C578DC7" name="Medico" seqName="seg_0"/>
+   <object objectType="Table" objectID="88D63D0A-EC82-A388-3A69-E12B59242BFA" name="Secretaria" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6ABD6ACF-6EBA-5A6C-55D8-BD1E9B4CB2E8" name="Agenda_Medico_FK" seqName="seg_0" containerID="1DBD1B99-A0DA-7342-F901-0906EE8F0D9A" refContainerID="3F795B10-AFD0-2741-DEAC-78CB8C578DC7"/>
+   <object objectType="FKIndexAssociation" objectID="4D334DCE-7C93-28F8-A831-3FF9D80E8287" name="Calendario_Base_Centro_Medico_FK" seqName="seg_0" containerID="B4E37E76-3E96-AA36-CB9D-C5E1E6AB6280" refContainerID="1452E0A8-1188-C4E1-6E4D-3749D41AFA35"/>
+   <object objectType="FKIndexAssociation" objectID="A4206400-FC36-A848-3BD9-BB28612302F5" name="Disponibilidad_Medico_FK" seqName="seg_0" containerID="E0B573CA-8E03-2711-8C21-79DD40AD53C6" refContainerID="3F795B10-AFD0-2741-DEAC-78CB8C578DC7"/>
+   <object objectType="FKIndexAssociation" objectID="43923B84-417E-5D73-D0ED-97916E25FB88" name="Medico_Centro_Medico_FK" seqName="seg_0" containerID="3F795B10-AFD0-2741-DEAC-78CB8C578DC7" refContainerID="1452E0A8-1188-C4E1-6E4D-3749D41AFA35"/>
+   <object objectType="FKIndexAssociation" objectID="FC5C64D7-BB74-842C-EA12-0D86E046C6B4" name="Medico_Especialidad_FK" seqName="seg_0" containerID="3F795B10-AFD0-2741-DEAC-78CB8C578DC7" refContainerID="7EEE41CB-7293-0F7B-DC9E-B294AF46B2CF"/>
+   <object objectType="FKIndexAssociation" objectID="F1BD7265-6783-F534-76DD-65CE29F1BD75" name="Secretaria_Centro_Medico_FK" seqName="seg_0" containerID="88D63D0A-EC82-A388-3A69-E12B59242BFA" refContainerID="1452E0A8-1188-C4E1-6E4D-3749D41AFA35"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

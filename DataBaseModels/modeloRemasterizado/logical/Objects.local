@@ -1,6 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="Entity" objectID="859463AE-63AC-D23F-5E3D-ADF1AFE0AF94" name="CALENDARIO_BASE" seqName="seg_0"/>
-   <object objectType="Entity" objectID="E561D4F2-76EC-0D02-4849-9CBFA59CF914" name="CENTRO_MEDICO" seqName="seg_0"/>
-   <object objectType="Relation" objectID="3A9276D5-D7A1-0786-B573-145AEC6571D1" name="Relation_6" seqName="seg_0"/>
+   <object objectType="Entity" objectID="9F08043B-0D56-2D71-72F8-B22F17E412B5" name="Agenda" seqName="seg_0"/>
+   <object objectType="Entity" objectID="83DA3314-82C0-67C5-494C-75B4A64A087B" name="Calendario_Base" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E375890D-DA1E-B2DE-0851-72AE270E382C" name="Centro_Medico" seqName="seg_0"/>
+   <object objectType="Entity" objectID="399196EE-1BD9-4BF5-B80C-C988C0D4B951" name="Disponibilidad" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8BCE3F3A-4FBB-94B2-00BA-7EBB965475B9" name="Especialidad" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B7E30138-1DEF-B441-1499-C5773FDE70CB" name="Medico" seqName="seg_0"/>
+   <object objectType="Entity" objectID="226CB02C-A474-54E1-950D-28CBCEB73DEC" name="Secretaria" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

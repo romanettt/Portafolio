@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F08043B-0D56-2D71-72F8-B22F17E412B5" name="Agenda">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 17:36:49 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="61BBC2FD-7AD7-994C-DB24-8FDFB8972999">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 17:48:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="5B4B0C51-5780-4DC5-C764-03FE31E6553A">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 17:48:40 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora_Inicio" id="FE0B3A19-B0BE-D05F-78A6-3FC2F8BE0C61">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 17:49:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora_Termino" id="430DD169-EC2F-F6BB-1462-22F8CC5EE115">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 17:50:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="FF0711E4-33F5-6A88-574D-522528B3C2AB">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 18:18:04 UTC</createdTime>
+<generatorID>4EF6BF27-CD40-7B03-CC55-787C4814B83B</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<referedAttribute>3A53BE18-E003-9E0E-DA15-5C7E2BE9B4E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9B4AC92-D5A8-EFA6-FF95-D7B6DEA329C2" name="Agenda PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 17:48:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61BBC2FD-7AD7-994C-DB24-8FDFB8972999</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

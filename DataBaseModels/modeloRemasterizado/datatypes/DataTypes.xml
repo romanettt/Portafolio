@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<DataTypesDesign class="oracle.dbtools.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="BB7B1794-3903-B5AC-D119-9347481590CC" mainViewID="7913CA3A-8F4E-3ADF-6EF5-1C5330AF7C19">
+<DataTypesDesign class="oracle.dbtools.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="26064990-2988-0A1F-6D01-77A16BBFC758" mainViewID="BC35A0B0-78A1-A82A-C924-E1E1ACE5D400">
 <createdBy>Willywes</createdBy>
-<createdTime>2017-04-15 00:52:38 UTC</createdTime>
+<createdTime>2017-04-15 05:52:15 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>modeloRemasterizado</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>

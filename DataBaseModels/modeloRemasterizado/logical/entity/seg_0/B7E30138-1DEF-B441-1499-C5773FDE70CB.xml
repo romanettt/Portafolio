@@ -1,0 +1,230 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7E30138-1DEF-B441-1499-C5773FDE70CB" name="Medico">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:00:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="3A53BE18-E003-9E0E-DA15-5C7E2BE9B4E3">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:00:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Creacion" id="474C4961-1C46-F8F4-CE02-EB9EC38CCD66">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:00:40 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rut" id="9C7CF83B-F349-7C7B-7B9F-799E7691772C">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:00:57 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dv" id="775DB3A9-D6FF-D41E-4D2C-AAFEEF85A2BE">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:01:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Paterno" id="0B5B1A37-E62D-98C0-FFF8-406BCA8229B5">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:01:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Materno" id="28739EB5-D4E4-0C6B-AB34-7901ED1B2DE4">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:01:57 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombres" id="A3661E8B-E031-CE46-547F-5864E24DBEFF">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:02:04 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="4949B5F7-C036-4FEA-8CAD-F1019EC6908C">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:02:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave" id="0E2CEB07-64D4-0E01-F7AB-0177739230C7">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:02:59 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Minutos_Atencion" id="58EB6546-D226-5DBB-C8F7-A9EE192A5559">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 18:15:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="D28E3A4B-AEC5-C06F-AC60-140607431852">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 18:09:45 UTC</createdTime>
+<generatorID>6FD3287D-FDFE-960B-4DC1-4A071477F6CF</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<referedAttribute>17E7DB80-EA81-1754-A27F-8D0033CA2D07</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id2" id="B93E466E-359E-AF43-B9C8-83EC5714ACFA">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 18:10:55 UTC</createdTime>
+<generatorID>933F9FB7-8BB5-35F8-1AFB-D2ED1890CCA2</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<referedAttribute>EC1F7EEE-E106-85D1-7EA6-F219D3D23BEE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="453AA116-EA6C-4C9C-4F79-3B595423942D" name="Medico PK">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:00:32 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A53BE18-E003-9E0E-DA15-5C7E2BE9B4E3</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="867E1183-2182-8532-A452-62567FBDD305" name="Medico Rut">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:05:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<newElementsIDs>9C7CF83B-F349-7C7B-7B9F-799E7691772C</newElementsIDs>
+<usedAttributes>
+<attributeRef>9C7CF83B-F349-7C7B-7B9F-799E7691772C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F9129260-42BE-366F-5BDD-8F50F6F1FFFF" name="Medico Email">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 06:05:38 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<newElementsIDs>4949B5F7-C036-4FEA-8CAD-F1019EC6908C</newElementsIDs>
+<usedAttributes>
+<attributeRef>4949B5F7-C036-4FEA-8CAD-F1019EC6908C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

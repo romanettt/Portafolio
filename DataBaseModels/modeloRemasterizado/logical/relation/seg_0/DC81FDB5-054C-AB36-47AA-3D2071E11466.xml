@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CMedico_CBase" directorySegmentName="seg_0" id="DC81FDB5-054C-AB36-47AA-3D2071E11466">
+<createdBy>Willywes</createdBy>
+<createdTime>2017-04-15 18:16:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloRemasterizado</ownerDesignName>
+<engineerTo>
+<item key="C62F8E35-03F5-C9F0-6998-87C2EC78FEBD" value="true"/>
+</engineerTo>
+<sourcePk>C585CBF9-4A55-EF1F-631E-0A9C4514146E</sourcePk>
+<targetPk>1CBB193E-C6F6-091E-4DB1-D599015672C3</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Tiene</nameOnSource>
+<nameOnTarget>Es de</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E375890D-DA1E-B2DE-0851-72AE270E382C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>83DA3314-82C0-67C5-494C-75B4A64A087B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

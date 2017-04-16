@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CentroMedicoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AGENDA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="FECHA" Type="DateTime" Nullable="false" />
+    <Property Name="HORA_INICIO" Type="DateTime" Nullable="false" />
+    <Property Name="HORA_TERMINO" Type="DateTime" Nullable="false" />
+    <Property Name="MEDICO_ID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="MEDICO" Relationship="Self.AGENDA_MEDICO_FK" FromRole="AGENDA" ToRole="MEDICO" />
+  </EntityType>
+  <EntityType Name="CALENDARIO_BASE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="FECHA" Type="DateTime" Nullable="false" />
+    <Property Name="MOTIVO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="CENTRO_MEDICO_ID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="CENTRO_MEDICO" Relationship="Self.CBASE_CMEDICO_FK" FromRole="CALENDARIO_BASE" ToRole="CENTRO_MEDICO" />
+  </EntityType>
+  <EntityType Name="CENTRO_MEDICO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="RUT" Type="Int32" Nullable="false" />
+    <Property Name="DV" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NOMBRE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DIRECCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TELEFONO" Type="Int32" Nullable="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="CALENDARIO_BASE" Relationship="Self.CBASE_CMEDICO_FK" FromRole="CENTRO_MEDICO" ToRole="CALENDARIO_BASE" />
+    <NavigationProperty Name="MEDICO" Relationship="Self.MEDICO_CENTRO_MEDICO_FK" FromRole="CENTRO_MEDICO" ToRole="MEDICO" />
+    <NavigationProperty Name="SECRETARIA" Relationship="Self.SECRETARIA_CENTRO_MEDICO_FK" FromRole="CENTRO_MEDICO" ToRole="SECRETARIA" />
+  </EntityType>
+  <EntityType Name="DISPONIBILIDAD">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="HORA_INICIO" Type="DateTime" Nullable="false" />
+    <Property Name="HORA_TERMINO" Type="DateTime" Nullable="false" />
+    <Property Name="LUNES" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="MARTES" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="MIERCOLES" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="JUEVES" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="VIERNES" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="SABADO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DOMINGO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="MEDICO_ID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="MEDICO" Relationship="Self.DISPONIBILIDAD_MEDICO_FK" FromRole="DISPONIBILIDAD" ToRole="MEDICO" />
+  </EntityType>
+  <EntityType Name="ESPECIALIDAD">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="NOMBRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="MEDICO" Relationship="Self.MEDICO_ESPECIALIDAD_FK" FromRole="ESPECIALIDAD" ToRole="MEDICO" />
+  </EntityType>
+  <EntityType Name="MEDICO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="FECHA_CREACION" Type="DateTime" Nullable="false" />
+    <Property Name="RUT" Type="Int32" Nullable="false" />
+    <Property Name="DV" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PATERNO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MATERNO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NOMBRES" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CLAVE" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MINUTOS_ATENCION" Type="Int16" Nullable="false" />
+    <Property Name="CENTRO_MEDICO_ID" Type="Int32" Nullable="false" />
+    <Property Name="ESPECIALIDAD_ID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="AGENDA" Relationship="Self.AGENDA_MEDICO_FK" FromRole="MEDICO" ToRole="AGENDA" />
+    <NavigationProperty Name="CENTRO_MEDICO" Relationship="Self.MEDICO_CENTRO_MEDICO_FK" FromRole="MEDICO" ToRole="CENTRO_MEDICO" />
+    <NavigationProperty Name="DISPONIBILIDAD" Relationship="Self.DISPONIBILIDAD_MEDICO_FK" FromRole="MEDICO" ToRole="DISPONIBILIDAD" />
+    <NavigationProperty Name="ESPECIALIDAD" Relationship="Self.MEDICO_ESPECIALIDAD_FK" FromRole="MEDICO" ToRole="ESPECIALIDAD" />
+  </EntityType>
+  <EntityType Name="SECRETARIA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="FECHA_CREACION" Type="DateTime" Nullable="false" />
+    <Property Name="RUT" Type="Int32" Nullable="false" />
+    <Property Name="DV" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PATERNO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MATERNO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NOMBRES" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CLAVE" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CENTRO_MEDICO_ID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="CENTRO_MEDICO" Relationship="Self.SECRETARIA_CENTRO_MEDICO_FK" FromRole="SECRETARIA" ToRole="CENTRO_MEDICO" />
+  </EntityType>
+  <Association Name="AGENDA_MEDICO_FK">
+    <End Role="MEDICO" Type="Self.MEDICO" Multiplicity="1" />
+    <End Role="AGENDA" Type="Self.AGENDA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MEDICO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="AGENDA">
+        <PropertyRef Name="MEDICO_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CBASE_CMEDICO_FK">
+    <End Role="CENTRO_MEDICO" Type="Self.CENTRO_MEDICO" Multiplicity="1" />
+    <End Role="CALENDARIO_BASE" Type="Self.CALENDARIO_BASE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CENTRO_MEDICO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CALENDARIO_BASE">
+        <PropertyRef Name="CENTRO_MEDICO_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MEDICO_CENTRO_MEDICO_FK">
+    <End Role="CENTRO_MEDICO" Type="Self.CENTRO_MEDICO" Multiplicity="1" />
+    <End Role="MEDICO" Type="Self.MEDICO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CENTRO_MEDICO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MEDICO">
+        <PropertyRef Name="CENTRO_MEDICO_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SECRETARIA_CENTRO_MEDICO_FK">
+    <End Role="CENTRO_MEDICO" Type="Self.CENTRO_MEDICO" Multiplicity="1" />
+    <End Role="SECRETARIA" Type="Self.SECRETARIA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CENTRO_MEDICO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SECRETARIA">
+        <PropertyRef Name="CENTRO_MEDICO_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DISPONIBILIDAD_MEDICO_FK">
+    <End Role="MEDICO" Type="Self.MEDICO" Multiplicity="1" />
+    <End Role="DISPONIBILIDAD" Type="Self.DISPONIBILIDAD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MEDICO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="DISPONIBILIDAD">
+        <PropertyRef Name="MEDICO_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MEDICO_ESPECIALIDAD_FK">
+    <End Role="ESPECIALIDAD" Type="Self.ESPECIALIDAD" Multiplicity="1" />
+    <End Role="MEDICO" Type="Self.MEDICO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ESPECIALIDAD">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MEDICO">
+        <PropertyRef Name="ESPECIALIDAD_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CentroMedicoEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AGENDA" EntityType="Self.AGENDA" />
+    <EntitySet Name="CALENDARIO_BASE" EntityType="Self.CALENDARIO_BASE" />
+    <EntitySet Name="CENTRO_MEDICO" EntityType="Self.CENTRO_MEDICO" />
+    <EntitySet Name="DISPONIBILIDAD" EntityType="Self.DISPONIBILIDAD" />
+    <EntitySet Name="ESPECIALIDAD" EntityType="Self.ESPECIALIDAD" />
+    <EntitySet Name="MEDICO" EntityType="Self.MEDICO" />
+    <EntitySet Name="SECRETARIA" EntityType="Self.SECRETARIA" />
+    <AssociationSet Name="AGENDA_MEDICO_FK" Association="Self.AGENDA_MEDICO_FK">
+      <End Role="MEDICO" EntitySet="MEDICO" />
+      <End Role="AGENDA" EntitySet="AGENDA" />
+    </AssociationSet>
+    <AssociationSet Name="CBASE_CMEDICO_FK" Association="Self.CBASE_CMEDICO_FK">
+      <End Role="CENTRO_MEDICO" EntitySet="CENTRO_MEDICO" />
+      <End Role="CALENDARIO_BASE" EntitySet="CALENDARIO_BASE" />
+    </AssociationSet>
+    <AssociationSet Name="MEDICO_CENTRO_MEDICO_FK" Association="Self.MEDICO_CENTRO_MEDICO_FK">
+      <End Role="CENTRO_MEDICO" EntitySet="CENTRO_MEDICO" />
+      <End Role="MEDICO" EntitySet="MEDICO" />
+    </AssociationSet>
+    <AssociationSet Name="SECRETARIA_CENTRO_MEDICO_FK" Association="Self.SECRETARIA_CENTRO_MEDICO_FK">
+      <End Role="CENTRO_MEDICO" EntitySet="CENTRO_MEDICO" />
+      <End Role="SECRETARIA" EntitySet="SECRETARIA" />
+    </AssociationSet>
+    <AssociationSet Name="DISPONIBILIDAD_MEDICO_FK" Association="Self.DISPONIBILIDAD_MEDICO_FK">
+      <End Role="MEDICO" EntitySet="MEDICO" />
+      <End Role="DISPONIBILIDAD" EntitySet="DISPONIBILIDAD" />
+    </AssociationSet>
+    <AssociationSet Name="MEDICO_ESPECIALIDAD_FK" Association="Self.MEDICO_ESPECIALIDAD_FK">
+      <End Role="ESPECIALIDAD" EntitySet="ESPECIALIDAD" />
+      <End Role="MEDICO" EntitySet="MEDICO" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
