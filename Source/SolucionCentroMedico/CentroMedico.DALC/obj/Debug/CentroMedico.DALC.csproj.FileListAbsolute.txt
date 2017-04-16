@@ -5,4 +5,3 @@ C:\Users\Willywes\Documents\GitHub\Portafolio\Source\SolucionCentroMedico\Centro
 C:\Users\Willywes\Documents\GitHub\Portafolio\Source\SolucionCentroMedico\CentroMedico.DALC\bin\Debug\EntityFramework.xml
 C:\Users\Willywes\Documents\GitHub\Portafolio\Source\SolucionCentroMedico\CentroMedico.DALC\obj\Debug\CentroMedico.DALC.dll
 C:\Users\Willywes\Documents\GitHub\Portafolio\Source\SolucionCentroMedico\CentroMedico.DALC\obj\Debug\CentroMedico.DALC.pdb
-C:\Users\Willywes\Documents\GitHub\Portafolio\Source\SolucionCentroMedico\CentroMedico.DALC\obj\Debug\CentroMedico.DALC.csprojResolveAssemblyReference.cache

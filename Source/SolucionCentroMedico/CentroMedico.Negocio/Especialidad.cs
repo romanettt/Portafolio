@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CentroMedico.DALC;
 
 namespace CentroMedico.Negocio
 {
@@ -61,6 +62,26 @@ namespace CentroMedico.Negocio
                 Console.WriteLine(e);
                 return false;
             }
+        }
+
+        public List<Especialidad> ReadAll()
+        {
+            var res = CommonBC.ModeloCentroMedico.ESPECIALIDAD;
+            return GenerarListado(res.ToList());
+        }
+
+        private List<Especialidad> GenerarListado(List<ESPECIALIDAD> list)
+        {
+            List<Especialidad> lista = new List<Especialidad>();
+            foreach (DALC.ESPECIALIDAD item in list)
+            {
+                Especialidad esp = new Especialidad();
+                esp.Id = item.ID;
+                esp.Nombre = item.NOMBRE;
+                lista.Add(esp);
+            }
+
+            return lista;
         }
     }
 }
