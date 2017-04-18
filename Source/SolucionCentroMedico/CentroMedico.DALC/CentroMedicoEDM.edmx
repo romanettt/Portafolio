@@ -22,7 +22,7 @@
           <Property Name="ID" Type="number" Precision="7" Scale="0" Nullable="false" />
           <Property Name="FECHA" Type="date" Nullable="false" />
           <Property Name="MOTIVO" Type="varchar2" MaxLength="255" />
-          <Property Name="CENTRO_MEDICO_ID" Type="number" Precision="7" Scale="0" Nullable="false" />
+          <Property Name="CENTRO_MEDICO_ID" Type="number" Precision="11" Scale="0" Nullable="false" />
         </EntityType>
         <EntityType Name="CENTRO_MEDICO">
           <Key>
@@ -91,7 +91,7 @@
           <Property Name="CLAVE" Type="varchar2" MaxLength="64" Nullable="false" />
           <Property Name="CENTRO_MEDICO_ID" Type="number" Precision="7" Scale="0" Nullable="false" />
         </EntityType>
-        <Association Name="AGENDA_MEDICO_FK">
+        <Association Name="AGENDA_MEDICO_FKV1">
           <End Role="MEDICO" Type="Self.MEDICO" Multiplicity="1" />
           <End Role="AGENDA" Type="Self.AGENDA" Multiplicity="*" />
           <ReferentialConstraint>
@@ -103,7 +103,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="CBASE_CMEDICO_FK">
+        <Association Name="C_BASE_C_MEDICO_FK">
           <End Role="CENTRO_MEDICO" Type="Self.CENTRO_MEDICO" Multiplicity="1" />
           <End Role="CALENDARIO_BASE" Type="Self.CALENDARIO_BASE" Multiplicity="*" />
           <ReferentialConstraint>
@@ -115,7 +115,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="DISPONIBILIDAD_MEDICO_FK">
+        <Association Name="DISPONIBILIDAD_MEDICO_FKV1">
           <End Role="MEDICO" Type="Self.MEDICO" Multiplicity="1" />
           <End Role="DISPONIBILIDAD" Type="Self.DISPONIBILIDAD" Multiplicity="*" />
           <ReferentialConstraint>
@@ -127,7 +127,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="MEDICO_CENTRO_MEDICO_FK">
+        <Association Name="MEDICO_CENTRO_MEDICO_FKV1">
           <End Role="CENTRO_MEDICO" Type="Self.CENTRO_MEDICO" Multiplicity="1" />
           <End Role="MEDICO" Type="Self.MEDICO" Multiplicity="*" />
           <ReferentialConstraint>
@@ -139,7 +139,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="MEDICO_ESPECIALIDAD_FK">
+        <Association Name="MEDICO_ESPECIALIDAD_FKV1">
           <End Role="ESPECIALIDAD" Type="Self.ESPECIALIDAD" Multiplicity="1" />
           <End Role="MEDICO" Type="Self.MEDICO" Multiplicity="*" />
           <ReferentialConstraint>
@@ -151,7 +151,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="SECRETARIA_CENTRO_MEDICO_FK">
+        <Association Name="SECRETARIA_CENTRO_MEDICO_FKV1">
           <End Role="CENTRO_MEDICO" Type="Self.CENTRO_MEDICO" Multiplicity="1" />
           <End Role="SECRETARIA" Type="Self.SECRETARIA" Multiplicity="*" />
           <ReferentialConstraint>
@@ -163,19 +163,16 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Function Name="CREATE_ESPECIALIDAD" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="CMDBA" ReturnType="pl/sql boolean">
-          <Parameter Name="NOMBRE" Type="varchar2" Mode="In" />
+        <Function Name="ESPECIALIDAD_TAPI_DEL" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="CMDBA" StoreFunctionName="ESPECIALIDAD_TAPI.DEL">
+          <Parameter Name="P_ID" Type="number" Mode="In" />
         </Function>
         <Function Name="ESPECIALIDAD_TAPI_INS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="CMDBA" StoreFunctionName="ESPECIALIDAD_TAPI.INS">
           <Parameter Name="P_ID" Type="number" Mode="In" />
           <Parameter Name="P_NOMBRE" Type="varchar2" Mode="In" />
         </Function>
-        <Function Name="SALUDAR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="CMDBA">
-          <Parameter Name="V_NOMBRE" Type="varchar2" Mode="In" />
-        </Function>
-        <Function Name="UPDATE_ESPECIALIDAD" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="CMDBA" ReturnType="pl/sql boolean">
-          <Parameter Name="NOMBRE" Type="varchar2" Mode="In" />
-          <Parameter Name="ID_ESP" Type="number" Mode="In" />
+        <Function Name="ESPECIALIDAD_TAPI_UPD" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="CMDBA" StoreFunctionName="ESPECIALIDAD_TAPI.UPD">
+          <Parameter Name="P_ID" Type="number" Mode="In" />
+          <Parameter Name="P_NOMBRE" Type="varchar2" Mode="In" />
         </Function>
         <EntityContainer Name="CentroMedicoModelStoreContainer">
           <EntitySet Name="AGENDA" EntityType="Self.AGENDA" Schema="CMDBA" store:Type="Tables" />
@@ -185,27 +182,27 @@
           <EntitySet Name="ESPECIALIDAD" EntityType="Self.ESPECIALIDAD" Schema="CMDBA" store:Type="Tables" />
           <EntitySet Name="MEDICO" EntityType="Self.MEDICO" Schema="CMDBA" store:Type="Tables" />
           <EntitySet Name="SECRETARIA" EntityType="Self.SECRETARIA" Schema="CMDBA" store:Type="Tables" />
-          <AssociationSet Name="AGENDA_MEDICO_FK" Association="Self.AGENDA_MEDICO_FK">
+          <AssociationSet Name="AGENDA_MEDICO_FKV1" Association="Self.AGENDA_MEDICO_FKV1">
             <End Role="MEDICO" EntitySet="MEDICO" />
             <End Role="AGENDA" EntitySet="AGENDA" />
           </AssociationSet>
-          <AssociationSet Name="CBASE_CMEDICO_FK" Association="Self.CBASE_CMEDICO_FK">
+          <AssociationSet Name="C_BASE_C_MEDICO_FK" Association="Self.C_BASE_C_MEDICO_FK">
             <End Role="CENTRO_MEDICO" EntitySet="CENTRO_MEDICO" />
             <End Role="CALENDARIO_BASE" EntitySet="CALENDARIO_BASE" />
           </AssociationSet>
-          <AssociationSet Name="DISPONIBILIDAD_MEDICO_FK" Association="Self.DISPONIBILIDAD_MEDICO_FK">
+          <AssociationSet Name="DISPONIBILIDAD_MEDICO_FKV1" Association="Self.DISPONIBILIDAD_MEDICO_FKV1">
             <End Role="MEDICO" EntitySet="MEDICO" />
             <End Role="DISPONIBILIDAD" EntitySet="DISPONIBILIDAD" />
           </AssociationSet>
-          <AssociationSet Name="MEDICO_CENTRO_MEDICO_FK" Association="Self.MEDICO_CENTRO_MEDICO_FK">
+          <AssociationSet Name="MEDICO_CENTRO_MEDICO_FKV1" Association="Self.MEDICO_CENTRO_MEDICO_FKV1">
             <End Role="CENTRO_MEDICO" EntitySet="CENTRO_MEDICO" />
             <End Role="MEDICO" EntitySet="MEDICO" />
           </AssociationSet>
-          <AssociationSet Name="MEDICO_ESPECIALIDAD_FK" Association="Self.MEDICO_ESPECIALIDAD_FK">
+          <AssociationSet Name="MEDICO_ESPECIALIDAD_FKV1" Association="Self.MEDICO_ESPECIALIDAD_FKV1">
             <End Role="ESPECIALIDAD" EntitySet="ESPECIALIDAD" />
             <End Role="MEDICO" EntitySet="MEDICO" />
           </AssociationSet>
-          <AssociationSet Name="SECRETARIA_CENTRO_MEDICO_FK" Association="Self.SECRETARIA_CENTRO_MEDICO_FK">
+          <AssociationSet Name="SECRETARIA_CENTRO_MEDICO_FKV1" Association="Self.SECRETARIA_CENTRO_MEDICO_FKV1">
             <End Role="CENTRO_MEDICO" EntitySet="CENTRO_MEDICO" />
             <End Role="SECRETARIA" EntitySet="SECRETARIA" />
           </AssociationSet>
@@ -416,8 +413,12 @@
             <End Role="ESPECIALIDAD" EntitySet="ESPECIALIDAD" />
             <End Role="MEDICO" EntitySet="MEDICO" />
           </AssociationSet>
-          <FunctionImport Name="SALUDAR">
-          <Parameter Name="V_NOMBRE" Mode="In" Type="String" />
+          <FunctionImport Name="ESPECIALIDAD_DEL">
+            <Parameter Name="P_ID" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="ESPECIALIDAD_INS">
+            <Parameter Name="P_ID" Mode="In" Type="Int32" />
+            <Parameter Name="P_NOMBRE" Mode="In" Type="String" />
           </FunctionImport>
         </EntityContainer>
       </Schema>
@@ -519,7 +520,8 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <FunctionImportMapping FunctionImportName="SALUDAR" FunctionName="CentroMedicoModel.Store.SALUDAR" />
+          <FunctionImportMapping FunctionImportName="ESPECIALIDAD_DEL" FunctionName="CentroMedicoModel.Store.ESPECIALIDAD_TAPI_DEL" />
+          <FunctionImportMapping FunctionImportName="ESPECIALIDAD_INS" FunctionName="CentroMedicoModel.Store.ESPECIALIDAD_TAPI_INS" />
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

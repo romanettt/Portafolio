@@ -79,6 +79,8 @@ namespace CentroMedico.Negocio
                 esp.Id = item.ID;
                 esp.Nombre = item.NOMBRE;
                 lista.Add(esp);
+
+                CommonBC.ModeloCentroMedico.ESPECIALIDAD_DEL(1);
             }
 
             return lista;
