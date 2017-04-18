@@ -94,6 +94,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <FunctionImportMapping FunctionImportName="SALUDAR" FunctionName="CentroMedicoModel.Store.SALUDAR" />
+    <FunctionImportMapping FunctionImportName="ESPECIALIDAD_DEL" FunctionName="CentroMedicoModel.Store.ESPECIALIDAD_TAPI_DEL" />
+    <FunctionImportMapping FunctionImportName="ESPECIALIDAD_INS" FunctionName="CentroMedicoModel.Store.ESPECIALIDAD_TAPI_INS" />
   </EntityContainerMapping>
 </Mapping>

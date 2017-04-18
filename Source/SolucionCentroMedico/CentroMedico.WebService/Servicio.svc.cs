@@ -31,17 +31,15 @@ namespace CentroMedico.WebService
             return composite;
         }
 
+
         public Especialidad getEspecialidad(int id)
         {
-            Especialidad esp = new Especialidad();
-            esp.Read(id);
-            return esp;
+            throw new NotImplementedException();
         }
 
         public List<Especialidad> getEspecialidades()
         {
-            List<Especialidad> lista = new Especialidad().ReadAll();
-            return lista;
+            throw new NotImplementedException();
         }
     }
 }

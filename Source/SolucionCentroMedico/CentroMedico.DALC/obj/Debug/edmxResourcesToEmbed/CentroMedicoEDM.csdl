@@ -202,8 +202,12 @@
       <End Role="ESPECIALIDAD" EntitySet="ESPECIALIDAD" />
       <End Role="MEDICO" EntitySet="MEDICO" />
     </AssociationSet>
-    <FunctionImport Name="SALUDAR">
-      <Parameter Name="V_NOMBRE" Mode="In" Type="String" />
+    <FunctionImport Name="ESPECIALIDAD_DEL">
+      <Parameter Name="P_ID" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="ESPECIALIDAD_INS">
+      <Parameter Name="P_ID" Mode="In" Type="Decimal" />
+      <Parameter Name="P_NOMBRE" Mode="In" Type="String" />
     </FunctionImport>
   </EntityContainer>
 </Schema>

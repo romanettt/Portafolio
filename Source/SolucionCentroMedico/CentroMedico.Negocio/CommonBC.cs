@@ -11,6 +11,8 @@ namespace CentroMedico.Negocio
     {
         private static CentroMedicoEntities _modeloCentroMedico;
 
+
+        // Patron de Diseño Singleton 
         public static CentroMedicoEntities ModeloCentroMedico
         {
             get

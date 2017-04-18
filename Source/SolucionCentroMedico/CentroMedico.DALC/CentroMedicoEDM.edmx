@@ -414,10 +414,10 @@
             <End Role="MEDICO" EntitySet="MEDICO" />
           </AssociationSet>
           <FunctionImport Name="ESPECIALIDAD_DEL">
-            <Parameter Name="P_ID" Mode="In" Type="Int32" />
+            <Parameter Name="P_ID" Mode="In" Type="Decimal" />
           </FunctionImport>
           <FunctionImport Name="ESPECIALIDAD_INS">
-            <Parameter Name="P_ID" Mode="In" Type="Int32" />
+            <Parameter Name="P_ID" Mode="In" Type="Decimal" />
             <Parameter Name="P_NOMBRE" Mode="In" Type="String" />
           </FunctionImport>
         </EntityContainer>

@@ -9,7 +9,16 @@ using System.Threading.Tasks;
 namespace CentroMedico.Negocio
 {
     public class Utilidades
+
     {
+
+        public static bool Logear(Object o)
+        {
+
+           
+            return false;
+        }
+
         //Enciptador Sha1 de 40 Chars
         public static string Encriptar(string str)
         {

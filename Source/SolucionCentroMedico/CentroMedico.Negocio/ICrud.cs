@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace CentroMedico.Negocio
 {
-    interface ICrud
+    interface ICrud<Object>
     {
+        bool Create(Object o);
+        bool Update(Object o);
+        bool Delete(int id);
+        Object Read(int id);
+        List<Object> ReadAll();
+
     }
 }

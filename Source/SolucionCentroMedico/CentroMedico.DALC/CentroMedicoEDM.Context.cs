@@ -36,20 +36,20 @@ namespace CentroMedico.DALC
         public DbSet<MEDICO> MEDICO { get; set; }
         public DbSet<SECRETARIA> SECRETARIA { get; set; }
     
-        public virtual int ESPECIALIDAD_DEL(Nullable<int> p_ID)
+        public virtual int ESPECIALIDAD_DEL(Nullable<decimal> p_ID)
         {
             var p_IDParameter = p_ID.HasValue ?
                 new ObjectParameter("P_ID", p_ID) :
-                new ObjectParameter("P_ID", typeof(int));
+                new ObjectParameter("P_ID", typeof(decimal));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("ESPECIALIDAD_DEL", p_IDParameter);
         }
     
-        public virtual int ESPECIALIDAD_INS(Nullable<int> p_ID, string p_NOMBRE)
+        public virtual int ESPECIALIDAD_INS(Nullable<decimal> p_ID, string p_NOMBRE)
         {
             var p_IDParameter = p_ID.HasValue ?
                 new ObjectParameter("P_ID", p_ID) :
-                new ObjectParameter("P_ID", typeof(int));
+                new ObjectParameter("P_ID", typeof(decimal));
     
             var p_NOMBREParameter = p_NOMBRE != null ?
                 new ObjectParameter("P_NOMBRE", p_NOMBRE) :
