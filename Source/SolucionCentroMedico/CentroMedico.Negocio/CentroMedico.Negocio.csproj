@@ -49,7 +49,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CentroMedico.cs" />
     <Compile Include="CommonBC.cs" />
+    <Compile Include="Disponibilidad.cs" />
+    <Compile Include="DisponibilidadDAO.cs" />
     <Compile Include="Especialidad.cs" />
     <Compile Include="EspecialidadDAO.cs" />
     <Compile Include="ICrud.cs" />
